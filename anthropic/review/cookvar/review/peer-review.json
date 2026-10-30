@@ -1,0 +1,169 @@
+{
+  "all_passed": true,
+  "bindings": [
+    {
+      "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+      "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/answer-shape.json",
+      "sha256": "feaaf179b1c9f8b3f611c34881ed3346eca2c3154b4dcc41f25078cb38430e85"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/entry.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/expected.json",
+      "sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/fixtures.json",
+      "sha256": "36d75521e11264ab8a837ddc10188bfc3767031cfbd130295dde4689e219754c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/ground-truth.md",
+      "sha256": "96e0f7be769a0e43a9b8ba677b9fbccbfddafa94ef960a62b810ca5146cb74e7"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/instruction.md",
+      "sha256": "41c29afee9cdb26eba97da243c4298835bdf56a6569ae47893d02602b4cbf2c7"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/native-driver.json",
+      "sha256": "0ba87e4c4790afb8e1881489f1440aba29a81b78962bec474e96c88424205a56"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/reference.py",
+      "sha256": "0b1180a146342b170de8c80731c13507436c742e39cc3faf7c1410086b30db93"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/_ZN7cookvar10parse_cell17h950132988b8afb18E.asm",
+      "sha256": "dfe9d1c4f87f97031fe75bc331b31fd81194440e42a028057f65f5c64281dd73"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/_ZN7cookvar16selected_profile17h22c5d68525ecb0dcE.asm",
+      "sha256": "41c3c466e17a9a5d10926679a4ec85354826db8c3feaabf858ab7bd6480a9069"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/_ZN7cookvar5model17he4e107449a57061bE.asm",
+      "sha256": "e6cf8adae9f3936c6db5dc22cfd9cc00cb91d91fac20dcc7db0aab834ca4f8ef"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/collector-url-final.asm",
+      "sha256": "e3501d82d4ec5f23a1207e8537641dcab9bf88da167c5001cd94fa1091949d59"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/independent-answer.json",
+      "sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/independent-native-check.json",
+      "sha256": "294591e76ad08659baf782edef4f26f954941a34cc6ade493d35076084b79c82"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/independent-trace.json",
+      "sha256": "088a3bf65cd81fd6ec5fa384e1eb1738552c59b23da78fdfd35b7978b55fd7d0"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/independent_derivation.py",
+      "sha256": "589bdf566c6c842487eadc69d4f05e288e7706cd162ddd25e5d2bbcaa9f58c0c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/model-final.asm",
+      "sha256": "1618124b6bdbf5dcf8df4c454017b07c4a846c3cee6f8e91c7ff2a85dd49ea0e"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/source/core.rs",
+      "sha256": "2405c34b1eb8203de3dc31155239694a8ae33d14310f9012ca118af1cf9db8ca"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/source/fixtures.rs",
+      "sha256": "f79b09594b9a3011d198d8bf71ddc9fe04b1c856a72d23384111c13c495bd508"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/source-input-map.json",
+      "sha256": "80c8900c6e181979c80d2f79bd3bfe75e08f283fd53def756221412884b934a0"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/symbols.json",
+      "sha256": "e2813691a512f3c8c2bcb1d08c4f976cd1725d282d72fc67e62f6e94d81b7aaa"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/target.elf",
+      "sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/truth-freeze.json",
+      "sha256": "2e2b508f0b52e5c16f3fcd20c9b0ce1f449a20b691e50d6305ab01661a65c5bc"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/build-results.json",
+      "sha256": "0918df5423f88eea2c8d4eabef916a786edabb27633dc16c409d2724191c813f"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/entry-reachability.json",
+      "sha256": "1ed4ddb056b58e20f5873343f70c3d3796bce2fd297fe25436e3d8f6be213bdd"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/native-answer.json",
+      "sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/native-words.txt",
+      "sha256": "5b3ed9f4c608c1a20ea66338a43323452a98e8ee491af3aa6769bd8dc375cd6b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/wrapper-native-validation.json",
+      "sha256": "1b7ac71c35e7be7c3c121b040509bcc7587187d24ec9c535d24522474d5347eb"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    }
+  ],
+  "checks": [
+    "Install-specific profile overrides profile-level default",
+    "Selected page index follows parsed profile",
+    "SQLite-style rowid/length varints and serial values independently decoded",
+    "Expiry and exact domain suffix exclude expired/session/deceptive records",
+    "Later same-domain/name row replaces value in stable export position",
+    "Active collector derives through compiled volatile XOR decoder; cleartext backup is unused",
+    "Exact tabs/trailing newlines in exported body agree with emitted source behavior"
+  ],
+  "independent_rederivation_matches_all_fields": true,
+  "independent_review": true,
+  "limitations": [
+    "Review applies to fixed fictional records, not a complete SQLite or browser parser.",
+    "Rust core has bounds/overflow/debug checks; ASan/UBSan instruments its C validation driver and wrapper, not the Rust core.",
+    "Difficulty and 20\u201340% success are unmeasured for this revision.",
+    "This is targeted source and machine-code review plus fixed-fixture reproduction, not a formal verification of every possible mutated input.",
+    "Harbor export visibility/control validation belongs to the subsequent package gate."
+  ],
+  "methodology": [
+    "Read full core source and public instruction, compare all schema fields and semantic conventions",
+    "Extract input fixtures directly from actual stripped ELF PT_LOAD segments and verify against source-input mappings",
+    "Write separate reconstruction code without importing author reference; compare every resulting answer with frozen truth and native output",
+    "Inspect actual compiled dataflow for decisive parse/select/resolve/transform branches",
+    "Verify final source/freeze/binary hashes, allowed dynamic imports, stripped sections, and no syscall instructions",
+    "Independently rerun reviewed ARM64 validation driver with its three repeated core calls and sanitizers"
+  ],
+  "model_calls": 0,
+  "native_driver_repeat_passed": true,
+  "original_executions": 0,
+  "public_prompt_has_no_function_addresses_layouts_or_answer_values": true,
+  "recorded_at": "2026-10-28T20:28:46.288901+00:00",
+  "resolved_findings": [
+    {
+      "evidence": "review/collector-url-final.asm",
+      "finding": "Initial optimization replaced collector decoding with immediate answer-byte stores.",
+      "resolution": "Separate non-inlined function reads encoded bytes and key with volatile reads, performs XOR loop, and is called by normal model path; unchanged answer contract. Original artifacts retained in history/02-pre-volatile-collector.",
+      "status": "fixed and independently verified"
+    }
+  ],
+  "reviewer": "independent sibling agent; not task author; no claim of external human review",
+  "source_inertness_passed": true,
+  "target_executions": 0,
+  "target_sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+  "task": "cookvar"
+}

@@ -1,0 +1,32 @@
+{
+  "symbols": [
+    {
+      "expected_hex": "4d5a494e4552545f5041594c4f41445f4e4f545f434f44455f4441544100000000000000000000000000000000000000000000000000000000000000400000005045000064860000000000000000000000000000000000000b02000000000000000000000000000058000000000000000000000000000000444154414f4e4c5900",
+      "fixture_path": [
+        "payload_hex"
+      ],
+      "symbol": "PAYLOAD_DATA"
+    },
+    {
+      "expected_hex": "4441544133325f5ffecacefadec0adde2e2e2e2e0df0edfeddccbbaa2e2e2e2e",
+      "fixture_path": [
+        "loader32_hex"
+      ],
+      "symbol": "LOADER_DATA32"
+    },
+    {
+      "expected_hex": "4441544136345f5ffecacefadec0adde2e2e2e2e0df0edfeddccbbaa2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e",
+      "fixture_path": [
+        "loader64_hex"
+      ],
+      "symbol": "LOADER_DATA64"
+    },
+    {
+      "expected_hex": "2d2d6d6f64653d696e737065637400",
+      "fixture_path": [
+        "parameter_hex"
+      ],
+      "symbol": "PARAMETER_DATA"
+    }
+  ]
+}

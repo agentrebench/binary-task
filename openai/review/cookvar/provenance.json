@@ -1,0 +1,8 @@
+{
+  "language": "Rust",
+  "modeled_scope": "Fictional profile and SQLite-cookie extraction with inert request serialization",
+  "operational_capabilities": [],
+  "original_code_copied": false,
+  "source_family": "DumpFirefoxCookies",
+  "source_root": "private_eval/RL-samples/DumpFirefoxCookies"
+}

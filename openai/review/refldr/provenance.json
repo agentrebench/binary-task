@@ -1,0 +1,8 @@
+{
+  "language": "C",
+  "modeled_scope": "PE-shaped image metadata, inert section copy, synthetic forwarder/ordinal import tables and relocation of data pointers",
+  "operational_capabilities": [],
+  "original_code_copied": false,
+  "source_family": "ReflectiveDllLdr",
+  "source_root": "private_eval/RL-samples/ReflectiveDllLdr"
+}

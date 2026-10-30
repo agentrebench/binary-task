@@ -1,0 +1,108 @@
+{
+    "id": "cc30bbab-d699-473d-989f-e996e67237ea",
+    "task_name": "agentre/re-703605596814",
+    "trial_name": "re-703605596814__NWRN2V9",
+    "trial_uri": "file:///home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/anthropic-install-only/re-703605596814__NWRN2V9",
+    "task_id": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814"
+    },
+    "source": null,
+    "task_checksum": "714e5a6ea1d52afad044c25dd4bc584d592a6147771358ac89b292333c2860a5",
+    "config": {
+        "task": {
+            "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "re-703605596814__NWRN2V9",
+        "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/anthropic-install-only",
+        "install_only": true,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": "anthropic/claude-sonnet-4-6",
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "permission_mode": "dontAsk",
+                "version": "2.1.112"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": true
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "13d72688-4b3d-411e-a8c7-88ec23012570",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "2.1.112",
+        "model_info": {
+            "name": "claude-sonnet-4-6",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": null,
+    "verifier_result": null,
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-10-28T21:30:12.891659Z",
+    "finished_at": "2026-10-28T21:30:27.124010Z",
+    "environment_setup": {
+        "started_at": "2026-10-28T21:30:12.903851Z",
+        "finished_at": "2026-10-28T21:30:16.139442Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-28T21:30:16.139567Z",
+        "finished_at": "2026-10-28T21:30:16.707353Z"
+    },
+    "agent_execution": null,
+    "verifier": null,
+    "step_results": null
+}

@@ -1,0 +1,25 @@
+{
+  "symbols": [
+    {
+      "expected_hex": "4973576f77363450726f636573730000000000000000000000000000000000004c01648623002300ff2a04044973576f77363450726f636573733200000000000000000000000000000000004c01648633002300ff2a08084e745175657279496e666f726d6174696f6e50726f63657373000000000000006486648633003300ff201008",
+      "fixture_path": [
+        "descriptors_hex"
+      ],
+      "symbol": "platform_descriptors"
+    },
+    {
+      "expected_hex": "b137298d",
+      "fixture_path": [
+        "request_hash_hex"
+      ],
+      "symbol": "selected_api_hash"
+    },
+    {
+      "expected_hex": "4c016486301200800100000001000000648664863012008001000000010000004c016486341200800100000001000000",
+      "fixture_path": [
+        "requests_hex"
+      ],
+      "symbol": "context_requests"
+    }
+  ]
+}

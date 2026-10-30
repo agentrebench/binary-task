@@ -1,0 +1,162 @@
+{
+  "all_passed": true,
+  "bindings": [
+    {
+      "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+      "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/cookvar/review/independent_derivation.py",
+      "sha256": "589bdf566c6c842487eadc69d4f05e288e7706cd162ddd25e5d2bbcaa9f58c0c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/answer-shape.json",
+      "sha256": "7fb4690a9b9d6073fdaa993a538455d616d1eb4b4a901a14d6491478dcb418c6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/entry.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/expected.json",
+      "sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/fixtures.json",
+      "sha256": "df30e62b3d8436f3ceb4c2681569b35ac412857de53157fee17a5c21c4be36a7"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/ground-truth.md",
+      "sha256": "51a0d40dd010650aeddaf4ab890303c89884dd8e72285f900ead1514fc1b4901"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/instruction.md",
+      "sha256": "e7f91901f208cf9adb5e5a81b7c03ae184a08c5fcfdfecb4633adb90a4c95456"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/native-driver.json",
+      "sha256": "27bfc4969f5865eaed5e637c21281f45c657abc57e599106c680a1d3550f042a"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/reference.py",
+      "sha256": "c1e12deed4edce2f475688774627a05d4603c77b54ac1ea7bbcce77158e99515"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/independent-answer.json",
+      "sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/independent-native-check.json",
+      "sha256": "22b91d6ffa42a82dd1879533301329dbeb2a5427fa603e1cda818bf3ba0b3b3d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/independent-trace.json",
+      "sha256": "73eb011e28c05a16d55d06118fef5aa649ee6e3bfd66d596b0d6afa0696c2e69"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/independent_derivation.py",
+      "sha256": "ec701753d8ba97f0337606f2eea1557f76ab88039642daf79f941bd181cc62d7"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/map_image.constprop.0.asm",
+      "sha256": "c96dbdf0bf549b02932c1dbea2fafdb849f6a689f700940a8f9d7c679e8215b5"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/modules.constprop.0.asm",
+      "sha256": "63d3ae7157d073487c3776cfac52d70b2496af0b8f95eec71d27b5854dd52992"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/resolve.asm",
+      "sha256": "bda72a68df4dabdb1ace6aab8bce013b2b9f7a6e1f5065deb736114528399723"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/review/sample_entry.asm",
+      "sha256": "f30dc192d5e1fe71313428719579336ab83504e601b1bc6ef9eeb22c5d9e50c2"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/source/core.c",
+      "sha256": "dac1309b54b4d77f911fb4b394b7d0641d41ebff50366a7968859a2e4c761412"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/source/fixtures.h",
+      "sha256": "d522a4e65c24067b29ea813d12ce471e80ce0fc6ee9775e22200fca29a5819b2"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/source-input-map.json",
+      "sha256": "dac73254339602777e48ceb32f73ec15dbaee25ceb849084a307a1bf24fa06e9"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/symbols.json",
+      "sha256": "a887fa90760ae6472b87553df8cd2a16be4edcf8f929bda2f2a6cf5f332c0651"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/target.elf",
+      "sha256": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/truth-freeze.json",
+      "sha256": "b9c62ae28b7ec1bb465973f7825e74d5253b36f17810075399df57a2e0732187"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/validation/build-results.json",
+      "sha256": "e0ab5298531d46eaa2869d76a06b9190cc568cc9f07af2f51a0e13338bc963c6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/validation/entry-reachability.json",
+      "sha256": "2950d1242debc795a9c2270f8daee05d28b12382f7de234cfcb463c00d0e6218"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/validation/native-answer.json",
+      "sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/validation/native-words.txt",
+      "sha256": "459227872b2344e1e31e5da6f6917c317c50c33f19ae31a8e0c87ea8aa8026d6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/refldr/validation/wrapper-native-validation.json",
+      "sha256": "6718bc8241bcac24b5bfd37dca4887003f82c833389d585c8079c2cc095fe0f2"
+    }
+  ],
+  "checks": [
+    "Compiled header parsing and section bound decisions read IMAGE_BYTES through volatile byte accessor",
+    "Successful forwarded export ends outside export-directory RVA range",
+    "Ordinal base adjustment and out-of-range rejection independently reproduced",
+    "Forwarder cycle tracked by module/export identity",
+    "Missing export distinguished from ordinal and cycle failures",
+    "Compiled relocation branch ignores padding, applies DIR64 delta, and records unsupported kind skip",
+    "Rejection labels are actual emitted binary strings, not evaluator-only numeric enum mappings"
+  ],
+  "independent_rederivation_matches_all_fields": true,
+  "independent_review": true,
+  "limitations": [
+    "The embedded PE-shaped image contains inert marker/data sections and is copied only into a bounded ordinary stack buffer.",
+    "This is a model of selected image metadata/import/relocation behavior, not an operational reflective loader or a complete PE implementation.",
+    "Difficulty and 20\u201340% success are unmeasured for this revision.",
+    "This is targeted source and machine-code review plus fixed-fixture reproduction, not a formal verification of every possible mutated input.",
+    "Harbor export visibility/control validation belongs to the subsequent package gate."
+  ],
+  "methodology": [
+    "Read full core source and public instruction, compare all schema fields and semantic conventions",
+    "Extract input fixtures directly from actual stripped ELF PT_LOAD segments and verify against source-input mappings",
+    "Write separate reconstruction code without importing author reference; compare every resulting answer with frozen truth and native output",
+    "Inspect actual compiled dataflow for decisive parse/select/resolve/transform branches",
+    "Verify final source/freeze/binary hashes, allowed dynamic imports, stripped sections, and no syscall instructions",
+    "Independently rerun reviewed ARM64 validation driver with its three repeated core calls and sanitizers"
+  ],
+  "model_calls": 0,
+  "native_driver_repeat_passed": true,
+  "original_executions": 0,
+  "public_prompt_has_no_function_addresses_layouts_or_answer_values": true,
+  "recorded_at": "2026-10-28T20:28:46.327174+00:00",
+  "resolved_findings": [],
+  "reviewer": "independent sibling agent; not task author; no claim of external human review",
+  "source_inertness_passed": true,
+  "target_executions": 0,
+  "target_sha256": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+  "task": "refldr"
+}

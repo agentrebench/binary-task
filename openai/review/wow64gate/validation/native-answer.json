@@ -1,0 +1,28 @@
+{
+  "answers": {
+    "platform": {
+      "api_name": "IsWow64Process2",
+      "required_native_machine": 34404,
+      "required_process_machine": 332
+    },
+    "requests": {
+      "accepted": [
+        true,
+        false,
+        false
+      ],
+      "effective_targets": [
+        6442455600,
+        0,
+        0
+      ]
+    },
+    "transition_data": {
+      "context_width_bytes": 8,
+      "entry_selector": 51,
+      "marker_hex": "ff2a",
+      "return_selector": 35
+    }
+  },
+  "schema_version": 1
+}

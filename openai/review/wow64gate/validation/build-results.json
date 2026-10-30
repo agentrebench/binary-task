@@ -1,0 +1,141 @@
+{
+  "build_driver": {
+    "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+    "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+  },
+  "core_not_retained_by_undefined_flag": true,
+  "entry_reachability": {
+    "path": "private_eval/harbor/rl-samples-v5/wow64gate/validation/entry-reachability.json",
+    "sha256": "0468829b8edf9d86cecf325b4f036fa0539cfd98623a049060950b5988bfab73"
+  },
+  "entry_virtual_address": "0x1360",
+  "entry_wrapper_copy_sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041",
+  "entry_wrapper_source": {
+    "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  },
+  "ground_truth_claim": "Independent fixture model + separately compiled native source agree; human compiled-code review remains separate.",
+  "imports": [
+    "_ITM_deregisterTMCloneTable",
+    "_ITM_registerTMCloneTable",
+    "__cxa_finalize",
+    "__gmon_start__",
+    "__libc_start_main",
+    "__stack_chk_fail"
+  ],
+  "independent_reference_matches_frozen_truth": true,
+  "language": "C++",
+  "model_api_calls": 0,
+  "native_asan_ubsan_clean": true,
+  "native_canaries_and_three_repeats": true,
+  "native_compile": [
+    "g++",
+    "-std=c++17",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/source/core.cpp",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/validation/core-native.o"
+  ],
+  "native_matches_frozen_truth": true,
+  "native_word_count": 64,
+  "native_wrapper_validation": {
+    "path": "private_eval/harbor/rl-samples-v5/wow64gate/validation/wrapper-native-validation.json",
+    "sha256": "a08338894974c7331ae60e55c73ab2eba2c45d4d0c0e9704911c5104b3e16033"
+  },
+  "no_exported_authored_names": true,
+  "no_syscall_instructions": true,
+  "no_writable_executable_segments": true,
+  "ordinary_elf_entry_virtual_address": "0x10e0",
+  "ordinary_entry_reaches_core": true,
+  "ordinary_main_virtual_address": "0x1060",
+  "original_executions": 0,
+  "passed": true,
+  "rebuild_identical": true,
+  "recorded_at": "2026-10-28T20:26:15.174433+00:00",
+  "reference_native_arch": "aarch64",
+  "sanitizer_scope": "C/C++ core and C driver",
+  "source_files": {
+    "source/core.cpp": "b56e7545084ff8235f0d65fca0acb6fafe055ba79f0fafa0f17b32cd03c29d05",
+    "source/fixture_data.inc": "d7778f23726f97beba528dffc8314ed5fc154d10a7da9c193cb5f85cbb6f43c3"
+  },
+  "source_input_checks": [
+    {
+      "address": "0x2040",
+      "bytes": 132,
+      "sha256": "2d8447a6e9594b857938a221830a942f2cd66f9e37ed559abbee208e536870a2",
+      "symbol": "platform_descriptors"
+    },
+    {
+      "address": "0x2030",
+      "bytes": 4,
+      "sha256": "163e91561df52da1e7b9fd8db37d0ee9d5736f1324736603299316ccb224d9f7",
+      "symbol": "selected_api_hash"
+    },
+    {
+      "address": "0x2000",
+      "bytes": 48,
+      "sha256": "78f9b5e009f1d0e3352ea594f7f70222af22583780dcbf7115d8a9d7b1d24a99",
+      "symbol": "context_requests"
+    }
+  ],
+  "strip_preserves_section_bytes": true,
+  "stripped_and_debug_free": true,
+  "target_bytes": 14384,
+  "target_compile": [
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/bin/x86_64-linux-gnu-g++-13",
+    "-nostdinc",
+    "-nostdinc++",
+    "-isystem",
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/x86_64-linux-gnu/include/c++/13",
+    "-isystem",
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/x86_64-linux-gnu/include/c++/13/x86_64-linux-gnu",
+    "-isystem",
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/x86_64-linux-gnu/include/c++/13/backward",
+    "-isystem",
+    "/usr/lib/gcc-cross/x86_64-linux-gnu/13/include",
+    "-isystem",
+    "/usr/x86_64-linux-gnu/include",
+    "-B/usr/x86_64-linux-gnu/bin/",
+    "-B/usr/lib/gcc-cross/x86_64-linux-gnu/13/",
+    "-B/usr/x86_64-linux-gnu/lib/",
+    "-std=c++17",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-O2",
+    "-g0",
+    "-fno-ident",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/source/core.cpp",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/core.o"
+  ],
+  "target_executions": 0,
+  "target_link": [
+    "x86_64-linux-gnu-gcc",
+    "-std=c11",
+    "-O2",
+    "-fno-ident",
+    "-g0",
+    "-DOUTPUT_WORDS=64",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/entry.c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/core.o",
+    "-Wl,--build-id=none,--gc-sections,--strip-debug",
+    "-Wl,--undefined=platform_descriptors",
+    "-Wl,--undefined=selected_api_hash",
+    "-Wl,--undefined=context_requests",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/wow64gate/unstripped.elf"
+  ],
+  "target_not_executable_file_mode": "0o444",
+  "target_sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+  "task_id": "wow64gate",
+  "truth_freeze_sha256": "02f463c2a9ad56d209eedec1bda6897f852d39117653369c2a51c817231af3d2"
+}

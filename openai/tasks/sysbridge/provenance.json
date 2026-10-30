@@ -1,0 +1,17 @@
+{
+  "answer_sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+  "artifact_file": "environment/sysbridge.elf",
+  "artifact_sha256": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+  "binary_and_grading_unchanged": true,
+  "calibration_transfer": false,
+  "contract_sha256": "2c6e2d2cd2fffdee65c4c5ed952141e8956e02d2dd36cfcc66501265bba1cef3",
+  "packaging_parent_revision": "5.1.0",
+  "parent_task_revision": "5.1.1",
+  "previous_task_id": "re-55a4b5ca278d",
+  "provider_profile": "opencode-1.19.5-managed-static-only",
+  "provider_profile_revision": "1",
+  "revision": "5.1.1",
+  "runtime_artifact_path": "/workspace/target.bin",
+  "source_revision": "5.0.0",
+  "task_id": "sysbridge"
+}

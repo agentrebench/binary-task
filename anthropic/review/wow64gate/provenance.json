@@ -1,0 +1,28 @@
+{
+  "architecture": "x86_64",
+  "artifact_sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+  "calibration_status": "uncalibrated",
+  "classification": "private",
+  "contamination": "Public technique motifs and standard API names; new inert code and fixtures; conceptual contamination is possible.",
+  "format": "ELF",
+  "ground_truth": "independent fixture model and separate native ARM implementation agree",
+  "independent_human_or_peer_review": "pending",
+  "language": "C++",
+  "model_api_calls": 0,
+  "modeled_scope": "API-name-selected architecture gate, selector/marker interpretation and 64-bit context validation; no actual transition or injection.",
+  "native_validation_passed": true,
+  "oracle_full_credit": false,
+  "oracle_status": "Native answer grades full credit under shared verifier; Harbor runtime oracle pending.",
+  "original_executions": 0,
+  "original_operational_code_copied": false,
+  "revision": "5.0.0",
+  "safety": "Bounded in-memory fixture transformations only; no OS API calls, process access, network, execution, loader or transition capability.",
+  "source_inspiration": [
+    {
+      "path": "private_eval/RL-samples/Wow64Inject/Main.cpp",
+      "sha256": "3820c55b5f1087c5e015896d5802f620f8fdabe6f34091a2244d602d91a42492"
+    }
+  ],
+  "static_difficulty": "Unmeasured; no promised success rate. New realistic task revision requires fresh calibration.",
+  "target_executions": 0
+}

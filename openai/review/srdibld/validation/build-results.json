@@ -1,0 +1,142 @@
+{
+  "build_driver": {
+    "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+    "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+  },
+  "core_not_retained_by_undefined_flag": true,
+  "entry_reachability": {
+    "path": "private_eval/harbor/rl-samples-v5/srdibld/validation/entry-reachability.json",
+    "sha256": "6aa2a0459faf0cbc2f9fa9dffaba7737180e8f53c189dbe933a8caf740e063de"
+  },
+  "entry_virtual_address": "0x1580",
+  "entry_wrapper_copy_sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041",
+  "entry_wrapper_source": {
+    "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  },
+  "ground_truth_claim": "Independent fixture model + separately compiled native source agree; human compiled-code review remains separate.",
+  "imports": [
+    "_ITM_deregisterTMCloneTable",
+    "_ITM_registerTMCloneTable",
+    "__cxa_finalize",
+    "__gmon_start__",
+    "__libc_start_main",
+    "__stack_chk_fail",
+    "memcpy",
+    "memset"
+  ],
+  "independent_reference_matches_frozen_truth": true,
+  "language": "Rust",
+  "model_api_calls": 0,
+  "native_asan_ubsan_clean": true,
+  "native_canaries_and_three_repeats": true,
+  "native_compile": [
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/rust-1.85.1/installed/bin/rustc",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/source/core.rs",
+    "--crate-name",
+    "srdibld_reference",
+    "--crate-type=staticlib",
+    "--edition=2021",
+    "-C",
+    "panic=abort",
+    "-C",
+    "opt-level=1",
+    "-C",
+    "overflow-checks=yes",
+    "-C",
+    "debug-assertions=yes",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/validation/core-native.a"
+  ],
+  "native_matches_frozen_truth": true,
+  "native_word_count": 64,
+  "native_wrapper_validation": {
+    "path": "private_eval/harbor/rl-samples-v5/srdibld/validation/wrapper-native-validation.json",
+    "sha256": "602915ecfc9f7f555bcfbaedeaed882a56ef39d0dc0de189598d242ec49f7141"
+  },
+  "no_exported_authored_names": true,
+  "no_syscall_instructions": true,
+  "no_writable_executable_segments": true,
+  "ordinary_elf_entry_virtual_address": "0x1170",
+  "ordinary_entry_reaches_core": true,
+  "ordinary_main_virtual_address": "0x10f0",
+  "original_executions": 0,
+  "passed": true,
+  "rebuild_identical": true,
+  "recorded_at": "2026-10-28T20:26:15.891534+00:00",
+  "reference_native_arch": "aarch64",
+  "sanitizer_scope": "C driver only; Rust core has bounds/overflow/debug checks, not Rust ASan instrumentation",
+  "source_files": {
+    "source/core.rs": "a58849a22bac46f06513b0152ddb4049e3ce497bc9b811dd25b5b5d1762bec6a",
+    "source/fixture_data.rs": "46b69207a6109a6909bdeab41405418600c64ec416690680793f6aad0c7aa16e"
+  },
+  "source_input_checks": [
+    {
+      "address": "0x300f",
+      "bytes": 129,
+      "sha256": "1a2806592fdef26ec38f08e89fb535cb95b74f9ad5125285145a59b693298c1e",
+      "symbol": "PAYLOAD_DATA"
+    },
+    {
+      "address": "0x3090",
+      "bytes": 32,
+      "sha256": "3f8b246625660b71bd9ad2ce33e2e22be3db40bc22cc591c21eb73b64dc24d48",
+      "symbol": "LOADER_DATA32"
+    },
+    {
+      "address": "0x30b0",
+      "bytes": 48,
+      "sha256": "639655d1ba98c5c1ddc5c9dcc5ee31a495cee69e8c6e39f2f4ffe27d0c121ce5",
+      "symbol": "LOADER_DATA64"
+    },
+    {
+      "address": "0x30e0",
+      "bytes": 15,
+      "sha256": "f9c42ae3031c89a8c55ab1aa2a51ddc7be0a10fb4abb2b0406a8e4336cfcaaa6",
+      "symbol": "PARAMETER_DATA"
+    }
+  ],
+  "strip_preserves_section_bytes": true,
+  "stripped_and_debug_free": true,
+  "target_bytes": 18528,
+  "target_compile": [
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/rust-1.85.1/installed/bin/rustc",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/source/core.rs",
+    "--crate-name",
+    "srdibld",
+    "--crate-type=staticlib",
+    "--edition=2021",
+    "--target=x86_64-unknown-linux-gnu",
+    "--remap-path-prefix=/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/source=/source",
+    "-C",
+    "panic=abort",
+    "-C",
+    "opt-level=2",
+    "-C",
+    "debuginfo=0",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/core.a"
+  ],
+  "target_executions": 0,
+  "target_link": [
+    "x86_64-linux-gnu-gcc",
+    "-std=c11",
+    "-O2",
+    "-fno-ident",
+    "-g0",
+    "-DOUTPUT_WORDS=64",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/entry.c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/core.a",
+    "-Wl,--build-id=none,--gc-sections,--strip-debug",
+    "-Wl,--undefined=PAYLOAD_DATA",
+    "-Wl,--undefined=LOADER_DATA32",
+    "-Wl,--undefined=LOADER_DATA64",
+    "-Wl,--undefined=PARAMETER_DATA",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/unstripped.elf"
+  ],
+  "target_not_executable_file_mode": "0o444",
+  "target_sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+  "task_id": "srdibld",
+  "truth_freeze_sha256": "0486b8d916b67afed6f1a1eeb3c6e185425ce01e346823379abe346ff58b5963"
+}

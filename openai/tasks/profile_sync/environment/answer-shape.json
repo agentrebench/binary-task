@@ -1,0 +1,20 @@
+{
+  "cookies": {
+    "records": [
+      {
+        "domain": "string",
+        "expires": "integer",
+        "name": "string",
+        "value": "string"
+      }
+    ]
+  },
+  "export": {
+    "body": "string",
+    "method": "string",
+    "url": "string"
+  },
+  "profile": {
+    "database": "string"
+  }
+}

@@ -1,0 +1,3 @@
+Skipping image OS validation for hb__9efa141ff7ed10d882d50599bbd6ebd5: docker inspect returned 1
+Running command: set -euo pipefail; if ldd --version 2>&1 | grep -qi musl || [ -f /etc/alpine-release ]; then node --version && npm --version; else curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | env -u NODE_VERSION bash && export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh" || true && command -v nvm &>/dev/null || { echo 'Error: NVM failed to load' >&2; exit 1; } && nvm install 22 && nvm alias default 22 && npm -v; fi && npm i -g opencode-ai@1.19.5 && opencode --version
+Command outputs captured

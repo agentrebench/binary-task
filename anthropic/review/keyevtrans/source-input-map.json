@@ -1,0 +1,18 @@
+{
+  "symbols": [
+    {
+      "expected_hex": "371d371246fab08ceca7b7ff829d6f784055335f1a0eeaf2c9dcb6cc5de606911c92b6933f13d5932213054d7d720b09f5cfc6b0d09497362f9f5bded1",
+      "fixture_path": [
+        "configs_hex"
+      ],
+      "symbol": "fixture_configs"
+    },
+    {
+      "expected_hex": "01100144014402440210014502450156025601580258010802080111014302430211013702370110013102310210010d020d014c024c0141024101420242010902090134023401320232",
+      "fixture_path": [
+        "events_hex"
+      ],
+      "symbol": "fixture_events"
+    }
+  ]
+}

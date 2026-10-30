@@ -1,0 +1,105 @@
+{
+  "all_passed": true,
+  "comparison": [
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/task.toml",
+      "sha256": "d6b5dbe1c919917774424be6bccdad1a5953b4546595e8e9bfcceed69ba2d385"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/task.toml",
+      "sha256": "def3177490631912be2a6889a7bb94b5da0080d249d694d2536be03af8f8285a"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/task.toml",
+      "sha256": "fb485bd49d5502d6ba0e06ca98843f2ed8e2acd8047013e6dd299ff1c95a6299"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/task.toml",
+      "sha256": "be023ef83840b4d1cef227381f9bc66454ca883fda2a06fa76c1a1fbb23fb549"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/task.toml",
+      "sha256": "24ab427687d76f8a59e5da9150ad2eb737a3821e2203fc7242744d3a7cbd1d9e"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/task.toml",
+      "sha256": "ac0d7d21c353bdc684486befc90e688b6dc4fea5a53aee10802fac362bf852cd"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/task.toml",
+      "sha256": "ba362c39f4bd4dcb209b3101b01b286f9a0bd5f9a37b4f1d0bac3e07fdd7b028"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-240249cc0123/task.toml",
+      "sha256": "d6b5dbe1c919917774424be6bccdad1a5953b4546595e8e9bfcceed69ba2d385"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-55a4b5ca278d/task.toml",
+      "sha256": "def3177490631912be2a6889a7bb94b5da0080d249d694d2536be03af8f8285a"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-67cbf1857130/task.toml",
+      "sha256": "fb485bd49d5502d6ba0e06ca98843f2ed8e2acd8047013e6dd299ff1c95a6299"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-703605596814/task.toml",
+      "sha256": "be023ef83840b4d1cef227381f9bc66454ca883fda2a06fa76c1a1fbb23fb549"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-adeefd1c539e/task.toml",
+      "sha256": "24ab427687d76f8a59e5da9150ad2eb737a3821e2203fc7242744d3a7cbd1d9e"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-d628c5a314d6/task.toml",
+      "sha256": "ac0d7d21c353bdc684486befc90e688b6dc4fea5a53aee10802fac362bf852cd"
+    },
+    {
+      "agent_and_environment_exactly_match_tested_control": true,
+      "path": "/tmp/agentre-marketplace-final-check/package/tasks/re-ee5729dca243/task.toml",
+      "sha256": "ba362c39f4bd4dcb209b3101b01b286f9a0bd5f9a37b4f1d0bac3e07fdd7b028"
+    }
+  ],
+  "tested_agent_config": {
+    "allowed_hosts": [
+      "generativelanguage.googleapis.com"
+    ],
+    "network_mode": "allowlist",
+    "timeout_sec": 1800,
+    "user": "1000:1000"
+  },
+  "tested_control": {
+    "path": "/tmp/agentre-native-network-review/tasks/network-control/task.toml",
+    "sha256": "29cdff21d86c2b8d0641e95490d2d17ce1642af1fde7c431e73132a22825b6ea"
+  },
+  "tested_environment_config": {
+    "build_timeout_sec": 1200,
+    "cpus": 1,
+    "mcp_servers": [
+      {
+        "args": [
+          "-I",
+          "/opt/static-tools/server.py"
+        ],
+        "command": "python3",
+        "name": "static",
+        "transport": "stdio"
+      }
+    ],
+    "memory_mb": 2048,
+    "network_mode": "public",
+    "storage_mb": 4096
+  }
+}

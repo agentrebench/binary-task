@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "profile_id": "opencode-1.19.5-managed-static-only",
+  "harbor_agent": "opencode",
+  "harbor_version": "0.25.0",
+  "agent_kwargs": {
+    "version": "1.19.5"
+  },
+  "allowed_hosts": [
+    "api.openai.com"
+  ],
+  "credential_environment_variable": "OPENAI_API_KEY",
+  "model_selector": "openai/REVIEWER_MODEL_ID",
+  "environment_files_add": [
+    "opencode-managed.json"
+  ],
+  "environment_files_remove": [
+    "gemini-system-settings.json"
+  ],
+  "managed_settings_path": "/etc/opencode/opencode.json",
+  "environment_variables": {
+    "OPENCODE_DISABLE_MODELS_FETCH": "true",
+    "OPENCODE_DISABLE_AUTOUPDATE": "true",
+    "OPENCODE_DISABLE_DEFAULT_PLUGINS": "true",
+    "OPENCODE_DISABLE_EXTERNAL_SKILLS": "true",
+    "OPENCODE_DISABLE_CLAUDE_CODE": "true",
+    "OPENCODE_DISABLE_LSP_DOWNLOAD": "true"
+  },
+  "expected_tool_names": [
+    "static_file",
+    "static_strings",
+    "static_readelf",
+    "static_objdump",
+    "static_nm",
+    "static_hexdump",
+    "static_xxd",
+    "static_entropy",
+    "static_final_answer"
+  ],
+  "release": {
+    "npm_package": "opencode-ai",
+    "version": "1.19.5",
+    "tarball": "https://registry.npmjs.org/opencode-ai/-/opencode-ai-1.19.5.tgz",
+    "integrity": "sha512-tEqMvQahfhdDj8vceYpXtoIrvjPXm5XRfetWnPN5YISueU7adNx9JcUA3zZ+2GKuDVgDpGdQe1ZLtCZDjqodvA=="
+  }
+}

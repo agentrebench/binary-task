@@ -1,0 +1,318 @@
+[
+  {
+    "name": "file",
+    "description": "Identify file type. Returns the output of the `file` command.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "strings",
+    "description": "Extract printable strings from a binary. Returns readable ASCII/UTF-8 strings found in the file.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "min_length": {
+          "type": "integer",
+          "description": "Minimum string length (default 4).",
+          "minimum": 1
+        },
+        "encoding": {
+          "type": "string",
+          "enum": [
+            "s",
+            "S",
+            "b",
+            "l",
+            "B",
+            "L"
+          ],
+          "description": "Optional character encoding passed to strings -e. Use 'l' for UTF-16LE (common in Windows binaries). Default is single-byte ASCII."
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "readelf",
+    "description": "Display information about ELF binary sections, headers, symbols, etc.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "flags": {
+          "type": "string",
+          "enum": [
+            "-h",
+            "-S",
+            "-s",
+            "-l",
+            "-d",
+            "-a"
+          ],
+          "description": "readelf flag: -h (header), -S (sections), -s (symbols), -l (program headers), -d (dynamic), -a (all). ELF files only \u2014 use pe_info for PE binaries."
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path",
+        "flags"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "objdump",
+    "description": "Disassemble or dump information from a binary. Use -d for disassembly, -t for symbols, -x for all headers, -s for full contents.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "flags": {
+          "type": "string",
+          "enum": [
+            "-d",
+            "-D",
+            "-t",
+            "-x",
+            "-s",
+            "-p"
+          ],
+          "description": "objdump flag: -d (disassemble), -D (disassemble all), -t (symbol table), -x (all headers), -s (full contents), -p (private headers \u2014 import/export tables, essential for PE)."
+        },
+        "section": {
+          "type": "string",
+          "description": "Optional section name to target (e.g. .text, .rodata)."
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        },
+        "start_address": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Optional virtual start address (inclusive)."
+        },
+        "stop_address": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Optional virtual stop address (exclusive)."
+        },
+        "function": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional exact symbol to disassemble with flags=-d."
+        }
+      },
+      "required": [
+        "path",
+        "flags"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "nm",
+    "description": "List symbols from an object file or binary.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "hexdump",
+    "description": "Display a hex+ASCII dump of a binary file. Useful for examining raw bytes at specific offsets.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "offset": {
+          "type": "integer",
+          "description": "Byte offset to start from (default 0).",
+          "minimum": 0
+        },
+        "length": {
+          "type": "integer",
+          "description": "Number of bytes to dump (max 4096, default 256).",
+          "minimum": 1,
+          "maximum": 4096
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "xxd",
+    "description": "Create a hex dump of a file. Similar to hexdump but with a different output format.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "offset": {
+          "type": "integer",
+          "description": "Byte offset to start from (default 0).",
+          "minimum": 0
+        },
+        "length": {
+          "type": "integer",
+          "description": "Number of bytes to dump (max 4096, default 256).",
+          "minimum": 1,
+          "maximum": 4096
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "entropy",
+    "description": "Compute Shannon entropy (0.0-8.0) over a sliding window. High entropy (>7.0) indicates encrypted or compressed data. Low entropy (<4.0) indicates plaintext or sparse data. Optionally target a specific ELF section.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "enum": [
+            "/workspace/target.bin",
+            "target.bin"
+          ]
+        },
+        "section": {
+          "type": "string",
+          "description": "Optional ELF section name (e.g. .text, .rodata, .data)."
+        },
+        "window_size": {
+          "type": "integer",
+          "description": "Sliding window size in bytes (default 256).",
+          "minimum": 1
+        },
+        "output_offset": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Byte offset; reuse next_output_offset from the previous page."
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "final_answer",
+    "description": "Submit this task's complete structured answer once.",
+    "input_schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "answers"
+      ],
+      "properties": {
+        "schema_version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "answers": {
+          "type": "object"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "task": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/agentre-seven-v5.1.1/dataset/tasks/re-ee5729dca243",
+        "source": "tasks"
+    },
+    "trial_name": "re-ee5729dca243__oPS7AwY",
+    "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/agentre-seven-v5.1.1/runs/renamed-oracle-check",
+    "job_id": "208e717a-c5c4-49c4-8b00-d30f8d61d953"
+}

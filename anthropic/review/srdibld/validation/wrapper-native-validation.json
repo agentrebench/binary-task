@@ -1,0 +1,41 @@
+{
+  "driver_source_sha256": "28689b4254fe4c13699aea00da6112a78ed964ec7de99a95708fae0f4d864679",
+  "expected_sink_from_independently_validated_core_words": 37455,
+  "model_api_calls": 0,
+  "native_binary_sha256": "cee47f5b4ea6d555d572024184a4841bd7ae751c3c4a55f9406f53bfa2f5d44f",
+  "native_output_sha256": "4129969952cdee48957cec99535182afa8e3ffc0e32b6e459eba79df2649e9ae",
+  "native_wrapper_calls": 2,
+  "native_wrapper_compile": [
+    "gcc",
+    "-std=c11",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-DOUTPUT_WORDS=64",
+    "-Dmain=reviewed_wrapper_main",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/srdibld/validation/entry-wrapper-native.o"
+  ],
+  "normal_wrapper_contains_no_expected_values_or_output_printer": true,
+  "observed_sink_values": [
+    37455,
+    37455
+  ],
+  "original_executions": 0,
+  "passed": true,
+  "reference_architecture": "aarch64",
+  "sanitizer_scope": "Native C entry wrapper and driver instrumented; core scope is recorded separately.",
+  "sink_is_private_validation_only_not_a_graded_question": true,
+  "target_executions": 0,
+  "wrapper_returns": [
+    0,
+    0
+  ],
+  "wrapper_source": {
+    "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  }
+}

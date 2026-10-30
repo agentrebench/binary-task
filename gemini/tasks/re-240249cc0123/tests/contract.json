@@ -1,0 +1,49 @@
+{
+  "answer_shape": {
+    "layout": {
+      "entry_offset": "integer",
+      "loader_size": "integer",
+      "parameter_offset": "integer",
+      "payload_size": "integer",
+      "total_size": "integer"
+    },
+    "parameter": {
+      "ascii": "string"
+    },
+    "patches": {
+      "entry_relative_displacement": "integer",
+      "parameter_relative_displacement": "integer",
+      "payload_offset": "integer",
+      "payload_size": "integer"
+    },
+    "selection": {
+      "loader_bits": "integer",
+      "optional_header_magic": "integer",
+      "pe_machine": "integer"
+    }
+  },
+  "expected": {
+    "layout": {
+      "entry_offset": 136,
+      "loader_size": 48,
+      "parameter_offset": 177,
+      "payload_size": 129,
+      "total_size": 192
+    },
+    "parameter": {
+      "ascii": "--mode=inspect"
+    },
+    "patches": {
+      "entry_relative_displacement": 112,
+      "parameter_relative_displacement": 149,
+      "payload_offset": 48,
+      "payload_size": 129
+    },
+    "selection": {
+      "loader_bits": 64,
+      "optional_header_magic": 523,
+      "pe_machine": 34404
+    }
+  },
+  "schema_version": 1
+}

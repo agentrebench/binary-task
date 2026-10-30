@@ -1,0 +1,69 @@
+{
+  "answer_shape": {
+    "recovery": {
+      "distance_bytes": [
+        "integer"
+      ],
+      "higher_address": [
+        "boolean"
+      ],
+      "used_neighbor": [
+        "boolean"
+      ],
+      "witness_exports": [
+        "string"
+      ]
+    },
+    "resolver": {
+      "module": "string",
+      "selected_exports": [
+        "string"
+      ]
+    },
+    "service_tokens": {
+      "values": [
+        "integer"
+      ]
+    }
+  },
+  "expected": {
+    "recovery": {
+      "distance_bytes": [
+        32,
+        64,
+        0
+      ],
+      "higher_address": [
+        true,
+        false,
+        false
+      ],
+      "used_neighbor": [
+        true,
+        true,
+        false
+      ],
+      "witness_exports": [
+        "NtQueryVirtualMemory",
+        "NtQueryVirtualMemory",
+        "NtClose"
+      ]
+    },
+    "resolver": {
+      "module": "ntdll.dll",
+      "selected_exports": [
+        "NtProtectVirtualMemory",
+        "NtCreateThreadEx",
+        "NtClose"
+      ]
+    },
+    "service_tokens": {
+      "values": [
+        80,
+        83,
+        15
+      ]
+    }
+  },
+  "schema_version": 1
+}

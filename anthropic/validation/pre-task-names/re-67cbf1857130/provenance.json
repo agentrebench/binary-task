@@ -1,0 +1,16 @@
+{
+  "answer_sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+  "artifact_file": "environment/update_agent.elf",
+  "artifact_sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+  "binary_and_grading_unchanged": true,
+  "calibration_transfer": false,
+  "contract_sha256": "752dd6a839cfc6fa21d12e903b30b7a92f95a15636e4ae80dfa28a1aadcce8cb",
+  "packaging_parent_revision": "5.1.0",
+  "parent_task_revision": "5.1.1",
+  "provider_profile": "claude-code-2.1.112-managed-static-only",
+  "provider_profile_revision": "1",
+  "revision": "5.1.1",
+  "runtime_artifact_path": "/workspace/target.bin",
+  "source_revision": "5.0.0",
+  "task_id": "re-67cbf1857130"
+}

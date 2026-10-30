@@ -1,0 +1,134 @@
+{
+  "build_driver": {
+    "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+    "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+  },
+  "core_not_retained_by_undefined_flag": true,
+  "entry_reachability": {
+    "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/entry-reachability.json",
+    "sha256": "abbadfc999f3fa5e34468e3450b19ddb7042533b6d53d2ba4632dbe699cbde78"
+  },
+  "entry_virtual_address": "0x1420",
+  "entry_wrapper_copy_sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041",
+  "entry_wrapper_source": {
+    "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  },
+  "ground_truth_claim": "Independent fixture model + separately compiled native source agree; human compiled-code review remains separate.",
+  "imports": [
+    "_ITM_deregisterTMCloneTable",
+    "_ITM_registerTMCloneTable",
+    "__cxa_finalize",
+    "__gmon_start__",
+    "__libc_start_main",
+    "__stack_chk_fail"
+  ],
+  "independent_reference_matches_frozen_truth": true,
+  "language": "C++",
+  "model_api_calls": 0,
+  "native_asan_ubsan_clean": true,
+  "native_canaries_and_three_repeats": true,
+  "native_compile": [
+    "g++",
+    "-std=c++17",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/source/core.cpp",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/validation/core-native.o"
+  ],
+  "native_matches_frozen_truth": true,
+  "native_word_count": 384,
+  "native_wrapper_validation": {
+    "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/wrapper-native-validation.json",
+    "sha256": "ee69716a05d3ba526801fbbe51e75995514283b556abb757428851e03ace7f40"
+  },
+  "no_exported_authored_names": true,
+  "no_syscall_instructions": true,
+  "no_writable_executable_segments": true,
+  "ordinary_elf_entry_virtual_address": "0x10e0",
+  "ordinary_entry_reaches_core": true,
+  "ordinary_main_virtual_address": "0x1060",
+  "original_executions": 0,
+  "passed": true,
+  "rebuild_identical": true,
+  "recorded_at": "2026-10-28T20:24:43.270676+00:00",
+  "reference_native_arch": "aarch64",
+  "sanitizer_scope": "C/C++ core and C driver",
+  "source_files": {
+    "source/core.cpp": "5052b852fd4d036695a28f6caa7c967612adac66f6b0a5fe5d40888c43e3500f",
+    "source/data.h": "8d36ee20d93bea539ce2e5885d8ca92f6deb60be483c6a6b496d60c91cbee1bd"
+  },
+  "source_input_checks": [
+    {
+      "address": "0x3080",
+      "bytes": 130,
+      "sha256": "0d33ed849e17ca7b8cf56e38762e2a1b9ba102ee9870950332e370d47f4cec44",
+      "symbol": "fixture_container"
+    },
+    {
+      "address": "0x3020",
+      "bytes": 95,
+      "sha256": "95c3c8aa1cf18a64fe24ef41a50d7d636ca58538036415a2f39a4fa23b3dc388",
+      "symbol": "fixture_exports"
+    }
+  ],
+  "strip_preserves_section_bytes": true,
+  "stripped_and_debug_free": true,
+  "target_bytes": 18480,
+  "target_compile": [
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/bin/x86_64-linux-gnu-g++-13",
+    "-nostdinc",
+    "-nostdinc++",
+    "-isystem",
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/x86_64-linux-gnu/include/c++/13",
+    "-isystem",
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/x86_64-linux-gnu/include/c++/13/x86_64-linux-gnu",
+    "-isystem",
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/cross-cxx/usr/x86_64-linux-gnu/include/c++/13/backward",
+    "-isystem",
+    "/usr/lib/gcc-cross/x86_64-linux-gnu/13/include",
+    "-isystem",
+    "/usr/x86_64-linux-gnu/include",
+    "-B/usr/x86_64-linux-gnu/bin/",
+    "-B/usr/lib/gcc-cross/x86_64-linux-gnu/13/",
+    "-B/usr/x86_64-linux-gnu/lib/",
+    "-std=c++17",
+    "-fno-exceptions",
+    "-fno-rtti",
+    "-O2",
+    "-g0",
+    "-fno-ident",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/source/core.cpp",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/core.o"
+  ],
+  "target_executions": 0,
+  "target_link": [
+    "x86_64-linux-gnu-gcc",
+    "-std=c11",
+    "-O2",
+    "-fno-ident",
+    "-g0",
+    "-DOUTPUT_WORDS=384",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/entry.c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/core.o",
+    "-Wl,--build-id=none,--gc-sections,--strip-debug",
+    "-Wl,--undefined=fixture_container",
+    "-Wl,--undefined=fixture_exports",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/lzwcfg/unstripped.elf"
+  ],
+  "target_not_executable_file_mode": "0o444",
+  "target_sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+  "task_id": "lzwcfg",
+  "truth_freeze_sha256": "422a3fbc1b0da9a3f99054ab7fea141db239f8a52e1f8f775583103eb63eb277"
+}

@@ -1,0 +1,93 @@
+{
+  "compat_host": {
+    "environment/answer-shape.json": "c10f061ccb297821cab13e4f0f2a0919d63268373556170275de68445b4c35d8",
+    "environment/target.bin": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+    "instruction.md": "3e7293821f0b46dd774a0c5aaad2d179a62feaa3ef6ebd20f798f0d090f9fb7b",
+    "solution/answer.json": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "6a6a55fc8a9dfc47ef487197bc316f0b89e53b4af720bb373681d8d4e85d1799",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "c9e987d8f77e2c9d8b9f80afec8e4f730ba3be1c4fd2b3b36ead768523663216",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  },
+  "inputsvc": {
+    "environment/answer-shape.json": "14e650cb8e72062faa4ae8eb70a7d54835e0e5a9376f57c1cf46504c7887624a",
+    "environment/target.bin": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+    "instruction.md": "9f374af4c1c5bd56244ffbb2caf30c1449018fa75f01ca84cf13711b68af5de2",
+    "solution/answer.json": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "adcc172768ada88abacf2856e9e5beb6398f99a0d60ccc28ead433efb8de895f",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "ca7d1a0a9d9b1e119369eaf00374e01c3d6d0946ea3db718458006f52cfc9b6a",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  },
+  "modulehost": {
+    "environment/answer-shape.json": "7fb4690a9b9d6073fdaa993a538455d616d1eb4b4a901a14d6491478dcb418c6",
+    "environment/target.bin": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+    "instruction.md": "2a9f38fe32cef729b8e1360f2b2cd1e5e95f8ddff883bd51ae7c5b6cf0843a76",
+    "solution/answer.json": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "b36328f6f55c36c922e395bf617c19a28fd058e1e1c25b207f546775673e7fe6",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "995afc859ccf7d8065263d0e4ba8b1ca2a51462b3763267a65819519d5d29beb",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  },
+  "profile_sync": {
+    "environment/answer-shape.json": "feaaf179b1c9f8b3f611c34881ed3346eca2c3154b4dcc41f25078cb38430e85",
+    "environment/target.bin": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+    "instruction.md": "a7f177b5ea0ef0731951daf4e800589a50d634dc7aeadf306b2e39dd90186a68",
+    "solution/answer.json": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "cdac9ad3532d84ff0029997e6ef916fb363a28e1858477ec3273609165a7008a",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "63285121288fea5b23f084b826d5339ad6f29eb211b5f72488b4baebbf15e063",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  },
+  "stage_builder": {
+    "environment/answer-shape.json": "c09da2d98dc7e2b15accbb993be9e046662a14cc428dd6b59705c19220f108e7",
+    "environment/target.bin": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+    "instruction.md": "52672c8d3b8cceb0d445e46944b5faaf2da3dd1e9b695204a6a9d4e195f7d9c9",
+    "solution/answer.json": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "f8303438b18426c2f4b52cfffe9c9448d56ace1f64f6f454cf142372eb0a9a52",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "6f29ea07acb8b928bff7427d4d2d6f25c727413f4a54e1994be881cce46c4375",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  },
+  "sysbridge": {
+    "environment/answer-shape.json": "d914c4c86adfcf9f3a9796640d05a1b517c33e4b24ea3dda97fc1115444d0624",
+    "environment/target.bin": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+    "instruction.md": "57482f94709554da000b1d147eb4a258f6acd7d705dd3622e04ad2201064c600",
+    "solution/answer.json": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "befa6d3a8b04f3d81c92cfd99278c8a7f57121cdfa036b3c98d85ec88a4ae5a6",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "2c6e2d2cd2fffdee65c4c5ed952141e8956e02d2dd36cfcc66501265bba1cef3",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  },
+  "update_agent": {
+    "environment/answer-shape.json": "813f458d8701fc456b88265ad1c7f95efc2bf542bfb5834116d957128a46f4b6",
+    "environment/target.bin": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+    "instruction.md": "e35e11d7083ab2d7826c1063cb1182a0e6cd252646baea8594909b56ab11f932",
+    "solution/answer.json": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+    "solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "task.toml": "63c8c3641777fe6130d759e08dc555257c2f38bd164524c8b6c516cc1275610b",
+    "tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "tests/contract.json": "752dd6a839cfc6fa21d12e903b30b7a92f95a15636e4ae80dfa28a1aadcce8cb",
+    "tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447"
+  }
+}

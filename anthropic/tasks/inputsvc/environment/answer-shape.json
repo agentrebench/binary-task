@@ -1,0 +1,15 @@
+{
+  "alternate": {
+    "selected": "boolean",
+    "url": "string"
+  },
+  "capture": {
+    "text": "string"
+  },
+  "destination": {
+    "url": "string"
+  },
+  "request": {
+    "wire": "string"
+  }
+}

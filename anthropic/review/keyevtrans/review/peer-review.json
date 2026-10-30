@@ -1,0 +1,139 @@
+{
+  "all_passed": true,
+  "bindings": [
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/fixtures.json",
+      "sha256": "db997add01ea587dece990d6c6b431312d9c6a4c13d8fa0e8147cd5aff837cec"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/expected.json",
+      "sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/answer-shape.json",
+      "sha256": "14e650cb8e72062faa4ae8eb70a7d54835e0e5a9376f57c1cf46504c7887624a"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/instruction.md",
+      "sha256": "db24936078e2067fd30371f8f290ab377558eb15e81f36d2677fbf9f7365ed2e"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/reference.py",
+      "sha256": "077a28a154e082135e1074d0ee46d4c156546ba1256baeb7c3212562a321399b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/truth-freeze.json",
+      "sha256": "d24026083bd34451c51d73fe01095b70e169ee78bfcadf1506ff01fa0d9536b3"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/source-input-map.json",
+      "sha256": "446f0556934e964f1347b8caafe560651d93a8527ee5c13855a161998cd2882d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/native-driver.json",
+      "sha256": "21dec7c1727856372d7ace5ea6affc1e3ad02d2b5a906435b538b410497a114c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/source/core.cpp",
+      "sha256": "3415715bf23a23609ca7c1030ed21f2eb6b6ba20b230202e8a602c56be4c420e"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/source/data.h",
+      "sha256": "eba095aa600f23b98f08437a5fa47eb64ce9519a901b49b35266cae6b8b6f70e"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/target.elf",
+      "sha256": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/symbols.json",
+      "sha256": "28e277777b1d7a68e1b6af9b86e8431bb9a48dfd8f8724f60356a42fe5b20c26"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/disassembly.txt",
+      "sha256": "0d13de8ff8cf91dd188bcde8d804a979b7e49666a9f3b9814c202c5df04e31b5"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/entry.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/build-results.json",
+      "sha256": "1ed3eb01a827775fe1a17a006964fcef6fbdfc30f9fbd4040b26c91c186c704d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/native-answer.json",
+      "sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/native-words.txt",
+      "sha256": "c2737d87c2e8a46e3f7f85e3349c5292cc256b9add992fbb6e8e9df4e990dccd"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/entry-reachability.json",
+      "sha256": "2ed1e23e4852ffefb04bdec5b552ab74f203dfaaab8c3abf11a0692a490567da"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/wrapper-native-validation.json",
+      "sha256": "2195adc82ea783fa8b5ae57a2415f12565a07a4c7fffefc7dfa704c4d7d025ed"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/main-disassembly.txt",
+      "sha256": "02f9d63c53ba61355bb6caefc0a407b297024996e90751d8e161a37602b7c889"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/validation/startup-disassembly.txt",
+      "sha256": "cb4905d7a3223d6ff8da7313c59d9dc02ea0894d347578b8f758191322c66f42"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/review/independent-answer.json",
+      "sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/review/independent-derivation.json",
+      "sha256": "041edb6eaa09727f35c74c96a46368b94a1c9555a06bae580b2d400f798a00c4"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/review/independent_review.py",
+      "sha256": "191269d10a1da6f43686df5adf311d124a29da14882eeaf32a5fb30d775bcc67"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+      "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    }
+  ],
+  "checks": {
+    "actual_stripped_fixture_bytes_match": true,
+    "compiled_dataflow_anchors_reviewed": true,
+    "expected_and_native_agree": true,
+    "freeze_and_build_hashes_match": true,
+    "independent_reconstruction_without_author_reference": true,
+    "model_api_calls": 0,
+    "original_executions": 0,
+    "public_prompt_has_no_addresses_or_private_maps": true,
+    "source_inertness_reviewed": true,
+    "target_executions": 0,
+    "whole_effective_url_not_embedded_literal": true
+  },
+  "claims": [
+    "CRC32 via independent zlib agrees for both actual decoded config records; enabled selection differs from highest priority.",
+    "Independent held-key set reconstruction verifies repeat suppression, modifier release, control suppression, backspace and final text.",
+    "Independent standard URL quoting and HTTP construction reproduce exact155-byte request including CRLF and body length.",
+    "Stripped disassembly retains checksum polynomial at0x16fb, enable guard0x19e8 and priority comparison0x1a07 before selected-config copy; keydown-repeat guard0x1b08 and control-held guard0x1b26 precede character processing.",
+    "Full source performs bounded array parsing and in-memory text construction only; dynamic imports are runtime startup/stack support, no capture or network API."
+  ],
+  "independent_review": true,
+  "limitations": [
+    "This is a fictional input stream, not Windows Raw Input or live key capture.",
+    "Observed difficulty and marketplace runtime controls require separate validation; no pass-rate claim.",
+    "Request.wire representation-only amendment was already documented by author; request bytes and source core preserved."
+  ],
+  "reviewed_at": "2026-10-28T20:28:08.830975+00:00",
+  "reviewer": "/root/portable_bundle_audit",
+  "schema_version": 1,
+  "task": "keyevtrans"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "package_files_scanned": 286,
+  "public_files_scanned": 77,
+  "credential_matches": 0,
+  "full_answer_matches_in_public_files": [],
+  "host_paths_in_public_files": [],
+  "symlinks": [],
+  "limitations": [
+    "Exact current credential values and complete serialized answers were scanned; source/binary semantic reviews address subtler leakage.",
+    "Reference answers intentionally exist in evaluator-private tests, solution, and review folders."
+  ]
+}

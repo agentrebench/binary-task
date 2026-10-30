@@ -1,0 +1,32 @@
+{
+  "all_passed": true,
+  "tests_passed": 5,
+  "tests_failed": 0,
+  "command": "/tmp/agentre-harbor-venv/bin/python -m pytest -q private_eval/harbor/marketplace-v1/authoring/runtime/test_server.py",
+  "observed_output": "5 passed in 1.15s",
+  "mcp_version": "2.3.0",
+  "target_executions": 0,
+  "model_calls": 0,
+  "checks": [
+    "real official MCP stdio initialization and tool discovery",
+    "all eight approved static utilities",
+    "exact schema agreement with V31StaticSession",
+    "AST equality of canonical command builder",
+    "byte-offset pagination agreement with native objdump output",
+    "script/calculator/unknown tool rejection",
+    "hidden/path-traversal read rejection",
+    "structured final answer validation and double-submit refusal",
+    "atomic no-overwrite and symlink handling",
+    "hash-chain integrity and unchanged target bytes",
+    "call and payload limits"
+  ],
+  "bindings": {
+    "server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "vendor_benchmark.py": "eb4e08d4751d894ed9623d1b722d8108e3513e1666ccfd6a253550a2fa54e377",
+    "test_server.py": "650a88ee479bf3abbf662442bddb28c01b468147ceba74b24b7705eef53ebff3",
+    "vendor-provenance.json": "3a9a2a5bf37ce45092580c7b65cd075ff26791d07fcfdfa714c8382bdc97a06c"
+  }
+}

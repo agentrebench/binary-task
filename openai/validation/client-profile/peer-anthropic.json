@@ -1,0 +1,107 @@
+{
+  "all_passed": true,
+  "bindings": {
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/README.md": "91facc0ee846f18f475971f18dd76d8e982ceaae2e35c8e1bd21601e926d3449",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/history/offline-development-01.json": "696605585366d10121cc10a8b69139f910b93179f6165a64db232693878566e7",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/history/offline-development-02.json": "c59c3217970a36f9845f976fb9f58039d0fdfce4ba2098ccccc6be83019c15f8",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/peer-openai.json": "5e84ea33ad9d33431a56dbff90c18633ba3d3693adf36ef0cb3b4ab4c1ca66b1",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/profile.json": "952dc7502eb75414c5c8468315d2f11e47ef9743fa01b0fa23b9e859691f2eca",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/test_profile.py": "167785e92a28716493ed8c4bfcc87b6f0a4e43ecee21076c9c37f301b6b8a31a",
+    "private_eval/harbor/marketplace-v1/authoring/provider-profiles/anthropic/validation.json": "067c25e596e8e4b2f7e2d1985ef844fbbd7d8d8830b59411646274644db2ee73",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-240249cc0123/environment/.dockerignore": "02afee0a3eb5127fe8a6270e14fd3b82e43b1ed20c7c9463bb7c73d19b48bc91",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-240249cc0123/environment/Dockerfile": "828386f7375951ce3e2d4668279cb556f42d692d34a41beb06ad85e0aa7c4034",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-240249cc0123/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-240249cc0123/task.toml": "3bcd44fc8662a4a5d14cb5a70e6392d4123f3630d8924f75bc72e096c3c3e662",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-55a4b5ca278d/environment/.dockerignore": "b660ec447f2fd8d04533ff4703f0e9eb22980b91c23053b916ebb207443484a6",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-55a4b5ca278d/environment/Dockerfile": "48a43149879db9cf888db57707c11160abbbabec89e73583b05d1b6cea95f61d",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-55a4b5ca278d/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-55a4b5ca278d/task.toml": "b6ee58f58c82a51a8929c618476045dc671d10c9ee60be4bec56fddc7550602e",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-67cbf1857130/environment/.dockerignore": "30454112677aec4d03e4ff8f77698952882c201bfa6c9be893a08f8db607b213",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-67cbf1857130/environment/Dockerfile": "2315a1fe47532491589ea31ae1b749d9586c6198bfebea8a5a83966d49895765",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-67cbf1857130/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-67cbf1857130/task.toml": "6eba3c055f7892479c3eb44de0fbb192fbb6b25f315ff4c67d94282cad9f15c2",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814/environment/.dockerignore": "6cbc0dadcee929853925245cb8e97a6b1ede9d9e201dd10f24c0f703e0d40435",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814/environment/Dockerfile": "28e7da9f34d56ba455e9a7f00cf8a000a6e3578832f2ec774d2b121ced5a6817",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814/task.toml": "a1ce36378835a151075e4f18f0893cd3756363096b3577993f34b24d16772aaa",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-adeefd1c539e/environment/.dockerignore": "b33c57fa40a63af1802c291a7108326ef6ad5e8448b82502cbe22d724dfabf5b",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-adeefd1c539e/environment/Dockerfile": "bc76230ef6351c299c43158e14a7a96239995f424ddc8e2c131f932321c72978",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-adeefd1c539e/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-adeefd1c539e/task.toml": "d85fa8f7f67b713c178a7da5ae26ccdd0be13e8a0779c9d5779676ad2dfca543",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-d628c5a314d6/environment/.dockerignore": "802a4bde0409d91c071419a38761636631512c136311202a090be9b149b0184b",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-d628c5a314d6/environment/Dockerfile": "01aea0efcdaaa44b014af58a6142a02248733800da0524d4051fd0ac7bb925a8",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-d628c5a314d6/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-d628c5a314d6/task.toml": "b7511e4e0ff055112ad8b6d2e0e862897f5ff86d4169078c3f3e006a965801be",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-ee5729dca243/environment/.dockerignore": "2426d65e9b6590d8330f79ad23317ab945cb596eb30f4f54f57b00071feed4eb",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-ee5729dca243/environment/Dockerfile": "10df1d9783f73181435ba0f991ffad5f4ac57a5813e2b9e4bf0940909e28c703",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-ee5729dca243/environment/claude-managed-settings.json": "9c0eabc2c1e6f4ff9107b8e1a3b5386e2bcdbbf162fefb39dc610e12781075b5",
+    "private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-ee5729dca243/task.toml": "07445085f1be7d0c62801ac43029f348d39a9783b9bce9d0442cfa871849f788"
+  },
+  "checks": {
+    "bypass_downgraded_to_dontAsk": true,
+    "forced_forbidden_tools_rejected": true,
+    "four_offline_cases_passed_with_exact_nine_api_tools": true,
+    "pinned_npm_install_in_final_dockerfiles": true,
+    "settings_and_test_source_bindings_current": true,
+    "stock_harbor_skips_native_bootstrap_on_matching_preinstalled_version": true,
+    "user_project_cli_conflicts_and_hook_attempt_rejected": true
+  },
+  "harbor_source_binding": {
+    "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/agents/installed/claude_code.py",
+    "sha256": "e224f5e0ebca0cb96960eb8907ef2bf06b0bc6a54254b4e9bff9e10e7323142c"
+  },
+  "limitations": [
+    "CLI init metadata still lists bundled skills/agents; tested invocation tools are absent and forced calls fail, as correctly disclosed in README.",
+    "Final image lifecycle controls are owned by the supervisor and not claimed rerun here.",
+    "No live authentication, model availability, or difficulty conclusion follows."
+  ],
+  "paid_model_calls": 0,
+  "reviewer": "harbor_native_design; independent of Anthropic profile author",
+  "scope": "Read-only source/evidence review and all seven final Docker recipes; no new runtime tests or paid calls",
+  "target_executions": 0,
+  "tasks": [
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-240249cc0123",
+      "verifier_and_answers_unchanged": true
+    },
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-55a4b5ca278d",
+      "verifier_and_answers_unchanged": true
+    },
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-67cbf1857130",
+      "verifier_and_answers_unchanged": true
+    },
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-703605596814",
+      "verifier_and_answers_unchanged": true
+    },
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-adeefd1c539e",
+      "verifier_and_answers_unchanged": true
+    },
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-d628c5a314d6",
+      "verifier_and_answers_unchanged": true
+    },
+    {
+      "managed_settings_match_test": true,
+      "pinned_npm_preinstall_present_before_nonroot_user": true,
+      "task": "re-ee5729dca243",
+      "verifier_and_answers_unchanged": true
+    }
+  ]
+}

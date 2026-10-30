@@ -1,0 +1,21 @@
+{
+  "platform": {
+    "api_name": "string",
+    "required_native_machine": "integer",
+    "required_process_machine": "integer"
+  },
+  "requests": {
+    "accepted": [
+      "boolean"
+    ],
+    "effective_targets": [
+      "integer"
+    ]
+  },
+  "transition_data": {
+    "context_width_bytes": "integer",
+    "entry_selector": "integer",
+    "marker_hex": "string",
+    "return_selector": "integer"
+  }
+}

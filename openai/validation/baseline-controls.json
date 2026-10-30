@@ -1,0 +1,122 @@
+{
+  "all_passed": true,
+  "harbor_version": "0.25.0",
+  "infrastructure_errors": 0,
+  "install_only_checks": 1,
+  "limitations": [
+    "Install-only controls do not contact a model or verify real provider authentication.",
+    "Oracle and no-op controls do not measure model difficulty."
+  ],
+  "live_model_calls": 0,
+  "no_op_zero_rewards": 7,
+  "oracle_passes": 7,
+  "provider": "openai",
+  "target_executions": 0,
+  "trials": [
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-240249cc0123__puu4YEQ/result.json",
+      "result_sha256": "951142347fb98e0a521478f1379f15851df0bf4c460b3477efc9df015d77ce02",
+      "reward": 1,
+      "task": "agentre/re-240249cc0123"
+    },
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-55a4b5ca278d__b5C7Eb2/result.json",
+      "result_sha256": "d12619609d9fbfb572895dc24ce6aaef10a927ddc26f07dfbba4acadacab51d0",
+      "reward": 1,
+      "task": "agentre/re-55a4b5ca278d"
+    },
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-67cbf1857130__WYaKXKv/result.json",
+      "result_sha256": "66b9b7c6281f00c854a76c3d49326acfacbdd1c608d9d8d5c671150207b230e6",
+      "reward": 1,
+      "task": "agentre/re-67cbf1857130"
+    },
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-703605596814__GmjpuHh/result.json",
+      "result_sha256": "124005ffc7434d25c5d1b0289c4e6cca6acaa513c91dc0ff132eafb341332a17",
+      "reward": 1,
+      "task": "agentre/re-703605596814"
+    },
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-adeefd1c539e__E6ryZHA/result.json",
+      "result_sha256": "12f35dcf1eac0a28a5605646d4ce218e21a10ebd79c5071b5fbe6c9f2b3d329d",
+      "reward": 1,
+      "task": "agentre/re-adeefd1c539e"
+    },
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-d628c5a314d6__Zo8q834/result.json",
+      "result_sha256": "ed1dce3f4c24afa809c4c458d22e6c2d65f652f00d2036480b6d9a27438ea6d8",
+      "reward": 1,
+      "task": "agentre/re-d628c5a314d6"
+    },
+    {
+      "mode": "oracle",
+      "receipt": "harbor-receipts/oracle/re-ee5729dca243__pGKMxxm/result.json",
+      "result_sha256": "dd1c9e15f76f0592e00ceaf11e8d86e670624c8d5d84cbe0b4f74ae2bbd23451",
+      "reward": 1,
+      "task": "agentre/re-ee5729dca243"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-240249cc0123__QRQngDQ/result.json",
+      "result_sha256": "8b9ec6f22e5e93959d8a0f997d4ff9969be8ec4a5b5c6da772384ebf44ffce99",
+      "reward": 0,
+      "task": "agentre/re-240249cc0123"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-55a4b5ca278d__UEbcwZ7/result.json",
+      "result_sha256": "ff55a517b280631744505d3192e1cffd7fc31428c3c41c250e5dec8c6648c215",
+      "reward": 0,
+      "task": "agentre/re-55a4b5ca278d"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-67cbf1857130__xL7UQ52/result.json",
+      "result_sha256": "a4ed5cdfd033af88f06ff129afefdf5cb959a420d28ad4e3db37cedee4cab759",
+      "reward": 0,
+      "task": "agentre/re-67cbf1857130"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-703605596814__HnjoYGX/result.json",
+      "result_sha256": "201ca681ec1fd65ae45203fb31b66f6aa29d1070fcfd53067fd7d5797d93f989",
+      "reward": 0,
+      "task": "agentre/re-703605596814"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-adeefd1c539e__MtnsqyF/result.json",
+      "result_sha256": "1116d4fad21bf4fac1dd1e56ce4f47cf4526af44fa673287531a793042130afd",
+      "reward": 0,
+      "task": "agentre/re-adeefd1c539e"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-d628c5a314d6__LQzakWz/result.json",
+      "result_sha256": "56e7b012ce2790aec47844308037be7122afd7655e44672d7fa09a94a0d14f06",
+      "reward": 0,
+      "task": "agentre/re-d628c5a314d6"
+    },
+    {
+      "mode": "nop",
+      "receipt": "harbor-receipts/nop/re-ee5729dca243__oskth78/result.json",
+      "result_sha256": "5069806c1ac26f7e8b1ea7b5b06046f0f1fd91e5123a997d00d2519d1c4ac15a",
+      "reward": 0,
+      "task": "agentre/re-ee5729dca243"
+    },
+    {
+      "mode": "install-only",
+      "receipt": "harbor-receipts/install-only/re-703605596814__VG3b7Ty/result.json",
+      "result_sha256": "00f8f35709baa8009a3b7ba509220f8872548fc371e3efeadacf0aaef8b18623",
+      "reward": null,
+      "task": "agentre/re-703605596814"
+    }
+  ]
+}

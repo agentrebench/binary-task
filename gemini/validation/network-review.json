@@ -1,0 +1,127 @@
+{
+  "bindings": [
+    {
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/review/network-probe-tested.py",
+      "sha256": "40301b988321fd9900d91010a4a9eca19209b97524a14bb3f159674c1b2ca4b4"
+    },
+    {
+      "path": "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/marketplace-v1/review/network_probe.py",
+      "sha256": "40f540cf5bf4a58511bb6b5e25c81437eb6ca93117f9b33949945cb1c8e900a6"
+    },
+    {
+      "path": "/tmp/agentre-native-network-review/tasks/network-control/task.toml",
+      "sha256": "29cdff21d86c2b8d0641e95490d2d17ce1642af1fde7c431e73132a22825b6ea"
+    },
+    {
+      "path": "/tmp/agentre-native-network-review/tasks/network-control/environment/docker-compose.yaml",
+      "sha256": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91"
+    },
+    {
+      "path": "/tmp/agentre-native-network-review/tasks/network-control/environment/Dockerfile",
+      "sha256": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf"
+    },
+    {
+      "path": "/tmp/agentre-native-network-review/jobs/application-network-check/network-control__6ACYnXc/artifacts/submission/network-probe.json",
+      "sha256": "d682ceb36682124851744edb3f47ded11f0072348dd2d6b0487a5e72f5cb65f0"
+    },
+    {
+      "path": "/tmp/agentre-native-network-review/jobs/application-network-check/network-control__6ACYnXc/result.json",
+      "sha256": "70a84b831a649ba126b8ced802c25ae445d9e6980452105ecf794abe43590a75"
+    },
+    {
+      "path": "/tmp/agentre-native-network-review/jobs/application-network-check/result.json",
+      "sha256": "5ccff7eb3517365fa4d740356e35024f302dbf083919e564b5dac6b68603817b"
+    },
+    {
+      "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/trial/trial.py",
+      "sha256": "d6ab11b45f5d90d5cb898c5eaf1fb5aec113860c041f35034109ad464939ca96"
+    },
+    {
+      "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/trial/network_policy.py",
+      "sha256": "70885b08129b8bbce71dc0bfe538833863ae2cedcb851fd536d3ed2a9341e2ce"
+    },
+    {
+      "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/environments/docker/docker.py",
+      "sha256": "4f74e08941b3534864643405dd6ff43543597248539d7f5de7208ec5c2f5b511"
+    },
+    {
+      "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/environments/docker/harbor-docker-egress-control-sidecar/bin/network-policy",
+      "sha256": "ff1cacfb95e17cda3668f389176ae54e5e4139cff12ee54b4d745722ad0ff0b2"
+    },
+    {
+      "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/environments/docker/harbor-docker-egress-control-sidecar/gost.yaml",
+      "sha256": "78c18e58efbc7c8e226cb311e2a4cf3863d5a2f3e54b3bf15a0ea4b885345290"
+    }
+  ],
+  "checks": [
+    {
+      "bytes_received": 0,
+      "connected": true,
+      "host": "1.1.1.1",
+      "port": 53,
+      "protocol": "dns-tcp",
+      "valid_dns_response": false
+    },
+    {
+      "connected": true,
+      "error": "Remote end closed connection without response",
+      "error_type": "RemoteDisconnected",
+      "host": "1.1.1.1",
+      "http_response": false,
+      "port": 80,
+      "protocol": "http"
+    },
+    {
+      "connected": true,
+      "error": "Remote end closed connection without response",
+      "error_type": "RemoteDisconnected",
+      "host": "example.com",
+      "http_response": false,
+      "port": 80,
+      "protocol": "http"
+    },
+    {
+      "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)",
+      "error_type": "SSLEOFError",
+      "host": "example.com",
+      "http_response": false,
+      "port": 443,
+      "protocol": "https"
+    },
+    {
+      "bytes_received": 0,
+      "connected": true,
+      "host": "generativelanguage.googleapis.com",
+      "http_response": true,
+      "port": 443,
+      "protocol": "https",
+      "status": 404
+    }
+  ],
+  "configured_nameservers": [
+    "127.0.0.11"
+  ],
+  "credentials_used": false,
+  "findings": [
+    "Unlisted 1.1.1.1:53 accepted connect but returned no DNS reply to a real query.",
+    "Unlisted direct-IP and hostname HTTP requests were disconnected without a response.",
+    "Unlisted example.com HTTPS failed during TLS handshake.",
+    "Allowlisted generativelanguage.googleapis.com HTTPS root GET returned 404 without credentials or model generation.",
+    "Harbor applies the task agent phase policy around stock Oracle execution as well as model agents."
+  ],
+  "harbor_version": "0.25.0",
+  "model_calls": 0,
+  "native_policy_limits": [
+    "No-network maps to deny-all controlled TCP in the native sidecar; this is not an empty network namespace.",
+    "The sidecar preserves local destinations, DNS to configured resolvers, and ICMP/ICMPv6 exceptions.",
+    "A finite set of application-layer probes does not prove universal egress denial or all possible proxy bypass resistance.",
+    "The model profile additionally removes shell/scripts/network tools. Network policy is not the sole restriction."
+  ],
+  "network_control_passed": true,
+  "original_probe_interpretation": "TCP connect alone is inconclusive. Native Harbor NAT redirects to a local transparent proxy that can accept connections before denying destination traffic.",
+  "reusable_probe": "network_probe.py is equivalent application logic with only resolver metadata reduced to nameserver addresses; network-probe-tested.py preserves the exact executed version.",
+  "runner": "stock oracle in clean venv without AgentRE installed",
+  "target_executions": 0,
+  "trial_errors": 0,
+  "trusted_oracle_reward": 1.0
+}

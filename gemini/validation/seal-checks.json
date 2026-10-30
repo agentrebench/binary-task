@@ -1,0 +1,10 @@
+{
+  "all_final_execution_inputs_match_tested_copy": true,
+  "credential_matches": 0,
+  "evidence_archive_verified": true,
+  "live_model_calibration_performed": false,
+  "model_calls": 0,
+  "passed": true,
+  "target_executions": 0,
+  "task_count": 7
+}

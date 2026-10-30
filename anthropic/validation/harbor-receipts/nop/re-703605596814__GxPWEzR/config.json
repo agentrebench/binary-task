@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814",
+        "source": "tasks"
+    },
+    "trial_name": "re-703605596814__GxPWEzR",
+    "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/anthropic-release-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "edda78e4-5258-4f51-861c-baa0ea83f41d"
+}

@@ -1,0 +1,25 @@
+{
+  "provider": "anthropic",
+  "profile_id": "claude-code-2.1.112-managed-static-only",
+  "harbor_agent": "claude-code",
+  "harbor_version": "0.25.0",
+  "agent_kwargs": {"version": "2.1.112", "permission_mode": "dontAsk"},
+  "allowed_hosts": ["api.anthropic.com"],
+  "credential_environment_variable": "ANTHROPIC_API_KEY",
+  "model_selector": "anthropic/REVIEWER_MODEL_ID",
+  "environment_files_add": ["claude-managed-settings.json"],
+  "environment_files_remove": ["gemini-system-settings.json"],
+  "managed_settings_path": "/etc/claude-code/managed-settings.json",
+  "docker_preinstall": "RUN npm install --global --omit=optional --ignore-scripts @anthropic-ai/claude-code@2.1.112",
+  "expected_tool_names": [
+    "mcp__static__file", "mcp__static__strings", "mcp__static__readelf",
+    "mcp__static__objdump", "mcp__static__nm", "mcp__static__hexdump",
+    "mcp__static__xxd", "mcp__static__entropy", "mcp__static__final_answer"
+  ],
+  "release": {
+    "npm_package": "@anthropic-ai/claude-code",
+    "version": "2.1.112",
+    "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.112.tgz",
+    "integrity": "sha512-9FUgJ0EOvILyhIqxFKNVliebiUjL68dwpEW3eGSSe0vkVDJ1c5qMDNWc22gW3zkD7zRAqtfQPSGv0t4vMM2DPA=="
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "job_name": "anthropic-release-nop",
+    "jobs_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs",
+    "n_concurrent_trials": 3,
+    "quiet": true,
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "datasets": [
+        {
+            "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks"
+        }
+    ]
+}

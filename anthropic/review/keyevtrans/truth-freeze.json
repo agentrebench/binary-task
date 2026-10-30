@@ -1,0 +1,18 @@
+{
+  "files": {
+    "answer-shape.json": "14e650cb8e72062faa4ae8eb70a7d54835e0e5a9376f57c1cf46504c7887624a",
+    "expected.json": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+    "fixtures.json": "db997add01ea587dece990d6c6b431312d9c6a4c13d8fa0e8147cd5aff837cec",
+    "generate_truth.py": "a3bd1da233757273a34e222ce62dd25abd8f5671122ef4768887ffa00bed3ac6",
+    "ground-truth.md": "d08a03c59161a7726fdfdc1eaf535998bcaf779c6729311f87a5c3ec46aed8f2",
+    "instruction.md": "db24936078e2067fd30371f8f290ab377558eb15e81f36d2677fbf9f7365ed2e",
+    "native-driver.json": "21dec7c1727856372d7ace5ea6affc1e3ad02d2b5a906435b538b410497a114c",
+    "reference.py": "077a28a154e082135e1074d0ee46d4c156546ba1256baeb7c3212562a321399b",
+    "serialization-amendment.json": "18efa7fab92b4d6d829cb388b28b497cf90d4c64a18b831ae8ea7b07c1590eb4",
+    "source-input-map.json": "446f0556934e964f1347b8caafe560651d93a8527ee5c13855a161998cd2882d"
+  },
+  "frozen_at": "2026-10-28T20:25:22.695091+00:00",
+  "initial_truth_freeze_sha256": "fbede7e9f7bea9701ac4b8f3c998c576a6a8755cdb68f3afad8c2d9820fe6694",
+  "representation_only_amendment": "serialization-amendment.json",
+  "source_did_not_exist_at_initial_freeze": true
+}

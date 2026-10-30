@@ -1,0 +1,39 @@
+{
+  "imports": {
+    "bindings": [
+      {
+        "requested": "string",
+        "resolved": "string"
+      }
+    ]
+  },
+  "mapping": {
+    "entrypoint": "integer",
+    "image": "string",
+    "rejected_sections": [
+      "string"
+    ],
+    "sections": [
+      "string"
+    ]
+  },
+  "rejected": {
+    "imports": [
+      {
+        "reason": "string",
+        "requested": "string"
+      }
+    ]
+  },
+  "relocations": {
+    "rvas": [
+      "integer"
+    ],
+    "skipped_rvas": [
+      "integer"
+    ],
+    "values": [
+      "integer"
+    ]
+  }
+}

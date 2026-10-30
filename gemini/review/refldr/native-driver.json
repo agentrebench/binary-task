@@ -1,0 +1,261 @@
+{
+  "assertions": [
+    {
+      "equals": 3,
+      "offset": 65
+    },
+    {
+      "equals": 1,
+      "offset": 66
+    },
+    {
+      "equals": 3,
+      "offset": 200
+    },
+    {
+      "equals": 3,
+      "offset": 720
+    }
+  ],
+  "fields": [
+    {
+      "kind": "ascii",
+      "length_offset": 0,
+      "offset": 1,
+      "path": [
+        "answers",
+        "mapping",
+        "image"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 64,
+      "path": [
+        "answers",
+        "mapping",
+        "entrypoint"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 80,
+      "offset": 81,
+      "path": [
+        "answers",
+        "mapping",
+        "sections",
+        0
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 96,
+      "offset": 97,
+      "path": [
+        "answers",
+        "mapping",
+        "sections",
+        1
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 112,
+      "offset": 113,
+      "path": [
+        "answers",
+        "mapping",
+        "sections",
+        2
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 160,
+      "offset": 161,
+      "path": [
+        "answers",
+        "mapping",
+        "rejected_sections",
+        0
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 208,
+      "offset": 209,
+      "path": [
+        "answers",
+        "imports",
+        "bindings",
+        0,
+        "requested"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 288,
+      "offset": 289,
+      "path": [
+        "answers",
+        "imports",
+        "bindings",
+        0,
+        "resolved"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 736,
+      "offset": 737,
+      "path": [
+        "answers",
+        "rejected",
+        "imports",
+        0,
+        "requested"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 816,
+      "offset": 817,
+      "path": [
+        "answers",
+        "rejected",
+        "imports",
+        0,
+        "reason"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 368,
+      "offset": 369,
+      "path": [
+        "answers",
+        "imports",
+        "bindings",
+        1,
+        "requested"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 448,
+      "offset": 449,
+      "path": [
+        "answers",
+        "imports",
+        "bindings",
+        1,
+        "resolved"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 896,
+      "offset": 897,
+      "path": [
+        "answers",
+        "rejected",
+        "imports",
+        1,
+        "requested"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 976,
+      "offset": 977,
+      "path": [
+        "answers",
+        "rejected",
+        "imports",
+        1,
+        "reason"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 528,
+      "offset": 529,
+      "path": [
+        "answers",
+        "imports",
+        "bindings",
+        2,
+        "requested"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 608,
+      "offset": 609,
+      "path": [
+        "answers",
+        "imports",
+        "bindings",
+        2,
+        "resolved"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 1056,
+      "offset": 1057,
+      "path": [
+        "answers",
+        "rejected",
+        "imports",
+        2,
+        "requested"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 1136,
+      "offset": 1137,
+      "path": [
+        "answers",
+        "rejected",
+        "imports",
+        2,
+        "reason"
+      ]
+    },
+    {
+      "kind": "u64_array",
+      "length_offset": 1230,
+      "offset": 1231,
+      "path": [
+        "answers",
+        "relocations",
+        "rvas"
+      ]
+    },
+    {
+      "kind": "u64_array",
+      "length_offset": 1230,
+      "offset": 1240,
+      "path": [
+        "answers",
+        "relocations",
+        "values"
+      ]
+    },
+    {
+      "kind": "u64_array",
+      "length_offset": 1250,
+      "offset": 1251,
+      "path": [
+        "answers",
+        "relocations",
+        "skipped_rvas"
+      ]
+    }
+  ],
+  "output_words": 1280,
+  "return_value": 0
+}

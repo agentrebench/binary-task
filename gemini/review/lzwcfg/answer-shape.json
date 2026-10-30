@@ -1,0 +1,15 @@
+{
+  "alternate": {
+    "accepted": "boolean",
+    "url": "string"
+  },
+  "beacon": {
+    "body": "string",
+    "interval_seconds": "integer",
+    "url": "string"
+  },
+  "dispatch": {
+    "export": "string",
+    "module": "string"
+  }
+}

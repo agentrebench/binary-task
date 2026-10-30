@@ -1,0 +1,65 @@
+[
+  {
+    "artifact_file": "tasks/sysbridge/environment/sysbridge.elf",
+    "binary_filename": "sysbridge.elf",
+    "previous_task_id": "re-55a4b5ca278d",
+    "sha256": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+    "source_revision": "5.0.0",
+    "task_id": "sysbridge",
+    "task_revision": "5.1.1"
+  },
+  {
+    "artifact_file": "tasks/modulehost/environment/modulehost.elf",
+    "binary_filename": "modulehost.elf",
+    "previous_task_id": "re-adeefd1c539e",
+    "sha256": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+    "source_revision": "5.0.0",
+    "task_id": "modulehost",
+    "task_revision": "5.1.1"
+  },
+  {
+    "artifact_file": "tasks/inputsvc/environment/inputsvc.elf",
+    "binary_filename": "inputsvc.elf",
+    "previous_task_id": "re-d628c5a314d6",
+    "sha256": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+    "source_revision": "5.0.0",
+    "task_id": "inputsvc",
+    "task_revision": "5.1.1"
+  },
+  {
+    "artifact_file": "tasks/update_agent/environment/update_agent.elf",
+    "binary_filename": "update_agent.elf",
+    "previous_task_id": "re-67cbf1857130",
+    "sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+    "source_revision": "5.0.0",
+    "task_id": "update_agent",
+    "task_revision": "5.1.1"
+  },
+  {
+    "artifact_file": "tasks/compat_host/environment/compat_host.elf",
+    "binary_filename": "compat_host.elf",
+    "previous_task_id": "re-ee5729dca243",
+    "sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+    "source_revision": "5.0.0",
+    "task_id": "compat_host",
+    "task_revision": "5.1.1"
+  },
+  {
+    "artifact_file": "tasks/stage_builder/environment/stage_builder.elf",
+    "binary_filename": "stage_builder.elf",
+    "previous_task_id": "re-240249cc0123",
+    "sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+    "source_revision": "5.0.0",
+    "task_id": "stage_builder",
+    "task_revision": "5.1.1"
+  },
+  {
+    "artifact_file": "tasks/profile_sync/environment/profile_sync.elf",
+    "binary_filename": "profile_sync.elf",
+    "previous_task_id": "re-703605596814",
+    "sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+    "source_revision": "5.0.0",
+    "task_id": "profile_sync",
+    "task_revision": "5.1.1"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "answer-shape.json": "feaaf179b1c9f8b3f611c34881ed3346eca2c3154b4dcc41f25078cb38430e85",
+    "expected.json": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+    "fixtures.json": "36d75521e11264ab8a837ddc10188bfc3767031cfbd130295dde4689e219754c",
+    "ground-truth.md": "96e0f7be769a0e43a9b8ba677b9fbccbfddafa94ef960a62b810ca5146cb74e7",
+    "instruction.md": "41c29afee9cdb26eba97da243c4298835bdf56a6569ae47893d02602b4cbf2c7",
+    "native-driver.json": "0ba87e4c4790afb8e1881489f1440aba29a81b78962bec474e96c88424205a56",
+    "reference.py": "0b1180a146342b170de8c80731c13507436c742e39cc3faf7c1410086b30db93",
+    "source-input-map.json": "80c8900c6e181979c80d2f79bd3bfe75e08f283fd53def756221412884b934a0"
+  },
+  "model_calls": 0,
+  "prompt_amendment": {
+    "prior_freeze_sha256": "88cd5c9d696fa3983b1a3e033f492866eee2b2f3340fb36871b29a23b8c80274",
+    "reason": "Remove request for unused alternatives because schema only requests selected artifacts. Mathematical truth and sources unchanged.",
+    "recorded_at": "2026-10-28T20:24:51.963668+00:00"
+  },
+  "recorded_at": "2026-10-28T20:22:42.081493+00:00",
+  "schema_version": 1,
+  "scope": "New fixture/reference/expected contract frozen before Rust core exists."
+}

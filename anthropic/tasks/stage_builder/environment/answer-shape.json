@@ -1,0 +1,23 @@
+{
+  "layout": {
+    "entry_offset": "integer",
+    "loader_size": "integer",
+    "parameter_offset": "integer",
+    "payload_size": "integer",
+    "total_size": "integer"
+  },
+  "parameter": {
+    "ascii": "string"
+  },
+  "patches": {
+    "entry_relative_displacement": "integer",
+    "parameter_relative_displacement": "integer",
+    "payload_offset": "integer",
+    "payload_size": "integer"
+  },
+  "selection": {
+    "loader_bits": "integer",
+    "optional_header_magic": "integer",
+    "pe_machine": "integer"
+  }
+}

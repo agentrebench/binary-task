@@ -1,0 +1,214 @@
+{
+  "all_passed": false,
+  "test_kind": "official-pinned-cli-local-scripted-api-production-mcp",
+  "cli_version": "2.1.112",
+  "real_provider_requests": 0,
+  "paid_model_calls": 0,
+  "target_executions": 0,
+  "container_network": "none",
+  "expected_tools": [
+    "mcp__static__entropy",
+    "mcp__static__file",
+    "mcp__static__final_answer",
+    "mcp__static__hexdump",
+    "mcp__static__nm",
+    "mcp__static__objdump",
+    "mcp__static__readelf",
+    "mcp__static__strings",
+    "mcp__static__xxd"
+  ],
+  "observations": [
+    {
+      "case": "allowed",
+      "exit_code": 0,
+      "init_tools": [
+        "ScheduleWakeup",
+        "mcp__static__entropy",
+        "mcp__static__file",
+        "mcp__static__final_answer",
+        "mcp__static__hexdump",
+        "mcp__static__nm",
+        "mcp__static__objdump",
+        "mcp__static__readelf",
+        "mcp__static__strings",
+        "mcp__static__xxd"
+      ],
+      "request_tool_lists": [
+        [
+          "ScheduleWakeup",
+          "mcp__static__entropy",
+          "mcp__static__file",
+          "mcp__static__final_answer",
+          "mcp__static__hexdump",
+          "mcp__static__nm",
+          "mcp__static__objdump",
+          "mcp__static__readelf",
+          "mcp__static__strings",
+          "mcp__static__xxd"
+        ],
+        [
+          "ScheduleWakeup",
+          "mcp__static__entropy",
+          "mcp__static__file",
+          "mcp__static__final_answer",
+          "mcp__static__hexdump",
+          "mcp__static__nm",
+          "mcp__static__objdump",
+          "mcp__static__readelf",
+          "mcp__static__strings",
+          "mcp__static__xxd"
+        ],
+        [
+          "ScheduleWakeup",
+          "mcp__static__entropy",
+          "mcp__static__file",
+          "mcp__static__final_answer",
+          "mcp__static__hexdump",
+          "mcp__static__nm",
+          "mcp__static__objdump",
+          "mcp__static__readelf",
+          "mcp__static__strings",
+          "mcp__static__xxd"
+        ]
+      ],
+      "api_request_count": 3,
+      "forbidden_marker_absent": true,
+      "hook_marker_absent": true,
+      "tool_result_errors": {
+        "tool-file": false,
+        "tool-final": false
+      },
+      "submission": {
+        "schema_version": 1,
+        "answers": {}
+      },
+      "stderr": "",
+      "stdout": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/tmp/claude-profile-allowed/project\",\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"tools\":[\"ScheduleWakeup\",\"mcp__static__entropy\",\"mcp__static__file\",\"mcp__static__final_answer\",\"mcp__static__hexdump\",\"mcp__static__nm\",\"mcp__static__objdump\",\"mcp__static__readelf\",\"mcp__static__strings\",\"mcp__static__xxd\"],\"mcp_servers\":[{\"name\":\"static\",\"status\":\"connected\"}],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"dontAsk\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"review\",\"security-review\",\"insights\",\"team-onboarding\"],\"apiKeySource\":\"ANTHROPIC_API_KEY\",\"claude_code_version\":\"2.1.112\",\"output_style\":\"default\",\"agents\":[\"Explore\",\"general-purpose\",\"Plan\",\"statusline-setup\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"d69ae895-fa33-4787-897e-3a1435fb9f33\",\"fast_mode_state\":\"off\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-file\",\"name\":\"mcp__static__file\",\"input\":{\"path\":\"/workspace/target.bin\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"uuid\":\"dde4cbcb-0d38-49f2-a62f-64c8a4d582c6\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"tool_use_id\":\"tool-file\",\"type\":\"tool_result\",\"content\":[{\"type\":\"text\",\"text\":\"{\\\"stdout\\\": \\\"/workspace/target.bin: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped\\\\n\\\", \\\"stderr\\\": \\\"\\\", \\\"returncode\\\": 0, \\\"timed_out\\\": false, \\\"output_offset\\\": 0, \\\"next_output_offset\\\": null, \\\"total_bytes\\\": 171}\"}]}]},\"parent_tool_use_id\":null,\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"uuid\":\"a063a9b3-6f2a-4871-834e-9b37ca14f535\",\"timestamp\":\"2026-10-28T21:24:39.269Z\",\"tool_use_result\":[{\"type\":\"text\",\"text\":\"{\\\"stdout\\\": \\\"/workspace/target.bin: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped\\\\n\\\", \\\"stderr\\\": \\\"\\\", \\\"returncode\\\": 0, \\\"timed_out\\\": false, \\\"output_offset\\\": 0, \\\"next_output_offset\\\": null, \\\"total_bytes\\\": 171}\"}]}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-2\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-final\",\"name\":\"mcp__static__final_answer\",\"input\":{\"schema_version\":1,\"answers\":{}}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"uuid\":\"9c508c9d-b6e3-4374-bb9c-440c816868ff\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"tool_use_id\":\"tool-final\",\"type\":\"tool_result\",\"content\":[{\"type\":\"text\",\"text\":\"{\\\"submitted\\\": true, \\\"submission_sha256\\\": \\\"72a7a47c3c321a97fcc972e8967796339b47ebfc0ede1d3fe943fce594b354cf\\\"}\"}]}]},\"parent_tool_use_id\":null,\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"uuid\":\"83cf7755-17cd-4699-81dc-c4d20da050d6\",\"timestamp\":\"2026-10-28T21:24:39.293Z\",\"tool_use_result\":[{\"type\":\"text\",\"text\":\"{\\\"submitted\\\": true, \\\"submission_sha256\\\": \\\"72a7a47c3c321a97fcc972e8967796339b47ebfc0ede1d3fe943fce594b354cf\\\"}\"}]}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-3\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"text\",\"text\":\"Offline transport check complete.\"}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"uuid\":\"155c72df-a959-4d6b-aa87-c5bdd8212d27\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":144,\"duration_api_ms\":24,\"num_turns\":3,\"result\":\"Offline transport check complete.\",\"stop_reason\":\"end_turn\",\"session_id\":\"2c75e916-a8e3-4738-a162-660f39baf7c0\",\"total_cost_usd\":0.0018000000000000002,\"usage\":{\"input_tokens\":300,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":60,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-sonnet-4-6\":{\"inputTokens\":300,\"outputTokens\":60,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.0018000000000000002,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"2c4b2707-b61e-423f-8d28-84d092c2083f\"}\n",
+      "checks": {
+        "completed": true,
+        "exact_nine_init_tools": false,
+        "exact_nine_api_tools": false,
+        "no_forbidden_write": true,
+        "no_hook_execution": true,
+        "file_call_succeeded": true,
+        "final_call_succeeded": true,
+        "submission_created": true
+      },
+      "passed": false
+    },
+    {
+      "case": "forbidden",
+      "exit_code": 0,
+      "init_tools": [
+        "ScheduleWakeup"
+      ],
+      "request_tool_lists": [
+        [
+          "ScheduleWakeup"
+        ],
+        [
+          "ScheduleWakeup"
+        ]
+      ],
+      "api_request_count": 2,
+      "forbidden_marker_absent": true,
+      "hook_marker_absent": true,
+      "tool_result_errors": {
+        "tool-forbidden-Bash": true,
+        "tool-forbidden-Read": true,
+        "tool-forbidden-Write": true,
+        "tool-forbidden-Agent": true,
+        "tool-forbidden-Skill": true,
+        "tool-forbidden-WebFetch": true,
+        "tool-forbidden-WebSearch": true,
+        "tool-forbidden-ToolSearch": true
+      },
+      "submission": null,
+      "stderr": "",
+      "stdout": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/tmp/claude-profile-forbidden/project\",\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"tools\":[\"ScheduleWakeup\"],\"mcp_servers\":[{\"name\":\"static\",\"status\":\"failed\"}],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"dontAsk\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"review\",\"security-review\",\"insights\",\"team-onboarding\"],\"apiKeySource\":\"ANTHROPIC_API_KEY\",\"claude_code_version\":\"2.1.112\",\"output_style\":\"default\",\"agents\":[\"Explore\",\"general-purpose\",\"Plan\",\"statusline-setup\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"10e43e4f-11dc-428d-b4f6-4350742cb33b\",\"fast_mode_state\":\"off\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Bash\",\"name\":\"Bash\",\"input\":{\"command\":\"touch /tmp/claude-profile-forbidden/forbidden-marker\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"275be154-f697-432c-8742-66798bfab657\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Read\",\"name\":\"Read\",\"input\":{\"file_path\":\"/etc/passwd\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"9723f2e9-f81a-402f-b6fa-15d456deab78\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Write\",\"name\":\"Write\",\"input\":{\"file_path\":\"/tmp/claude-profile-forbidden/forbidden-marker\",\"content\":\"FORBIDDEN\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"ba30b0e0-c8af-4f9c-90ce-b301f8596d45\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Agent\",\"name\":\"Agent\",\"input\":{\"description\":\"forbidden delegation\",\"prompt\":\"create /tmp/claude-profile-forbidden/forbidden-marker\",\"subagent_type\":\"general-purpose\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"e918e6ae-ef6f-478b-9ab0-eac69dc15b79\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Skill\",\"name\":\"Skill\",\"input\":{\"skill\":\"test-forbidden\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"0aff485c-4e52-4082-88ce-bab961a088d3\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-WebFetch\",\"name\":\"WebFetch\",\"input\":{\"url\":\"https://example.com\",\"prompt\":\"fetch\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"9ead0a12-8a03-48fd-b59f-feff5ee9a5b4\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-WebSearch\",\"name\":\"WebSearch\",\"input\":{\"query\":\"forbidden request\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"9f1be27c-d3c6-4abe-a667-8a8f6acba0fe\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-ToolSearch\",\"name\":\"ToolSearch\",\"input\":{\"query\":\"Bash\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"4c5e17f6-2096-4444-947b-d5e8f8c2875c\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Bash. Bash exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Bash\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"341fb6f2-587c-4032-86ef-9ebc3ea6d3cc\",\"timestamp\":\"2026-10-28T21:24:40.984Z\",\"tool_use_result\":\"Error: No such tool available: Bash. Bash exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Read. Read exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Read\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"0dd5f1f9-16f3-4e77-ba5e-93aa4ce6525d\",\"timestamp\":\"2026-10-28T21:24:40.985Z\",\"tool_use_result\":\"Error: No such tool available: Read. Read exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Write. Write exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Write\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"088e2c85-0d1d-4ff2-b87b-e7fc4d2159b3\",\"timestamp\":\"2026-10-28T21:24:40.985Z\",\"tool_use_result\":\"Error: No such tool available: Write. Write exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Agent. Agent exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Agent\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"51b83cc4-f0b5-451c-913c-44b9cc17fdb1\",\"timestamp\":\"2026-10-28T21:24:40.986Z\",\"tool_use_result\":\"Error: No such tool available: Agent. Agent exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Skill. Skill exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Skill\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"51069730-de19-4e2b-ad5e-3bcd803f317e\",\"timestamp\":\"2026-10-28T21:24:40.986Z\",\"tool_use_result\":\"Error: No such tool available: Skill. Skill exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: WebFetch. WebFetch exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-WebFetch\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"1022e60a-ec44-4ce9-b8b7-b86050c34120\",\"timestamp\":\"2026-10-28T21:24:40.986Z\",\"tool_use_result\":\"Error: No such tool available: WebFetch. WebFetch exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: WebSearch. WebSearch exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-WebSearch\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"39cb295b-cd9f-43e5-814a-6771218b3388\",\"timestamp\":\"2026-10-28T21:24:40.987Z\",\"tool_use_result\":\"Error: No such tool available: WebSearch. WebSearch exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: ToolSearch</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-ToolSearch\"}]},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"5c71de68-73de-4762-9454-e5366d08104c\",\"timestamp\":\"2026-10-28T21:24:40.987Z\",\"tool_use_result\":\"Error: No such tool available: ToolSearch\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-2\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"text\",\"text\":\"Offline transport check complete.\"}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"uuid\":\"ba550ebc-c5ad-4c4d-a82c-ebae52c6a813\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":79,\"duration_api_ms\":28,\"num_turns\":9,\"result\":\"Offline transport check complete.\",\"stop_reason\":\"end_turn\",\"session_id\":\"fedd340a-f107-4162-bf56-24dcdc70e7e6\",\"total_cost_usd\":0.0012000000000000001,\"usage\":{\"input_tokens\":200,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":40,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-sonnet-4-6\":{\"inputTokens\":200,\"outputTokens\":40,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.0012000000000000001,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"55818c7c-2b3c-4cc7-814e-9005346d7359\"}\n",
+      "checks": {
+        "completed": true,
+        "exact_nine_init_tools": false,
+        "exact_nine_api_tools": false,
+        "no_forbidden_write": true,
+        "no_hook_execution": true,
+        "all_forbidden_calls_rejected": true
+      },
+      "passed": false
+    },
+    {
+      "case": "conflicting-settings",
+      "exit_code": 0,
+      "init_tools": [
+        "ScheduleWakeup"
+      ],
+      "request_tool_lists": [
+        [
+          "ScheduleWakeup"
+        ],
+        [
+          "ScheduleWakeup"
+        ]
+      ],
+      "api_request_count": 2,
+      "forbidden_marker_absent": true,
+      "hook_marker_absent": true,
+      "tool_result_errors": {
+        "tool-forbidden-Bash": true,
+        "tool-forbidden-Read": true,
+        "tool-forbidden-Write": true,
+        "tool-forbidden-Agent": true,
+        "tool-forbidden-Skill": true,
+        "tool-forbidden-WebFetch": true,
+        "tool-forbidden-WebSearch": true,
+        "tool-forbidden-ToolSearch": true
+      },
+      "submission": null,
+      "stderr": "",
+      "stdout": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/tmp/claude-profile-conflicting-settings/project\",\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"tools\":[\"ScheduleWakeup\"],\"mcp_servers\":[{\"name\":\"static\",\"status\":\"failed\"}],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"dontAsk\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"review\",\"security-review\",\"insights\",\"team-onboarding\"],\"apiKeySource\":\"ANTHROPIC_API_KEY\",\"claude_code_version\":\"2.1.112\",\"output_style\":\"default\",\"agents\":[\"Explore\",\"general-purpose\",\"Plan\",\"statusline-setup\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"0e13d3ef-a2c7-4e1e-bd29-488b6e13b86c\",\"fast_mode_state\":\"off\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Bash\",\"name\":\"Bash\",\"input\":{\"command\":\"touch /tmp/claude-profile-conflicting-settings/forbidden-marker\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"03bd0279-5102-4048-bb6d-abbeb92e8636\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Read\",\"name\":\"Read\",\"input\":{\"file_path\":\"/etc/passwd\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"26b36068-a499-4d3a-b102-be5a820cebcc\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Write\",\"name\":\"Write\",\"input\":{\"file_path\":\"/tmp/claude-profile-conflicting-settings/forbidden-marker\",\"content\":\"FORBIDDEN\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"b820ebc8-a529-455b-8a06-55dd65ad54de\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Agent\",\"name\":\"Agent\",\"input\":{\"description\":\"forbidden delegation\",\"prompt\":\"create /tmp/claude-profile-conflicting-settings/forbidden-marker\",\"subagent_type\":\"general-purpose\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"e83b50e2-e056-470d-819d-e09f78ed339d\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-Skill\",\"name\":\"Skill\",\"input\":{\"skill\":\"test-forbidden\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"004fa6b1-b4c9-4827-a4e6-98f0284b1d88\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-WebFetch\",\"name\":\"WebFetch\",\"input\":{\"url\":\"https://example.com\",\"prompt\":\"fetch\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"d92f21b2-9539-4deb-b135-151bb0ddb54e\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-WebSearch\",\"name\":\"WebSearch\",\"input\":{\"query\":\"forbidden request\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"d043482e-930b-40ed-86a0-0f5cccaaa8f6\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"tool_use\",\"id\":\"tool-forbidden-ToolSearch\",\"name\":\"ToolSearch\",\"input\":{\"query\":\"Bash\"}}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"bdba4ed2-a473-47d1-b887-29317ba6678b\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Bash. Bash exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Bash\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"fa23eb08-79f9-4d29-af3f-6812968a6bc6\",\"timestamp\":\"2026-10-28T21:24:42.653Z\",\"tool_use_result\":\"Error: No such tool available: Bash. Bash exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Read. Read exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Read\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"fc838d58-061d-49a3-8c2b-aacdc468fe78\",\"timestamp\":\"2026-10-28T21:24:42.654Z\",\"tool_use_result\":\"Error: No such tool available: Read. Read exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Write. Write exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Write\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"d2bb1723-e65b-4570-b192-0a80452396d5\",\"timestamp\":\"2026-10-28T21:24:42.654Z\",\"tool_use_result\":\"Error: No such tool available: Write. Write exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Agent. Agent exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Agent\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"2785f700-314a-4e9d-b928-6dc1bb08eee9\",\"timestamp\":\"2026-10-28T21:24:42.654Z\",\"tool_use_result\":\"Error: No such tool available: Agent. Agent exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: Skill. Skill exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-Skill\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"76ebe126-4423-4a06-ba6f-3d6b29ec46c2\",\"timestamp\":\"2026-10-28T21:24:42.655Z\",\"tool_use_result\":\"Error: No such tool available: Skill. Skill exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: WebFetch. WebFetch exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-WebFetch\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"b88a5deb-64f1-4aa0-9afd-0bb89ff34edf\",\"timestamp\":\"2026-10-28T21:24:42.655Z\",\"tool_use_result\":\"Error: No such tool available: WebFetch. WebFetch exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: WebSearch. WebSearch exists but is not enabled in this context. Use one of the available tools instead.</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-WebSearch\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"4c2252b2-74ae-4c91-9a58-5c135d0ec642\",\"timestamp\":\"2026-10-28T21:24:42.655Z\",\"tool_use_result\":\"Error: No such tool available: WebSearch. WebSearch exists but is not enabled in this context. Use one of the available tools instead.\"}\n{\"type\":\"user\",\"message\":{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"content\":\"<tool_use_error>Error: No such tool available: ToolSearch</tool_use_error>\",\"is_error\":true,\"tool_use_id\":\"tool-forbidden-ToolSearch\"}]},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"69b9bba5-050a-47e9-81ca-7be995ab34e0\",\"timestamp\":\"2026-10-28T21:24:42.655Z\",\"tool_use_result\":\"Error: No such tool available: ToolSearch\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-2\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"text\",\"text\":\"Offline transport check complete.\"}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"uuid\":\"8634e6ba-b9ce-4636-9a1d-026ed5aeebf1\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":101,\"duration_api_ms\":25,\"num_turns\":9,\"result\":\"Offline transport check complete.\",\"stop_reason\":\"end_turn\",\"session_id\":\"88e7cefb-d3ac-4771-9f97-ce103fe5c312\",\"total_cost_usd\":0.0012000000000000001,\"usage\":{\"input_tokens\":200,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":40,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-sonnet-4-6\":{\"inputTokens\":200,\"outputTokens\":40,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.0012000000000000001,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"ed2cccd7-8c86-4a36-96cd-16a8eb0fbe59\"}\n",
+      "checks": {
+        "completed": true,
+        "exact_nine_init_tools": false,
+        "exact_nine_api_tools": false,
+        "no_forbidden_write": true,
+        "no_hook_execution": true,
+        "all_forbidden_calls_rejected": true
+      },
+      "passed": false
+    },
+    {
+      "case": "bypass-rejected",
+      "exit_code": 0,
+      "init_tools": [
+        "ScheduleWakeup"
+      ],
+      "request_tool_lists": [
+        [
+          "ScheduleWakeup"
+        ]
+      ],
+      "api_request_count": 1,
+      "forbidden_marker_absent": true,
+      "hook_marker_absent": true,
+      "tool_result_errors": {},
+      "submission": null,
+      "stderr": "",
+      "stdout": "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"/tmp/claude-profile-bypass-rejected/project\",\"session_id\":\"6591b24c-c7f2-48c2-9f12-91fab10d5ac5\",\"tools\":[\"ScheduleWakeup\"],\"mcp_servers\":[{\"name\":\"static\",\"status\":\"failed\"}],\"model\":\"claude-sonnet-4-6\",\"permissionMode\":\"dontAsk\",\"slash_commands\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\",\"compact\",\"context\",\"cost\",\"heapdump\",\"init\",\"review\",\"security-review\",\"insights\",\"team-onboarding\"],\"apiKeySource\":\"ANTHROPIC_API_KEY\",\"claude_code_version\":\"2.1.112\",\"output_style\":\"default\",\"agents\":[\"Explore\",\"general-purpose\",\"Plan\",\"statusline-setup\"],\"skills\":[\"update-config\",\"debug\",\"simplify\",\"batch\",\"less-permission-prompts\",\"loop\",\"claude-api\"],\"plugins\":[],\"uuid\":\"b2f38b0b-5e51-4700-9565-78f55bd6c4f6\",\"fast_mode_state\":\"off\"}\n{\"type\":\"assistant\",\"message\":{\"id\":\"msg-offline-1\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-4-6\",\"content\":[{\"type\":\"text\",\"text\":\"Offline transport check complete.\"}],\"stop_reason\":null,\"stop_sequence\":null,\"usage\":{\"input_tokens\":100,\"output_tokens\":0},\"context_management\":null},\"parent_tool_use_id\":null,\"session_id\":\"6591b24c-c7f2-48c2-9f12-91fab10d5ac5\",\"uuid\":\"026cd678-3723-418e-919e-0817015fd15c\"}\n{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":84,\"duration_api_ms\":19,\"num_turns\":1,\"result\":\"Offline transport check complete.\",\"stop_reason\":\"end_turn\",\"session_id\":\"6591b24c-c7f2-48c2-9f12-91fab10d5ac5\",\"total_cost_usd\":0.0006000000000000001,\"usage\":{\"input_tokens\":100,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":20,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{\"claude-sonnet-4-6\":{\"inputTokens\":100,\"outputTokens\":20,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.0006000000000000001,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"c94904ea-e2f8-49c6-9d05-ad31beedb2bf\"}\n",
+      "checks": {
+        "rejected_before_api": false
+      },
+      "passed": false
+    }
+  ],
+  "bindings": {
+    "/etc/claude-code/managed-settings.json": "35a93f34704a9416953a221d69e2fc68ed22f1ba0fa4d88572e8e7f67019d2b5",
+    "/opt/claude-code/cli.js": "bc3358282800e3e99daa8e71ac5b7b1566bd0d7ca7eb94f714a7859365d3163f",
+    "/opt/static-tools/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "/workspace/target.bin": "74c5d7387079cfe7c45f1ea7a5d9fcac8ef9d6a66441679eb69eaa9e34efd0be",
+    "/opt/test_profile.py": "1902c12c114d84db88d42b27659780d7c49e811f604a5eec8dbd2d1a160885c3"
+  },
+  "limitations": [
+    "Scripted local transport responses are not real model rollouts or measured difficulty.",
+    "No real provider authentication or model availability was tested."
+  ]
+}

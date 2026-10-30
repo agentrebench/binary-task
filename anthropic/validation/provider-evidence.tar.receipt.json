@@ -1,0 +1,12 @@
+{
+  "all_original_bytes_preserved": true,
+  "all_passed": true,
+  "archive": "provider-evidence.tar.gz",
+  "archive_sha256": "81c36b36be42aae128d1304c07846b0c4abc4c9b3c334ad70bc319be205a65de",
+  "bound_original_paths": 1002,
+  "index_member": "INDEX.json",
+  "model_calls": 0,
+  "report_sha256": "c489badfe89aba5b8170b3df1562cce9eb97c3017aba5d28ced664b15e6991fc",
+  "target_executions": 0,
+  "unique_blobs": 347
+}

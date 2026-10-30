@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/openai/tasks/re-ee5729dca243",
+        "source": "tasks"
+    },
+    "trial_name": "re-ee5729dca243__oskth78",
+    "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/openai-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "05aae674-73ac-4610-9930-a6faca3f7ecf"
+}

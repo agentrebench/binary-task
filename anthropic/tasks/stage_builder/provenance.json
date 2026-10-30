@@ -1,0 +1,17 @@
+{
+  "answer_sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+  "artifact_file": "environment/stage_builder.elf",
+  "artifact_sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+  "binary_and_grading_unchanged": true,
+  "calibration_transfer": false,
+  "contract_sha256": "6f29ea07acb8b928bff7427d4d2d6f25c727413f4a54e1994be881cce46c4375",
+  "packaging_parent_revision": "5.1.0",
+  "parent_task_revision": "5.1.1",
+  "previous_task_id": "re-240249cc0123",
+  "provider_profile": "claude-code-2.1.112-managed-static-only",
+  "provider_profile_revision": "1",
+  "revision": "5.1.1",
+  "runtime_artifact_path": "/workspace/target.bin",
+  "source_revision": "5.0.0",
+  "task_id": "stage_builder"
+}

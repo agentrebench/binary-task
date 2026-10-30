@@ -1,0 +1,16 @@
+{
+  "files": {
+    "answer-shape.json": "7fb4690a9b9d6073fdaa993a538455d616d1eb4b4a901a14d6491478dcb418c6",
+    "expected.json": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c",
+    "fixtures.json": "df30e62b3d8436f3ceb4c2681569b35ac412857de53157fee17a5c21c4be36a7",
+    "ground-truth.md": "51a0d40dd010650aeddaf4ab890303c89884dd8e72285f900ead1514fc1b4901",
+    "instruction.md": "e7f91901f208cf9adb5e5a81b7c03ae184a08c5fcfdfecb4633adb90a4c95456",
+    "native-driver.json": "27bfc4969f5865eaed5e637c21281f45c657abc57e599106c680a1d3550f042a",
+    "reference.py": "c1e12deed4edce2f475688774627a05d4603c77b54ac1ea7bbcce77158e99515",
+    "source-input-map.json": "dac73254339602777e48ceb32f73ec15dbaee25ceb849084a307a1bf24fa06e9"
+  },
+  "model_calls": 0,
+  "recorded_at": "2026-10-28T20:24:42.345746+00:00",
+  "schema_version": 1,
+  "scope": "New fixtures and independent reference truth frozen before C core exists."
+}

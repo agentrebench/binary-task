@@ -1,0 +1,139 @@
+{
+  "all_passed": true,
+  "bindings": [
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/fixtures.json",
+      "sha256": "a5e2d76b0115b47930195517f38d92f1b038e08a8a59c752f7b75937d3bf19d6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/expected.json",
+      "sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/answer-shape.json",
+      "sha256": "813f458d8701fc456b88265ad1c7f95efc2bf542bfb5834116d957128a46f4b6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/instruction.md",
+      "sha256": "c59ae3391bc1340ff7993f89962bda027f4c09d4c86fdb24974401a36b4fca1a"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/reference.py",
+      "sha256": "dbc487c5328573c70a5b23059157dbddf5734f8164fa7d098172c14f0a6e816a"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/truth-freeze.json",
+      "sha256": "422a3fbc1b0da9a3f99054ab7fea141db239f8a52e1f8f775583103eb63eb277"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/source-input-map.json",
+      "sha256": "22d62286ea8ea8f5c2bbf684e34793e37ebda76a6881567b3ca40d86665ddf98"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/native-driver.json",
+      "sha256": "c83679964629b3056d424fe8fe547549dc4ce5d352e00a227587d6449392072b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/source/core.cpp",
+      "sha256": "5052b852fd4d036695a28f6caa7c967612adac66f6b0a5fe5d40888c43e3500f"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/source/data.h",
+      "sha256": "8d36ee20d93bea539ce2e5885d8ca92f6deb60be483c6a6b496d60c91cbee1bd"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/target.elf",
+      "sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/symbols.json",
+      "sha256": "5817e311052712397d68e619938db458d87f5f1141db28ca52579f4050fe589b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/disassembly.txt",
+      "sha256": "f0d72323be6940febd2edef86a299000bf6805a16cc2b45ec5f474537c956b63"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/entry.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/build-results.json",
+      "sha256": "c14778a278c2daf83056744542b62b49e15fc0e9b2e372d9760f98e982879a1c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/native-answer.json",
+      "sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/native-words.txt",
+      "sha256": "02014b3ba682da1af3b497c8eb01ffe1d120398524e2a613040e6dddc07a7e9c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/entry-reachability.json",
+      "sha256": "abbadfc999f3fa5e34468e3450b19ddb7042533b6d53d2ba4632dbe699cbde78"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/wrapper-native-validation.json",
+      "sha256": "ee69716a05d3ba526801fbbe51e75995514283b556abb757428851e03ace7f40"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/main-disassembly.txt",
+      "sha256": "376a8b825c009c6271efaa3e019e612bf3fa67948aa8e5627d4a61b957333fa2"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/validation/startup-disassembly.txt",
+      "sha256": "331b5fe150d3a8a108197605010f56f4bcf21ad0851c937dec739e3930c2cb4b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/review/independent-answer.json",
+      "sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/lzwcfg/review/independent-derivation.json",
+      "sha256": "70873c3d22d2bd61bbf17ead07767f2e928d81f53d660f55525cef12005ab22c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/keyevtrans/review/independent_review.py",
+      "sha256": "191269d10a1da6f43686df5adf311d124a29da14882eeaf32a5fb30d775bcc67"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+      "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    }
+  ],
+  "checks": {
+    "actual_stripped_fixture_bytes_match": true,
+    "compiled_dataflow_anchors_reviewed": true,
+    "expected_and_native_agree": true,
+    "freeze_and_build_hashes_match": true,
+    "independent_reconstruction_without_author_reference": true,
+    "model_api_calls": 0,
+    "original_executions": 0,
+    "public_prompt_has_no_addresses_or_private_maps": true,
+    "source_inertness_reviewed": true,
+    "target_executions": 0,
+    "whole_effective_url_not_embedded_literal": true
+  },
+  "claims": [
+    "Independent masked xorshift unpacking and dictionary-of-bytes LZW decoder reconstruct both actual container records.",
+    "Independent zlib checksums distinguish intact first config from corrupted second config; both resolve same synthetic WinHTTP export but only first commits.",
+    "Module hashing folds case; API hashing preserves case. Recovered dispatch is winhttp.dll!WinHttpSendRequest.",
+    "Compiled xorshift shifts at0x15dd/0x15e4/0x15eb, CLEAR/EOF checks0x1651/0x1669 and checksum polynomial0x1219 retain algorithmic work. Integrity and enable flags are combined at0x1c19\u20130x1c25 before active-state copying.",
+    "Full source uses local bounded buffers and fictional API catalog. No module is loaded, API invoked, or network request sent."
+  ],
+  "independent_review": true,
+  "limitations": [
+    "These two streams exercise9-bit dictionary codes, not the decoder width-growth branch.",
+    "CRC32 work without model scripts may dominate difficulty; empirical calibration remains necessary.",
+    "Source/build review plus independent reconstruction does not replace runtime sandbox tests."
+  ],
+  "reviewed_at": "2026-10-28T20:28:08.833755+00:00",
+  "reviewer": "/root/portable_bundle_audit",
+  "schema_version": 1,
+  "task": "lzwcfg"
+}

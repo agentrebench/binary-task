@@ -1,0 +1,202 @@
+{
+  "fields": [
+    {
+      "kind": "ascii",
+      "length_offset": 0,
+      "offset": 1,
+      "path": [
+        "answers",
+        "resolver",
+        "module"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 64,
+      "offset": 65,
+      "path": [
+        "answers",
+        "resolver",
+        "selected_exports",
+        0
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 97,
+      "path": [
+        "answers",
+        "service_tokens",
+        "values",
+        0
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 98,
+      "path": [
+        "answers",
+        "recovery",
+        "used_neighbor",
+        0
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 99,
+      "path": [
+        "answers",
+        "recovery",
+        "higher_address",
+        0
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 100,
+      "path": [
+        "answers",
+        "recovery",
+        "distance_bytes",
+        0
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 101,
+      "offset": 102,
+      "path": [
+        "answers",
+        "recovery",
+        "witness_exports",
+        0
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 160,
+      "offset": 161,
+      "path": [
+        "answers",
+        "resolver",
+        "selected_exports",
+        1
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 193,
+      "path": [
+        "answers",
+        "service_tokens",
+        "values",
+        1
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 194,
+      "path": [
+        "answers",
+        "recovery",
+        "used_neighbor",
+        1
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 195,
+      "path": [
+        "answers",
+        "recovery",
+        "higher_address",
+        1
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 196,
+      "path": [
+        "answers",
+        "recovery",
+        "distance_bytes",
+        1
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 197,
+      "offset": 198,
+      "path": [
+        "answers",
+        "recovery",
+        "witness_exports",
+        1
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 256,
+      "offset": 257,
+      "path": [
+        "answers",
+        "resolver",
+        "selected_exports",
+        2
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 289,
+      "path": [
+        "answers",
+        "service_tokens",
+        "values",
+        2
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 290,
+      "path": [
+        "answers",
+        "recovery",
+        "used_neighbor",
+        2
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 291,
+      "path": [
+        "answers",
+        "recovery",
+        "higher_address",
+        2
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 292,
+      "path": [
+        "answers",
+        "recovery",
+        "distance_bytes",
+        2
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 293,
+      "offset": 294,
+      "path": [
+        "answers",
+        "recovery",
+        "witness_exports",
+        2
+      ]
+    }
+  ],
+  "output_words": 352,
+  "return_value": 0
+}

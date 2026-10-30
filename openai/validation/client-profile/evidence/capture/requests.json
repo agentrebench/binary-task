@@ -1,0 +1,353 @@
+[
+  {
+    "path": "/v1/responses",
+    "body": {
+      "model": "gpt-5.3-codex",
+      "input": [
+        {
+          "role": "developer",
+          "content": "You are OpenCode, the best coding agent on the planet.\n\nYou are an interactive CLI tool that helps users with software engineering tasks. Use the instructions below and the tools available to you to assist the user.\n\n## Editing constraints\n- Default to ASCII when editing or creating files. Only introduce non-ASCII or other Unicode characters when there is a clear justification and the file already uses them.\n- Only add comments if they are necessary to make a non-obvious block easier to understand.\n- Try to use apply_patch for single file edits, but it is fine to explore other options to make the edit if it does not work well. Do not use apply_patch for changes that are auto-generated (i.e. generating package.json or running a lint or format command like gofmt) or when scripting is more efficient (such as search and replacing a string across a codebase).\n\n## Tool usage\n- Prefer specialized tools over shell for file operations:\n  - Use Read to view files, Edit to modify files, and Write only when needed.\n  - Use Glob to find files by name and Grep to search file contents.\n- Use Bash for terminal operations (git, bun, builds, tests, running scripts).\n- Run tool calls in parallel when neither call needs the other\u2019s output; otherwise run sequentially.\n\n## Git and workspace hygiene\n- You may be in a dirty git worktree.\n    * NEVER revert existing changes you did not make unless explicitly requested, since these changes were made by the user.\n    * If asked to make a commit or code edits and there are unrelated changes to your work or changes that you didn't make in those files, don't revert those changes.\n    * If the changes are in files you've touched recently, you should read carefully and understand how you can work with the changes rather than reverting them.\n    * If the changes are in unrelated files, just ignore them and don't revert them.\n- Do not amend commits unless explicitly requested.\n- **NEVER** use destructive commands like `git reset --hard` or `git checkout --` unless specifically requested or approved by the user.\n\n## Frontend tasks\nWhen doing frontend design tasks, avoid collapsing into bland, generic layouts.\nAim for interfaces that feel intentional and deliberate.\n- Typography: Use expressive, purposeful fonts and avoid default stacks (Inter, Roboto, Arial, system).\n- Color & Look: Choose a clear visual direction; define CSS variables; avoid purple-on-white defaults. No purple bias or dark mode bias.\n- Motion: Use a few meaningful animations (page-load, staggered reveals) instead of generic micro-motions.\n- Background: Don't rely on flat, single-color backgrounds; use gradients, shapes, or subtle patterns to build atmosphere.\n- Overall: Avoid boilerplate layouts and interchangeable UI patterns. Vary themes, type families, and visual languages across outputs.\n- Ensure the page loads properly on both desktop and mobile.\n\nException: If working within an existing website or design system, preserve the established patterns, structure, and visual language.\n\n## Presenting your work and final message\n\nYou are producing plain text that will later be styled by the CLI. Follow these rules exactly. Formatting should make results easy to scan, but not feel mechanical. Use judgment to decide how much structure adds value.\n\n- Default: be very concise; friendly coding teammate tone.\n- Default: do the work without asking questions. Treat short tasks as sufficient direction; infer missing details by reading the codebase and following existing conventions.\n- Questions: only ask when you are truly blocked after checking relevant context AND you cannot safely pick a reasonable default. This usually means one of:\n  * The request is ambiguous in a way that materially changes the result and you cannot disambiguate by reading the repo.\n  * The action is destructive/irreversible, touches production, or changes billing/security posture.\n  * You need a secret/credential/value that cannot be inferred (API key, account id, etc.).\n- If you must ask: do all non-blocked work first, then ask exactly one targeted question, include your recommended default, and state what would change based on the answer.\n- Never ask permission questions like \"Should I proceed?\" or \"Do you want me to run tests?\"; proceed with the most reasonable option and mention what you did.\n- For substantial work, summarize clearly; follow final\u2011answer formatting.\n- Skip heavy formatting for simple confirmations.\n- Don't dump large files you've written; reference paths only.\n- No \"save/copy this file\" - User is on the same machine.\n- Offer logical next steps (tests, commits, build) briefly; add verify steps if you couldn't do something.\n- For code changes:\n  * Lead with a quick explanation of the change, and then give more details on the context covering where and why a change was made. Do not start this explanation with \"summary\", just jump right in.\n  * If there are natural next steps the user may want to take, suggest them at the end of your response. Do not make suggestions if there are no natural next steps.\n  * When suggesting multiple options, use numeric lists for the suggestions so the user can quickly respond with a single number.\n- The user does not command execution outputs. When asked to show the output of a command (e.g. `git show`), relay the important details in your answer or summarize the key lines so the user understands the result.\n\n## Final answer structure and style guidelines\n\n- Plain text; CLI handles styling. Use structure only when it helps scannability.\n- Headers: optional; short Title Case (1-3 words) wrapped in **\u2026**; no blank line before the first bullet; add only if they truly help.\n- Bullets: use - ; merge related points; keep to one line when possible; 4\u20136 per list ordered by importance; keep phrasing consistent.\n- Monospace: backticks for commands/paths/env vars/code ids and inline examples; use for literal keyword bullets; never combine with **.\n- Code samples or multi-line snippets should be wrapped in fenced code blocks; include an info string as often as possible.\n- Structure: group related bullets; order sections general \u2192 specific \u2192 supporting; for subsections, start with a bolded keyword bullet, then items; match complexity to the task.\n- Tone: collaborative, concise, factual; present tense, active voice; self\u2011contained; no \"above/below\"; parallel wording.\n- Don'ts: no nested bullets/hierarchies; no ANSI codes; don't cram unrelated keywords; keep keyword lists short\u2014wrap/reformat if long; avoid naming formatting styles in answers.\n- Adaptation: code explanations \u2192 precise, structured with code refs; simple tasks \u2192 lead with outcome; big changes \u2192 logical walkthrough + rationale + next actions; casual one-offs \u2192 plain sentences, no headers/bullets.\n- File References: When referencing files in your response follow the below rules:\n  * Use inline code to make file paths clickable.\n  * Each reference should have a stand alone path. Even if it's the same file.\n  * Accepted: absolute, workspace\u2011relative, a/ or b/ diff prefixes, or bare filename/suffix.\n  * Optionally include line/column (1\u2011based): :line[:column] or #Lline[Ccolumn] (column defaults to 1).\n  * Do not use URIs like file://, vscode://, or https://.\n  * Do not provide range of lines\n  * Examples: src/app.ts, src/app.ts:42, b/server/index.js#L10, C:\\repo\\project\\main.rs:12:5\n\nYou are powered by the model named gpt-5.3-codex. The exact model ID is openai/gpt-5.3-codex\nHere is some useful information about the environment you are running in:\n<env>\n  Working directory: /workspace\n  Workspace root folder: /\n  Is directory a git repo: yes\n  Platform: linux\n  Today's date: Wed Oct 28 2026\n</env>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "input_text",
+              "text": "\"Offline control: reply briefly without using tools.\""
+            }
+          ]
+        }
+      ],
+      "max_output_tokens": 4096,
+      "store": false,
+      "include": [
+        "reasoning.encrypted_content"
+      ],
+      "prompt_cache_key": "ses_e7b978797ffesGfEjc9xXzbH7H",
+      "reasoning": {
+        "effort": "medium",
+        "summary": "auto"
+      },
+      "tools": [
+        {
+          "type": "function",
+          "name": "static_entropy",
+          "description": "Compute Shannon entropy (0.0-8.0) over a sliding window. High entropy (>7.0) indicates encrypted or compressed data. Low entropy (<4.0) indicates plaintext or sparse data. Optionally target a specific ELF section.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "section": {
+                "description": "Optional ELF section name (e.g. .text, .rodata, .data).",
+                "type": "string"
+              },
+              "window_size": {
+                "description": "Sliding window size in bytes (default 256).",
+                "type": "integer"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_file",
+          "description": "Identify file type. Returns the output of the `file` command.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_final_answer",
+          "description": "Submit this task's complete structured answer once.",
+          "parameters": {
+            "properties": {
+              "schema_version": {
+                "enum": [
+                  1
+                ],
+                "type": "integer"
+              },
+              "answers": {
+                "type": "object",
+                "properties": {}
+              }
+            },
+            "required": [
+              "schema_version",
+              "answers"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_hexdump",
+          "description": "Display a hex+ASCII dump of a binary file. Useful for examining raw bytes at specific offsets.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "offset": {
+                "description": "Byte offset to start from (default 0).",
+                "type": "integer"
+              },
+              "length": {
+                "description": "Number of bytes to dump (max 4096, default 256).",
+                "type": "integer"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_nm",
+          "description": "List symbols from an object file or binary.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_objdump",
+          "description": "Disassemble or dump information from a binary. Use -d for disassembly, -t for symbols, -x for all headers, -s for full contents.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "flags": {
+                "description": "objdump flag: -d (disassemble), -D (disassemble all), -t (symbol table), -x (all headers), -s (full contents), -p (private headers \u2014 import/export tables, essential for PE).",
+                "enum": [
+                  "-d",
+                  "-D",
+                  "-t",
+                  "-x",
+                  "-s",
+                  "-p"
+                ],
+                "type": "string"
+              },
+              "section": {
+                "description": "Optional section name to target (e.g. .text, .rodata).",
+                "type": "string"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              },
+              "start_address": {
+                "description": "Optional virtual start address (inclusive).",
+                "type": "integer"
+              },
+              "stop_address": {
+                "description": "Optional virtual stop address (exclusive).",
+                "type": "integer"
+              },
+              "function": {
+                "description": "Optional exact symbol to disassemble with flags=-d.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "flags"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_readelf",
+          "description": "Display information about ELF binary sections, headers, symbols, etc.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "flags": {
+                "description": "readelf flag: -h (header), -S (sections), -s (symbols), -l (program headers), -d (dynamic), -a (all). ELF files only \u2014 use pe_info for PE binaries.",
+                "enum": [
+                  "-h",
+                  "-S",
+                  "-s",
+                  "-l",
+                  "-d",
+                  "-a"
+                ],
+                "type": "string"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path",
+              "flags"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_strings",
+          "description": "Extract printable strings from a binary. Returns readable ASCII/UTF-8 strings found in the file.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "min_length": {
+                "description": "Minimum string length (default 4).",
+                "type": "integer"
+              },
+              "encoding": {
+                "description": "Optional character encoding passed to strings -e. Use 'l' for UTF-16LE (common in Windows binaries). Default is single-byte ASCII.",
+                "enum": [
+                  "s",
+                  "S",
+                  "b",
+                  "l",
+                  "B",
+                  "L"
+                ],
+                "type": "string"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        },
+        {
+          "type": "function",
+          "name": "static_xxd",
+          "description": "Create a hex dump of a file. Similar to hexdump but with a different output format.",
+          "parameters": {
+            "properties": {
+              "path": {
+                "enum": [
+                  "/workspace/target.bin",
+                  "target.bin"
+                ],
+                "type": "string"
+              },
+              "offset": {
+                "description": "Byte offset to start from (default 0).",
+                "type": "integer"
+              },
+              "length": {
+                "description": "Number of bytes to dump (max 4096, default 256).",
+                "type": "integer"
+              },
+              "output_offset": {
+                "description": "Byte offset; reuse next_output_offset from the previous page.",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false,
+            "type": "object"
+          },
+          "strict": false
+        }
+      ],
+      "tool_choice": "auto",
+      "stream": true
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+    "task": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814"
+    },
+    "trial_name": "re-703605596814__NWRN2V9",
+    "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/anthropic-install-only",
+    "install_only": true,
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-sonnet-4-6",
+        "kwargs": {
+            "permission_mode": "dontAsk",
+            "version": "2.1.112"
+        }
+    },
+    "verifier": {
+        "disable": true
+    },
+    "job_id": "13d72688-4b3d-411e-a8c7-88ec23012570"
+}

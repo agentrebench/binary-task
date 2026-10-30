@@ -1,0 +1,3 @@
+Analyze this artifact statically. Recover which browser-profile database it selects from its embedded data, which cookie records it retains, and the export request it constructs in memory.
+
+Submit three groups using the supplied answer shape. `profile.database` is the complete selected database path. `cookies.records` lists the final retained records in export order, with their domain, name, value and expiry in Unix seconds. `export` gives the effective method, URL and exact request body; preserve tabs and trailing newlines. Report the implemented selection and decoding behavior for the selected artifacts. The supplied records are fictional; do not execute the artifact or contact any destination.

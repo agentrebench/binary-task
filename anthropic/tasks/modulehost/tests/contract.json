@@ -1,0 +1,101 @@
+{
+  "answer_shape": {
+    "imports": {
+      "bindings": [
+        {
+          "requested": "string",
+          "resolved": "string"
+        }
+      ]
+    },
+    "mapping": {
+      "entrypoint": "integer",
+      "image": "string",
+      "rejected_sections": [
+        "string"
+      ],
+      "sections": [
+        "string"
+      ]
+    },
+    "rejected": {
+      "imports": [
+        {
+          "reason": "string",
+          "requested": "string"
+        }
+      ]
+    },
+    "relocations": {
+      "rvas": [
+        "integer"
+      ],
+      "skipped_rvas": [
+        "integer"
+      ],
+      "values": [
+        "integer"
+      ]
+    }
+  },
+  "expected": {
+    "imports": {
+      "bindings": [
+        {
+          "requested": "KERNEL32.dll!VirtualAlloc",
+          "resolved": "KERNELBASE.dll!VirtualAlloc"
+        },
+        {
+          "requested": "KERNELBASE.dll!#11",
+          "resolved": "KERNELBASE.dll!VirtualProtect"
+        },
+        {
+          "requested": "NTDLL.dll!#100",
+          "resolved": "NTDLL.dll!NtProtectVirtualMemory"
+        }
+      ]
+    },
+    "mapping": {
+      "entrypoint": 6710890560,
+      "image": "telemetry_stage.dll",
+      "rejected_sections": [
+        ".decoy"
+      ],
+      "sections": [
+        ".text",
+        ".rdata",
+        ".data"
+      ]
+    },
+    "rejected": {
+      "imports": [
+        {
+          "reason": "forwarder-cycle",
+          "requested": "KERNEL32.dll!LoopAlias"
+        },
+        {
+          "reason": "ordinal-out-of-range",
+          "requested": "KERNELBASE.dll!#99"
+        },
+        {
+          "reason": "missing-export",
+          "requested": "KERNEL32.dll!CreateFileW"
+        }
+      ]
+    },
+    "relocations": {
+      "rvas": [
+        12288,
+        12296
+      ],
+      "skipped_rvas": [
+        12304
+      ],
+      "values": [
+        6710894672,
+        6710890560
+      ]
+    }
+  },
+  "schema_version": 1
+}

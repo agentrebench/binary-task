@@ -1,0 +1,19 @@
+{
+  "amendment": "Pre-implementation review corrected explanatory prose to the actual independently computed 129-byte fixture. Inputs, expected answers and reference are unchanged; no source existed.",
+  "files": {
+    "answer-shape.json": "c09da2d98dc7e2b15accbb993be9e046662a14cc428dd6b59705c19220f108e7",
+    "expected.json": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+    "fixtures.json": "aa807690e3cf59b894337cf91cd7d9a6146175eba5208c1dd0da2abc720cec2c",
+    "ground-truth.md": "6eca458906589cf54a62aa9b868db41aeb3737ddc9a1fc2141e186cecc03d8b0",
+    "instruction.md": "c19df7b6dcf1c410bf4c87c71f7334b7e8fa46f102c58f1f57014c1a899f51e6",
+    "native-driver.json": "05b0f3ecb22fd85046932d15aec6b725cfe989fa2af7e13660a02ccc3ad590fe",
+    "reference.py": "07143acec823c718bf4d139723281bcf480daa8296aca70a24a6ddcbf41ca0b3",
+    "source-input-map.json": "60a8de24441b080b7f8a357ab1b664d7dba2a8810df1ceb16b22ec10513d748b"
+  },
+  "implementation_files_absent": true,
+  "model_calls": 0,
+  "prior_freeze_sha256": "f732edac46db4c5e1854ec62df6d5e602a985b1f1e5f05856eb648f62a99f25b",
+  "recorded_at": "2026-10-28T20:25:24.162590+00:00",
+  "schema_version": 1,
+  "scope": "Inputs and independent reference answers frozen before implementation source creation."
+}

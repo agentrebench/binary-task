@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!compat_host.elf
+!answer-shape.json
+!opencode-managed.json
+!runtime/
+!runtime/**

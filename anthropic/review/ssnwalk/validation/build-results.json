@@ -1,0 +1,129 @@
+{
+  "build_driver": {
+    "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+    "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+  },
+  "core_not_retained_by_undefined_flag": true,
+  "entry_reachability": {
+    "path": "private_eval/harbor/rl-samples-v5/ssnwalk/validation/entry-reachability.json",
+    "sha256": "8af68eecb0562b875202d9af76ef963e4261458b83875a5e0d76958035315a24"
+  },
+  "entry_virtual_address": "0x1290",
+  "entry_wrapper_copy_sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041",
+  "entry_wrapper_source": {
+    "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  },
+  "ground_truth_claim": "Independent fixture model + separately compiled native source agree; human compiled-code review remains separate.",
+  "imports": [
+    "_ITM_deregisterTMCloneTable",
+    "_ITM_registerTMCloneTable",
+    "__cxa_finalize",
+    "__gmon_start__",
+    "__libc_start_main",
+    "__stack_chk_fail"
+  ],
+  "independent_reference_matches_frozen_truth": true,
+  "language": "C",
+  "model_api_calls": 0,
+  "native_asan_ubsan_clean": true,
+  "native_canaries_and_three_repeats": true,
+  "native_compile": [
+    "gcc",
+    "-std=c11",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/source/core.c",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/validation/core-native.o"
+  ],
+  "native_matches_frozen_truth": true,
+  "native_word_count": 352,
+  "native_wrapper_validation": {
+    "path": "private_eval/harbor/rl-samples-v5/ssnwalk/validation/wrapper-native-validation.json",
+    "sha256": "8358bef96748991551600ac83d0841e7019dea7ff2c17b688130f27effe0be80"
+  },
+  "no_exported_authored_names": true,
+  "no_syscall_instructions": true,
+  "no_writable_executable_segments": true,
+  "ordinary_elf_entry_virtual_address": "0x10e0",
+  "ordinary_entry_reaches_core": true,
+  "ordinary_main_virtual_address": "0x1060",
+  "original_executions": 0,
+  "passed": true,
+  "rebuild_identical": true,
+  "recorded_at": "2026-10-28T20:26:14.720283+00:00",
+  "reference_native_arch": "aarch64",
+  "sanitizer_scope": "C/C++ core and C driver",
+  "source_files": {
+    "source/core.c": "094ac371cdb352d267295266006a910abd732d7a966889b17b3f69d84d4c61cd",
+    "source/fixture_data.inc": "5d7066d3be2a22621043f44ab55583cf85bb951600bde2d43958f9b5b458aa39"
+  },
+  "source_input_checks": [
+    {
+      "address": "0x2288",
+      "bytes": 10,
+      "sha256": "f134ecd36f1ab9a5a76dfc27cef8aedc5099c3a2c03ed9662c61fe1d8f431ab3",
+      "symbol": "module_bytes"
+    },
+    {
+      "address": "0x2140",
+      "bytes": 324,
+      "sha256": "2c620d33645adb377553e31ddd612ded722e71544866b7e1557862061fae3866",
+      "symbol": "export_directory"
+    },
+    {
+      "address": "0x2020",
+      "bytes": 288,
+      "sha256": "efa390cfa0d945741340ab169ff4cfd3069c9dc6ab21077adf2b4d985ef5b22b",
+      "symbol": "stub_pages"
+    },
+    {
+      "address": "0x2000",
+      "bytes": 12,
+      "sha256": "b082911196c53a66e4fe931356a632016ab64b9f8674a63d0a8905865da2e665",
+      "symbol": "query_hashes"
+    }
+  ],
+  "strip_preserves_section_bytes": true,
+  "stripped_and_debug_free": true,
+  "target_bytes": 14384,
+  "target_compile": [
+    "x86_64-linux-gnu-gcc",
+    "-std=c11",
+    "-O2",
+    "-g0",
+    "-fno-ident",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/source/core.c",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/core.o"
+  ],
+  "target_executions": 0,
+  "target_link": [
+    "x86_64-linux-gnu-gcc",
+    "-std=c11",
+    "-O2",
+    "-fno-ident",
+    "-g0",
+    "-DOUTPUT_WORDS=352",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/entry.c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/core.o",
+    "-Wl,--build-id=none,--gc-sections,--strip-debug",
+    "-Wl,--undefined=module_bytes",
+    "-Wl,--undefined=export_directory",
+    "-Wl,--undefined=stub_pages",
+    "-Wl,--undefined=query_hashes",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/ssnwalk/unstripped.elf"
+  ],
+  "target_not_executable_file_mode": "0o444",
+  "target_sha256": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+  "task_id": "ssnwalk",
+  "truth_freeze_sha256": "02fb1db2f97aee7a4527e78d3dc96c0a86eda55b306906b04b7cdffe02181ea4"
+}

@@ -1,0 +1,18 @@
+{
+  "symbols": [
+    {
+      "expected_hex": "dec0dec03c003c84f4470fe11803fd77766d3fa977216e883bea4ebc11f84e63201d6ade1ee3245e98e7e0f873f3c89dddae01f644e93b1c5bfba39388498768237c785634123a00a53ac891b82d4aa9a5116ef92896c3a899a6f8ca7f973f265bd55c9dfecbf38fc1dfa014d858fedf2603ca889dee54c4fe556b5957ea22060ace",
+      "fixture_path": [
+        "container_hex"
+      ],
+      "symbol": "fixture_container"
+    },
+    {
+      "expected_hex": "0b77696e696e65742e646c6c104874747053656e6452657175657374410b57494e485454502e444c4c1257696e4874747053656e64526571756573740b77696e687474702e646c6c1657696e4874747052656365697665526573706f6e7365",
+      "fixture_path": [
+        "exports_hex"
+      ],
+      "symbol": "fixture_exports"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "assertions": [
+    {
+      "equals": 2,
+      "offset": 767
+    }
+  ],
+  "fields": [
+    {
+      "kind": "ascii",
+      "length_offset": 0,
+      "offset": 1,
+      "path": [
+        "answers",
+        "profile",
+        "database"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 128,
+      "offset": 129,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        0,
+        "domain"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 160,
+      "offset": 161,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        0,
+        "name"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 192,
+      "offset": 193,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        0,
+        "value"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 224,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        0,
+        "expires"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 256,
+      "offset": 257,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        1,
+        "domain"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 288,
+      "offset": 289,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        1,
+        "name"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 320,
+      "offset": 321,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        1,
+        "value"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 352,
+      "path": [
+        "answers",
+        "cookies",
+        "records",
+        1,
+        "expires"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 384,
+      "offset": 385,
+      "path": [
+        "answers",
+        "export",
+        "method"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 400,
+      "offset": 401,
+      "path": [
+        "answers",
+        "export",
+        "url"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 480,
+      "offset": 481,
+      "path": [
+        "answers",
+        "export",
+        "body"
+      ]
+    }
+  ],
+  "output_words": 768,
+  "return_value": 0
+}

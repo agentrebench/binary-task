@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!sysbridge.elf
+!answer-shape.json
+!claude-managed-settings.json
+!runtime/
+!runtime/**

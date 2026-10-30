@@ -1,0 +1,70 @@
+{
+    "schema_version": 3,
+    "created_at": "2026-10-28T21:30:12.972777Z",
+    "harbor": {
+        "version": "0.25.0",
+        "is_editable": false
+    },
+    "n_concurrent_trials": 4,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "AgentSafetyRefusalError",
+            "AgentAuthenticationError",
+            "VerifierOutputParseError",
+            "VerifierTimeoutError",
+            "ModelNotFoundError",
+            "UnsupportedModelParametersError",
+            "RewardFileEmptyError",
+            "AgentTimeoutError",
+            "RewardFileNotFoundError",
+            "ApiUsageLimitError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "schema_version": 2,
+            "task": {
+                "name": "re-703605596814",
+                "version": "5.1.1",
+                "type": "local",
+                "digest": "sha256:ef92ec235430c346a58d34221a95aa037817aed9223bf1f3a0890005b98749b7",
+                "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/openai/tasks/re-703605596814"
+            },
+            "install_only": true,
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "opencode",
+                "model_name": "openai/gpt-5.4",
+                "skip_model_parsing": false,
+                "skills": [],
+                "resume_trajectory": false,
+                "extra_allowed_hosts": [],
+                "kwargs": {
+                    "version": "1.19.5"
+                },
+                "mcp_servers": []
+            },
+            "bridge_inputs": {},
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "stream": false,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "disable": true,
+                "environment_mode": "separate"
+            }
+        }
+    ]
+}

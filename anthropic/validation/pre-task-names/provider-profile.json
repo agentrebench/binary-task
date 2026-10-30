@@ -1,0 +1,81 @@
+{
+  "agent_kwargs": {
+    "permission_mode": "dontAsk",
+    "version": "2.1.112"
+  },
+  "allowed_hosts": [
+    "api.anthropic.com"
+  ],
+  "credential_environment_variable": "ANTHROPIC_API_KEY",
+  "docker_preinstall": "RUN npm install --global --omit=optional --ignore-scripts @anthropic-ai/claude-code@2.1.112",
+  "environment_files_add": [
+    "claude-managed-settings.json"
+  ],
+  "environment_files_remove": [
+    "gemini-system-settings.json"
+  ],
+  "expected_tool_names": [
+    "mcp__static__file",
+    "mcp__static__strings",
+    "mcp__static__readelf",
+    "mcp__static__objdump",
+    "mcp__static__nm",
+    "mcp__static__hexdump",
+    "mcp__static__xxd",
+    "mcp__static__entropy",
+    "mcp__static__final_answer"
+  ],
+  "harbor_agent": "claude-code",
+  "harbor_version": "0.25.0",
+  "managed_settings_path": "/etc/claude-code/managed-settings.json",
+  "model_selector": "anthropic/REVIEWER_MODEL_ID",
+  "profile_id": "claude-code-2.1.112-managed-static-only",
+  "profile_revision": "1",
+  "provider": "anthropic",
+  "release": {
+    "integrity": "sha512-9FUgJ0EOvILyhIqxFKNVliebiUjL68dwpEW3eGSSe0vkVDJ1c5qMDNWc22gW3zkD7zRAqtfQPSGv0t4vMM2DPA==",
+    "npm_package": "@anthropic-ai/claude-code",
+    "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.112.tgz",
+    "version": "2.1.112"
+  },
+  "source_manifest_sha256": "2dcb8fa0e922ed3bf866e5a2dc9cebba41e66b7eaa3bc934da75f216ee5ad12b",
+  "task_content_unchanged": true,
+  "task_revision": "5.1.1",
+  "tasks": [
+    {
+      "answer_sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+      "binary_sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+      "task": "re-240249cc0123"
+    },
+    {
+      "answer_sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+      "binary_sha256": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+      "task": "re-55a4b5ca278d"
+    },
+    {
+      "answer_sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+      "binary_sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+      "task": "re-67cbf1857130"
+    },
+    {
+      "answer_sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+      "binary_sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+      "task": "re-703605596814"
+    },
+    {
+      "answer_sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c",
+      "binary_sha256": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+      "task": "re-adeefd1c539e"
+    },
+    {
+      "answer_sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+      "binary_sha256": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+      "task": "re-d628c5a314d6"
+    },
+    {
+      "answer_sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc",
+      "binary_sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+      "task": "re-ee5729dca243"
+    }
+  ]
+}

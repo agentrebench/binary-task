@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "disableBypassPermissionsMode": "disable",
+    "allow": [
+      "mcp__static__file", "mcp__static__strings", "mcp__static__readelf",
+      "mcp__static__objdump", "mcp__static__nm", "mcp__static__hexdump",
+      "mcp__static__xxd", "mcp__static__entropy", "mcp__static__final_answer"
+    ],
+    "deny": [
+      "Agent", "Task", "Bash", "PowerShell", "Glob", "Grep", "Read", "Edit",
+      "Write", "NotebookEdit", "WebFetch", "WebSearch", "TodoWrite",
+      "TaskCreate", "TaskUpdate", "TaskGet", "TaskList", "TaskOutput", "TaskStop",
+      "AskUserQuestion", "EnterPlanMode", "ExitPlanMode", "Skill", "LSP",
+      "ToolSearch", "EnterWorktree", "ExitWorktree", "SendMessage", "TeamCreate",
+      "TeamDelete", "CronCreate", "CronDelete", "CronList", "Monitor",
+      "SendUserMessage", "ScheduleWakeup", "ListMcpResourcesTool", "ReadMcpResourceTool"
+    ]
+  },
+  "allowManagedPermissionRulesOnly": true,
+  "allowManagedMcpServersOnly": true,
+  "allowedMcpServers": [
+    {"serverCommand": ["python3", "-I", "/opt/static-tools/server.py"]}
+  ],
+  "disableAllHooks": true,
+  "disableSkillShellExecution": true,
+  "strictKnownMarketplaces": [],
+  "autoMemoryEnabled": false,
+  "skillOverrides": {
+    "update-config": "off", "debug": "off", "simplify": "off", "batch": "off",
+    "less-permission-prompts": "off", "loop": "off", "claude-api": "off"
+  },
+  "env": {
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_AUTO_MEMORY": "1",
+    "ENABLE_TOOL_SEARCH": "false",
+    "DISABLE_AUTOUPDATER": "1"
+  }
+}

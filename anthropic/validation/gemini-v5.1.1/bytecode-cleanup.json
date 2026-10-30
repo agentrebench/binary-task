@@ -1,0 +1,46 @@
+{
+  "all_remaining_package_bytes_unchanged": true,
+  "historical_report_sha256": "3c42a6f9a83b39b77e7f52e277aecd498dd5bec8282f79e2c0cc6b7f2c72ca92",
+  "rationale": "Independent reviewer imports generated tests/__pycache__. Every verifier Dockerfile explicitly copies only verifier.py, contract.json, and test.sh; removed .pyc files are outside those COPY inputs. Agent builds use a separate environment context with an allowlist .dockerignore. No executed image source bytes changed. Original review report and utility are preserved under history/pre-bytecode-cleanup.",
+  "removed": [
+    {
+      "bytes": 9111,
+      "path": "tasks/re-240249cc0123/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "aad4806b75c10d5b4db530846b83e139641523d7089f754b416b802419c21d7e"
+    },
+    {
+      "bytes": 9111,
+      "path": "tasks/re-55a4b5ca278d/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "6b060d915a206d3c043192331a86155a53c124c81860e247643f77e3433f4cb6"
+    },
+    {
+      "bytes": 9111,
+      "path": "tasks/re-67cbf1857130/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "844a39774a6c4ecc4b9b65a3e41706467c50b220aa85c464e2c5dbd87f014f05"
+    },
+    {
+      "bytes": 9111,
+      "path": "tasks/re-703605596814/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "9b02faa3283df6922b21b222d132edbf778f516338e807ae5201176209e73a01"
+    },
+    {
+      "bytes": 9111,
+      "path": "tasks/re-adeefd1c539e/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "33679dc78efca2be7b669b5a3c0eea0f7c29a4a759bd05eb4f2a9d5ffc4e11a4"
+    },
+    {
+      "bytes": 9111,
+      "path": "tasks/re-d628c5a314d6/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "5bdb5305f118e201b939c40bcfde7a951d9cb7f21e2484e0dad426b5b5a6c307"
+    },
+    {
+      "bytes": 9111,
+      "path": "tasks/re-ee5729dca243/tests/__pycache__/verifier.cpython-312.pyc",
+      "sha256": "96355a80b948d26baab686eb5d62a3eebb552ee9b7ae567dbf61b2dbe46a063a"
+    }
+  ],
+  "removed_only_review_generated_bytecode": true,
+  "reviewer_prevents_future_bytecode": true,
+  "runtime_rerun_required": false,
+  "task_and_runtime_code_changed": false
+}

@@ -1,0 +1,613 @@
+{
+  "all_passed": true,
+  "bindings": {
+    "private_eval/harbor/marketplace-v1/authoring/export_package.py": "41ae92284df2bf386bc49e878ad6a704d235216added849e2bbcfa61ab5b5144",
+    "private_eval/harbor/marketplace-v1/authoring/make_controls.py": "edaf28be5f9366c08b5606c9dee03e1a9637be605e1a848a997c302d8c3755d9",
+    "private_eval/harbor/marketplace-v1/authoring/stage_candidates.py": "60ec895b17695c1d33c7382201e47fb6ebceb761693457b641898c27d50980ec",
+    "private_eval/harbor/marketplace-v1/package/README.md": "6c2fc91922de1d6f2eea509102078a33e1e076ad4f11ddb0cbffa47a6707b582",
+    "private_eval/harbor/marketplace-v1/package/native-profile.md": "fc210c3fdc3e383650b5a8f3efa6504dd5900446f185800bba73cf71a1e598d4",
+    "private_eval/harbor/marketplace-v1/package/review/README.md": "a0e9dcadaf1e7aa31338429032419c89bcbf2a2134ab10b22b96d0e97a224dfa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/answer-shape.json": "c09da2d98dc7e2b15accbb993be9e046662a14cc428dd6b59705c19220f108e7",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/environment/target.bin": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/instruction.md": "b3f60c95a3e35a2752ef51f87c8c1c1298db8ca4432b62d2eee781ed60a695f0",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/provenance.json": "e1fec0490bf62274d183e5d64a98047dda0a0e6b77e3b9fcdb015b1f9e009e32",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/solution/answer.json": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/task.toml": "d6b5dbe1c919917774424be6bccdad1a5953b4546595e8e9bfcceed69ba2d385",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/tests/contract.json": "6f29ea07acb8b928bff7427d4d2d6f25c727413f4a54e1994be881cce46c4375",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-240249cc0123/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/answer-shape.json": "d914c4c86adfcf9f3a9796640d05a1b517c33e4b24ea3dda97fc1115444d0624",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/environment/target.bin": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/instruction.md": "e98ac36ac8dc95ea28e9017b8a46ddf719ccbd555514b63b9943d7607d42e95e",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/provenance.json": "359a5a14d08fcc8467edc0c73b183a07c86e4b48aca22b9d6c2a3547b7d16e47",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/solution/answer.json": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/task.toml": "def3177490631912be2a6889a7bb94b5da0080d249d694d2536be03af8f8285a",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/tests/contract.json": "2c6e2d2cd2fffdee65c4c5ed952141e8956e02d2dd36cfcc66501265bba1cef3",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-55a4b5ca278d/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/answer-shape.json": "813f458d8701fc456b88265ad1c7f95efc2bf542bfb5834116d957128a46f4b6",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/environment/target.bin": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/instruction.md": "2f5cb9313635a976a3f99c41d5803e6acee88331fe2c1377ba76118962dc8028",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/provenance.json": "709131c4a0bfc02c2fc5e0f0908e5a035975ec2b423c53532e412a0f4d28ea94",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/solution/answer.json": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/task.toml": "fb485bd49d5502d6ba0e06ca98843f2ed8e2acd8047013e6dd299ff1c95a6299",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/tests/contract.json": "752dd6a839cfc6fa21d12e903b30b7a92f95a15636e4ae80dfa28a1aadcce8cb",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-67cbf1857130/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/answer-shape.json": "feaaf179b1c9f8b3f611c34881ed3346eca2c3154b4dcc41f25078cb38430e85",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/environment/target.bin": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/instruction.md": "ad5795bfe55c409cf82b81b317c81c6dfc2bc32a2c7519d5f4119e46aa2196f1",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/provenance.json": "e60dff84a06e5a45c6f28311ac7ad0ca16bfb6a18a8057a1e5eeef4770c5feea",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/solution/answer.json": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/task.toml": "be023ef83840b4d1cef227381f9bc66454ca883fda2a06fa76c1a1fbb23fb549",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/tests/contract.json": "63285121288fea5b23f084b826d5339ad6f29eb211b5f72488b4baebbf15e063",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-703605596814/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/answer-shape.json": "7fb4690a9b9d6073fdaa993a538455d616d1eb4b4a901a14d6491478dcb418c6",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/environment/target.bin": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/instruction.md": "331f3118b37ac462b1faf7f2d68e46ec56a9d081ab438bbc5b3950928a4d8798",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/provenance.json": "74b7918471a35773dc12528c3b98155f43059ea52ef3eede960b605d7b5a1b04",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/solution/answer.json": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/task.toml": "24ab427687d76f8a59e5da9150ad2eb737a3821e2203fc7242744d3a7cbd1d9e",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/tests/contract.json": "995afc859ccf7d8065263d0e4ba8b1ca2a51462b3763267a65819519d5d29beb",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-adeefd1c539e/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/answer-shape.json": "14e650cb8e72062faa4ae8eb70a7d54835e0e5a9376f57c1cf46504c7887624a",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/environment/target.bin": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/instruction.md": "7acc87b346b644bd337fb162ea57acc54f8d500d5845265175f24f72d4f61d05",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/provenance.json": "89ac26b2350709c4db20c5aeef0bab353862713ad2c6d82bf90c7287577e3ed1",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/solution/answer.json": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/task.toml": "ac0d7d21c353bdc684486befc90e688b6dc4fea5a53aee10802fac362bf852cd",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/tests/contract.json": "ca7d1a0a9d9b1e119369eaf00374e01c3d6d0946ea3db718458006f52cfc9b6a",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-d628c5a314d6/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/.dockerignore": "94c9ce4a5d24050a73812bf4d68ab866ae65bb8fd389d924f8a463077d8c5c6b",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/Dockerfile": "506be5dd6e42c21cb93d3000c564aee6a56d54135a7bd31d989c5df6a50519bf",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/answer-shape.json": "c10f061ccb297821cab13e4f0f2a0919d63268373556170275de68445b4c35d8",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/docker-compose.yaml": "69adb0a64bc7ce4793be54c522d0efece701e09f61195403ef5b318cefc0ce91",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/gemini-system-settings.json": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/runtime/benchmark_tools.py": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/runtime/requirements.txt": "b2a3a41cb92969a57ba10746218731ed453fe6528322ddda667df989ac494035",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/runtime/server.py": "c484dbd7847aa26ddebb28feea4f2119881d6ff31fde9d978bfee02c078786fa",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/runtime/tool-schemas.json": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/environment/target.bin": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/instruction.md": "9b746d2c6d4d971cafa38d893629106942ac50fe8fc7b45f5b325e8289f01884",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/provenance.json": "be2f5936b35393c00d5283ba0fdf463daf0994a15d58abb978ba41dad040066e",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/solution/answer.json": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/solution/solve.sh": "fae5ec29fc9e6354a51c84bc756485c6f26c688a09a79956a17e8921752ac693",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/task.toml": "ba362c39f4bd4dcb209b3101b01b286f9a0bd5f9a37b4f1d0bac3e07fdd7b028",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/tests/.dockerignore": "b53ddf1380f947d493870fb460076548dd4a6d36e1ab0f99a64db6318846ade9",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/tests/Dockerfile": "67c5fd0a216594b2b342d110e7c67ef7b319f9f3075d6a7670d58574db7726f2",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/tests/contract.json": "c9e987d8f77e2c9d8b9f80afec8e4f730ba3be1c4fd2b3b36ead768523663216",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/tests/test.sh": "c1786eda45c50d2750d1fca6da33dcaa313a8c13e716ee15782f87a66968aea4",
+    "private_eval/harbor/marketplace-v1/package/tasks/re-ee5729dca243/tests/verifier.py": "c01c25cb5d7fab7da18d70462f3e00c47a66273838ca1efc6ec7f076f54d8447",
+    "private_eval/harbor/marketplace-v1/review/inspect_package.py": "6519dad4b473a96514729fac5b3a20362113cf0b8f3a1ea62357fe2b98a7bfdd"
+  },
+  "documentation_review": {
+    "already_installed_system_settings_clear": true,
+    "no_antigravity_equivalence_or_calibration_claim": true,
+    "portable_paths": true,
+    "supported_agent_scope_clear": true
+  },
+  "limitations": [
+    "Does not establish a model pass rate or Antigravity equivalence.",
+    "Does not claim universal restrictions for unreviewed Harbor agents.",
+    "Full Harbor lifecycle controls are run and reported separately by the parent agent.",
+    "Package documentation is reviewed separately; bindings cover task files and authoring code, not changing job artifacts."
+  ],
+  "model_calls": 0,
+  "offline_runtime_test": {
+    "command": "/tmp/agentre-harbor-venv/bin/python -m pytest -q private_eval/harbor/marketplace-v1/authoring/runtime/test_server.py",
+    "independently_rerun": true,
+    "observed": "5 passed in 0.95s"
+  },
+  "resolved_findings": [
+    "Staging now requires independent peer review and current source/build/truth bindings.",
+    "Recipient native-profile documentation now points to packaged validation records and explains settings are installed."
+  ],
+  "reviewer": "harbor_native_design (not exporter/server author)",
+  "scope": "Exporter/staging/control/server review and actual exported package; semantic sample review is separately recorded by the sample peer reviewers.",
+  "target_executions": 0,
+  "tasks": [
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.3333333333333333,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.6666666666666666,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "ssnwalk",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+      "task": "re-55a4b5ca278d"
+    },
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.25,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.75,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "refldr",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+      "task": "re-adeefd1c539e"
+    },
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.25,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.75,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "keyevtrans",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+      "task": "re-d628c5a314d6"
+    },
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.3333333333333333,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.6666666666666666,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "lzwcfg",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+      "task": "re-67cbf1857130"
+    },
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.3333333333333333,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.6666666666666666,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "wow64gate",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+      "task": "re-ee5729dca243"
+    },
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.25,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.75,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "srdibld",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+      "task": "re-240249cc0123"
+    },
+    {
+      "exact_environment_allowlist": true,
+      "grader_controls": {
+        "boolean_version": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "duplicate_keys": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "extra_top_level": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "malformed": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nonfinite": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "nop": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "oracle": {
+          "partial_credit": 1.0,
+          "repeat_equal": true,
+          "reward": 1.0
+        },
+        "oversized": {
+          "partial_credit": 0.0,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "partial": {
+          "partial_credit": 0.3333333333333333,
+          "repeat_equal": true,
+          "reward": 0.0
+        },
+        "wrong_group": {
+          "partial_credit": 0.6666666666666666,
+          "repeat_equal": true,
+          "reward": 0.0
+        }
+      },
+      "native_harbor_config_valid": true,
+      "private_grading_matches_source": true,
+      "sample": "cookvar",
+      "settings_installed_and_match_tested_profile": true,
+      "source_build_review_bindings_current": true,
+      "target_sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+      "task": "re-703605596814"
+    }
+  ]
+}

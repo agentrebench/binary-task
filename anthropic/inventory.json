@@ -1,0 +1,93 @@
+[
+  {
+    "answer_sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+    "artifact_file": "tasks/stage_builder/environment/stage_builder.elf",
+    "artifact_sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "stage_builder.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "6f29ea07acb8b928bff7427d4d2d6f25c727413f4a54e1994be881cce46c4375",
+    "previous_task_id": "re-240249cc0123",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "stage_builder"
+  },
+  {
+    "answer_sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+    "artifact_file": "tasks/sysbridge/environment/sysbridge.elf",
+    "artifact_sha256": "2d77c0004d872242cfb47140ada051e47a8cf8aa3b08978109b33f2501956731",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "sysbridge.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "2c6e2d2cd2fffdee65c4c5ed952141e8956e02d2dd36cfcc66501265bba1cef3",
+    "previous_task_id": "re-55a4b5ca278d",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "sysbridge"
+  },
+  {
+    "answer_sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+    "artifact_file": "tasks/update_agent/environment/update_agent.elf",
+    "artifact_sha256": "6b7dfb79b960b5c0971e44d5af6eb19ef82cab20ae16d6b66a99a91b5645550b",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "update_agent.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "752dd6a839cfc6fa21d12e903b30b7a92f95a15636e4ae80dfa28a1aadcce8cb",
+    "previous_task_id": "re-67cbf1857130",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "update_agent"
+  },
+  {
+    "answer_sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+    "artifact_file": "tasks/profile_sync/environment/profile_sync.elf",
+    "artifact_sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "profile_sync.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "63285121288fea5b23f084b826d5339ad6f29eb211b5f72488b4baebbf15e063",
+    "previous_task_id": "re-703605596814",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "profile_sync"
+  },
+  {
+    "answer_sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c",
+    "artifact_file": "tasks/modulehost/environment/modulehost.elf",
+    "artifact_sha256": "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "modulehost.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "995afc859ccf7d8065263d0e4ba8b1ca2a51462b3763267a65819519d5d29beb",
+    "previous_task_id": "re-adeefd1c539e",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "modulehost"
+  },
+  {
+    "answer_sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+    "artifact_file": "tasks/inputsvc/environment/inputsvc.elf",
+    "artifact_sha256": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "inputsvc.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "ca7d1a0a9d9b1e119369eaf00374e01c3d6d0946ea3db718458006f52cfc9b6a",
+    "previous_task_id": "re-d628c5a314d6",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "inputsvc"
+  },
+  {
+    "answer_sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc",
+    "artifact_file": "tasks/compat_host/environment/compat_host.elf",
+    "artifact_sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d",
+    "binary_and_grading_unchanged": true,
+    "binary_filename": "compat_host.elf",
+    "calibration_transfer": false,
+    "contract_sha256": "c9e987d8f77e2c9d8b9f80afec8e4f730ba3be1c4fd2b3b36ead768523663216",
+    "previous_task_id": "re-ee5729dca243",
+    "revision": "5.1.1",
+    "source_revision": "5.0.0",
+    "task_id": "compat_host"
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "all_passed": true,
+  "bindings": [
+    {
+      "path": "private_eval/harbor/rl-samples-v5/root_independent_review.py",
+      "sha256": "185d2dd3a7538324dfeed07f71fbaa8987cecc7124674e699d4791fcc0dd3e8b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+      "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/fixtures.json",
+      "sha256": "17eca3166d1ca7512c41239656001e0d89ee29fed5c91032e736beadec8fc9be"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/reference.py",
+      "sha256": "ecc6dac6ade27e4629d0f3c19c28178a423c118226eda266b88a118201197729"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/expected.json",
+      "sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/answer-shape.json",
+      "sha256": "c10f061ccb297821cab13e4f0f2a0919d63268373556170275de68445b4c35d8"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/instruction.md",
+      "sha256": "0eb9ed0817f39b2a071d604a26f973e576514ee624169ec6506836b7b5be16ae"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/ground-truth.md",
+      "sha256": "9247a39ee5c862c8afead2fb222e9c01e7afdf0cdf68d1bc4a67f8593f2c506e"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/truth-freeze.json",
+      "sha256": "02f463c2a9ad56d209eedec1bda6897f852d39117653369c2a51c817231af3d2"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/native-driver.json",
+      "sha256": "e4355d73352765f35eeb5ac3d3a407b25ed876c329026293056b6125fc6cca52"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/source-input-map.json",
+      "sha256": "e70e19f2ea11d6ce8f3d2d6ea335dc0e21f72b4052dbd3a133ae2a0aa0f0c86f"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/target.elf",
+      "sha256": "94a90afcc04311d0dc9e1cb2a997ae0ed316fdacbc35722ecd6ce98287ddbd6d"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/validation/build-results.json",
+      "sha256": "dd3c189c3848a84f95e6a69c981aa6cc9f236fa4217d5d2225b0fb0ceb5574b6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/validation/native-answer.json",
+      "sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/validation/entry-reachability.json",
+      "sha256": "0468829b8edf9d86cecf325b4f036fa0539cfd98623a049060950b5988bfab73"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/source/core.cpp",
+      "sha256": "b56e7545084ff8235f0d65fca0acb6fafe055ba79f0fafa0f17b32cd03c29d05"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/wow64gate/source/fixture_data.inc",
+      "sha256": "d7778f23726f97beba528dffc8314ed5fc154d10a7da9c193cb5f85cbb6f43c3"
+    }
+  ],
+  "checks": {
+    "core_does_not_load_private_truth": true,
+    "fixture_reads_preserve_runtime_computation": true,
+    "independent_answer_matches": true,
+    "native_answer_matches": true,
+    "no_prompt_function_addresses_or_output_map": true,
+    "only_inert_memory_operations": true,
+    "ordinary_entry_reachable": true
+  },
+  "independent_review": true,
+  "limitations": [
+    "Review covers fixed supplied fixtures, not arbitrary-input correctness or a formal compiler proof.",
+    "Difficulty is unmeasured; no prior revision calibration is transferred."
+  ],
+  "model_calls": 0,
+  "reviewer": "root (not sample author)",
+  "scope": "Independent fixture derivation, full core/prompt inspection, bound compiler/native/entry evidence.",
+  "target_executions": 0
+}

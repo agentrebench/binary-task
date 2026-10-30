@@ -1,0 +1,510 @@
+{
+  "private_eval/harbor/rl-samples-v5/build_samples.py": {
+    "package_path": "review/authoring/build_samples.py",
+    "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/answer-shape.json": {
+    "package_path": "review/cookvar/answer-shape.json",
+    "sha256": "feaaf179b1c9f8b3f611c34881ed3346eca2c3154b4dcc41f25078cb38430e85"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/expected.json": {
+    "package_path": "review/cookvar/expected.json",
+    "sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/fixtures.json": {
+    "package_path": "review/cookvar/fixtures.json",
+    "sha256": "36d75521e11264ab8a837ddc10188bfc3767031cfbd130295dde4689e219754c"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/ground-truth.md": {
+    "package_path": "review/cookvar/ground-truth.md",
+    "sha256": "96e0f7be769a0e43a9b8ba677b9fbccbfddafa94ef960a62b810ca5146cb74e7"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/instruction.md": {
+    "package_path": "review/cookvar/instruction.md",
+    "sha256": "41c29afee9cdb26eba97da243c4298835bdf56a6569ae47893d02602b4cbf2c7"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/native-driver.json": {
+    "package_path": "review/cookvar/native-driver.json",
+    "sha256": "0ba87e4c4790afb8e1881489f1440aba29a81b78962bec474e96c88424205a56"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/provenance.json": {
+    "package_path": "review/cookvar/provenance.json",
+    "sha256": "1d6925af0c216a03062ae4d8b1941653fe1ca5b47338a9e0b11c80aaf82faddd"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/reference.py": {
+    "package_path": "review/cookvar/reference.py",
+    "sha256": "0b1180a146342b170de8c80731c13507436c742e39cc3faf7c1410086b30db93"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/review/independent-answer.json": {
+    "package_path": "review/cookvar/review/independent-answer.json",
+    "sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/review/peer-review.json": {
+    "package_path": "review/cookvar/review/peer-review.json",
+    "sha256": "a9b5dc65925d0fe8a13b5bbe44cca063831afdff6573f278fb3e17047c5c0b87"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/source-input-map.json": {
+    "package_path": "review/cookvar/source-input-map.json",
+    "sha256": "80c8900c6e181979c80d2f79bd3bfe75e08f283fd53def756221412884b934a0"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/source/core.rs": {
+    "package_path": "review/cookvar/source/core.rs",
+    "sha256": "2405c34b1eb8203de3dc31155239694a8ae33d14310f9012ca118af1cf9db8ca"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/source/fixtures.rs": {
+    "package_path": "review/cookvar/source/fixtures.rs",
+    "sha256": "f79b09594b9a3011d198d8bf71ddc9fe04b1c856a72d23384111c13c495bd508"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/truth-freeze.json": {
+    "package_path": "review/cookvar/truth-freeze.json",
+    "sha256": "2e2b508f0b52e5c16f3fcd20c9b0ce1f449a20b691e50d6305ab01661a65c5bc"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/validation/build-results.json": {
+    "package_path": "review/cookvar/validation/build-results.json",
+    "sha256": "0918df5423f88eea2c8d4eabef916a786edabb27633dc16c409d2724191c813f"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/validation/entry-reachability.json": {
+    "package_path": "review/cookvar/validation/entry-reachability.json",
+    "sha256": "1ed4ddb056b58e20f5873343f70c3d3796bce2fd297fe25436e3d8f6be213bdd"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/validation/native-answer.json": {
+    "package_path": "review/cookvar/validation/native-answer.json",
+    "sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c"
+  },
+  "private_eval/harbor/rl-samples-v5/cookvar/validation/wrapper-native-validation.json": {
+    "package_path": "review/cookvar/validation/wrapper-native-validation.json",
+    "sha256": "1b7ac71c35e7be7c3c121b040509bcc7587187d24ec9c535d24522474d5347eb"
+  },
+  "private_eval/harbor/rl-samples-v5/entry_wrapper.c": {
+    "package_path": "review/authoring/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/answer-shape.json": {
+    "package_path": "review/keyevtrans/answer-shape.json",
+    "sha256": "14e650cb8e72062faa4ae8eb70a7d54835e0e5a9376f57c1cf46504c7887624a"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/expected.json": {
+    "package_path": "review/keyevtrans/expected.json",
+    "sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/fixtures.json": {
+    "package_path": "review/keyevtrans/fixtures.json",
+    "sha256": "db997add01ea587dece990d6c6b431312d9c6a4c13d8fa0e8147cd5aff837cec"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/ground-truth.md": {
+    "package_path": "review/keyevtrans/ground-truth.md",
+    "sha256": "d08a03c59161a7726fdfdc1eaf535998bcaf779c6729311f87a5c3ec46aed8f2"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/instruction.md": {
+    "package_path": "review/keyevtrans/instruction.md",
+    "sha256": "db24936078e2067fd30371f8f290ab377558eb15e81f36d2677fbf9f7365ed2e"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/native-driver.json": {
+    "package_path": "review/keyevtrans/native-driver.json",
+    "sha256": "21dec7c1727856372d7ace5ea6affc1e3ad02d2b5a906435b538b410497a114c"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/reference.py": {
+    "package_path": "review/keyevtrans/reference.py",
+    "sha256": "077a28a154e082135e1074d0ee46d4c156546ba1256baeb7c3212562a321399b"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/review/independent-answer.json": {
+    "package_path": "review/keyevtrans/review/independent-answer.json",
+    "sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/review/peer-review.json": {
+    "package_path": "review/keyevtrans/review/peer-review.json",
+    "sha256": "feafb18a0573d058ec61a11886d84ad5eb92882e14eae33b216787ea96aebb64"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/source-input-map.json": {
+    "package_path": "review/keyevtrans/source-input-map.json",
+    "sha256": "446f0556934e964f1347b8caafe560651d93a8527ee5c13855a161998cd2882d"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/source/core.cpp": {
+    "package_path": "review/keyevtrans/source/core.cpp",
+    "sha256": "3415715bf23a23609ca7c1030ed21f2eb6b6ba20b230202e8a602c56be4c420e"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/source/data.h": {
+    "package_path": "review/keyevtrans/source/data.h",
+    "sha256": "eba095aa600f23b98f08437a5fa47eb64ce9519a901b49b35266cae6b8b6f70e"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/truth-freeze.json": {
+    "package_path": "review/keyevtrans/truth-freeze.json",
+    "sha256": "d24026083bd34451c51d73fe01095b70e169ee78bfcadf1506ff01fa0d9536b3"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/validation/build-results.json": {
+    "package_path": "review/keyevtrans/validation/build-results.json",
+    "sha256": "1ed3eb01a827775fe1a17a006964fcef6fbdfc30f9fbd4040b26c91c186c704d"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/validation/entry-reachability.json": {
+    "package_path": "review/keyevtrans/validation/entry-reachability.json",
+    "sha256": "2ed1e23e4852ffefb04bdec5b552ab74f203dfaaab8c3abf11a0692a490567da"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/validation/native-answer.json": {
+    "package_path": "review/keyevtrans/validation/native-answer.json",
+    "sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef"
+  },
+  "private_eval/harbor/rl-samples-v5/keyevtrans/validation/wrapper-native-validation.json": {
+    "package_path": "review/keyevtrans/validation/wrapper-native-validation.json",
+    "sha256": "2195adc82ea783fa8b5ae57a2415f12565a07a4c7fffefc7dfa704c4d7d025ed"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/answer-shape.json": {
+    "package_path": "review/lzwcfg/answer-shape.json",
+    "sha256": "813f458d8701fc456b88265ad1c7f95efc2bf542bfb5834116d957128a46f4b6"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/expected.json": {
+    "package_path": "review/lzwcfg/expected.json",
+    "sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/fixtures.json": {
+    "package_path": "review/lzwcfg/fixtures.json",
+    "sha256": "a5e2d76b0115b47930195517f38d92f1b038e08a8a59c752f7b75937d3bf19d6"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/ground-truth.md": {
+    "package_path": "review/lzwcfg/ground-truth.md",
+    "sha256": "19e5fd5dd2651283017d5bec2cffbaf74bee63810d72d9524961fd114de3e0e7"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/instruction.md": {
+    "package_path": "review/lzwcfg/instruction.md",
+    "sha256": "c59ae3391bc1340ff7993f89962bda027f4c09d4c86fdb24974401a36b4fca1a"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/native-driver.json": {
+    "package_path": "review/lzwcfg/native-driver.json",
+    "sha256": "c83679964629b3056d424fe8fe547549dc4ce5d352e00a227587d6449392072b"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/reference.py": {
+    "package_path": "review/lzwcfg/reference.py",
+    "sha256": "dbc487c5328573c70a5b23059157dbddf5734f8164fa7d098172c14f0a6e816a"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/review/independent-answer.json": {
+    "package_path": "review/lzwcfg/review/independent-answer.json",
+    "sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/review/peer-review.json": {
+    "package_path": "review/lzwcfg/review/peer-review.json",
+    "sha256": "4f9477458a5fd312fb0149ac0fa0a9cfa74e3fd69ffec5fe488e5dbbc3bb6541"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/source-input-map.json": {
+    "package_path": "review/lzwcfg/source-input-map.json",
+    "sha256": "22d62286ea8ea8f5c2bbf684e34793e37ebda76a6881567b3ca40d86665ddf98"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/source/core.cpp": {
+    "package_path": "review/lzwcfg/source/core.cpp",
+    "sha256": "5052b852fd4d036695a28f6caa7c967612adac66f6b0a5fe5d40888c43e3500f"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/source/data.h": {
+    "package_path": "review/lzwcfg/source/data.h",
+    "sha256": "8d36ee20d93bea539ce2e5885d8ca92f6deb60be483c6a6b496d60c91cbee1bd"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/truth-freeze.json": {
+    "package_path": "review/lzwcfg/truth-freeze.json",
+    "sha256": "422a3fbc1b0da9a3f99054ab7fea141db239f8a52e1f8f775583103eb63eb277"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/validation/build-results.json": {
+    "package_path": "review/lzwcfg/validation/build-results.json",
+    "sha256": "c14778a278c2daf83056744542b62b49e15fc0e9b2e372d9760f98e982879a1c"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/validation/entry-reachability.json": {
+    "package_path": "review/lzwcfg/validation/entry-reachability.json",
+    "sha256": "abbadfc999f3fa5e34468e3450b19ddb7042533b6d53d2ba4632dbe699cbde78"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/validation/native-answer.json": {
+    "package_path": "review/lzwcfg/validation/native-answer.json",
+    "sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d"
+  },
+  "private_eval/harbor/rl-samples-v5/lzwcfg/validation/wrapper-native-validation.json": {
+    "package_path": "review/lzwcfg/validation/wrapper-native-validation.json",
+    "sha256": "ee69716a05d3ba526801fbbe51e75995514283b556abb757428851e03ace7f40"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/answer-shape.json": {
+    "package_path": "review/refldr/answer-shape.json",
+    "sha256": "7fb4690a9b9d6073fdaa993a538455d616d1eb4b4a901a14d6491478dcb418c6"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/expected.json": {
+    "package_path": "review/refldr/expected.json",
+    "sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/fixtures.json": {
+    "package_path": "review/refldr/fixtures.json",
+    "sha256": "df30e62b3d8436f3ceb4c2681569b35ac412857de53157fee17a5c21c4be36a7"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/ground-truth.md": {
+    "package_path": "review/refldr/ground-truth.md",
+    "sha256": "51a0d40dd010650aeddaf4ab890303c89884dd8e72285f900ead1514fc1b4901"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/instruction.md": {
+    "package_path": "review/refldr/instruction.md",
+    "sha256": "e7f91901f208cf9adb5e5a81b7c03ae184a08c5fcfdfecb4633adb90a4c95456"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/native-driver.json": {
+    "package_path": "review/refldr/native-driver.json",
+    "sha256": "27bfc4969f5865eaed5e637c21281f45c657abc57e599106c680a1d3550f042a"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/provenance.json": {
+    "package_path": "review/refldr/provenance.json",
+    "sha256": "62f06652aab62b920a96f9db5b696ae8bb6a74fc1bae0f95fad890a04f865895"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/reference.py": {
+    "package_path": "review/refldr/reference.py",
+    "sha256": "c1e12deed4edce2f475688774627a05d4603c77b54ac1ea7bbcce77158e99515"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/review/independent-answer.json": {
+    "package_path": "review/refldr/review/independent-answer.json",
+    "sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/review/peer-review.json": {
+    "package_path": "review/refldr/review/peer-review.json",
+    "sha256": "69e53be8652146fa5733eeede0e905297b392f99370f783774f4f4568b51ba82"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/source-input-map.json": {
+    "package_path": "review/refldr/source-input-map.json",
+    "sha256": "dac73254339602777e48ceb32f73ec15dbaee25ceb849084a307a1bf24fa06e9"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/source/core.c": {
+    "package_path": "review/refldr/source/core.c",
+    "sha256": "dac1309b54b4d77f911fb4b394b7d0641d41ebff50366a7968859a2e4c761412"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/source/fixtures.h": {
+    "package_path": "review/refldr/source/fixtures.h",
+    "sha256": "d522a4e65c24067b29ea813d12ce471e80ce0fc6ee9775e22200fca29a5819b2"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/truth-freeze.json": {
+    "package_path": "review/refldr/truth-freeze.json",
+    "sha256": "b9c62ae28b7ec1bb465973f7825e74d5253b36f17810075399df57a2e0732187"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/validation/build-results.json": {
+    "package_path": "review/refldr/validation/build-results.json",
+    "sha256": "e0ab5298531d46eaa2869d76a06b9190cc568cc9f07af2f51a0e13338bc963c6"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/validation/entry-reachability.json": {
+    "package_path": "review/refldr/validation/entry-reachability.json",
+    "sha256": "2950d1242debc795a9c2270f8daee05d28b12382f7de234cfcb463c00d0e6218"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/validation/native-answer.json": {
+    "package_path": "review/refldr/validation/native-answer.json",
+    "sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c"
+  },
+  "private_eval/harbor/rl-samples-v5/refldr/validation/wrapper-native-validation.json": {
+    "package_path": "review/refldr/validation/wrapper-native-validation.json",
+    "sha256": "6718bc8241bcac24b5bfd37dca4887003f82c833389d585c8079c2cc095fe0f2"
+  },
+  "private_eval/harbor/rl-samples-v5/root_independent_review.py": {
+    "package_path": "review/authoring/root_independent_review.py",
+    "sha256": "185d2dd3a7538324dfeed07f71fbaa8987cecc7124674e699d4791fcc0dd3e8b"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/answer-shape.json": {
+    "package_path": "review/srdibld/answer-shape.json",
+    "sha256": "c09da2d98dc7e2b15accbb993be9e046662a14cc428dd6b59705c19220f108e7"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/expected.json": {
+    "package_path": "review/srdibld/expected.json",
+    "sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/fixtures.json": {
+    "package_path": "review/srdibld/fixtures.json",
+    "sha256": "aa807690e3cf59b894337cf91cd7d9a6146175eba5208c1dd0da2abc720cec2c"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/ground-truth.md": {
+    "package_path": "review/srdibld/ground-truth.md",
+    "sha256": "6eca458906589cf54a62aa9b868db41aeb3737ddc9a1fc2141e186cecc03d8b0"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/instruction.md": {
+    "package_path": "review/srdibld/instruction.md",
+    "sha256": "c19df7b6dcf1c410bf4c87c71f7334b7e8fa46f102c58f1f57014c1a899f51e6"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/native-driver.json": {
+    "package_path": "review/srdibld/native-driver.json",
+    "sha256": "05b0f3ecb22fd85046932d15aec6b725cfe989fa2af7e13660a02ccc3ad590fe"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/provenance.json": {
+    "package_path": "review/srdibld/provenance.json",
+    "sha256": "f5b8eca53f7c4154504020bacc2f36f802adb454f3ffa3e47271620616633100"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/reference.py": {
+    "package_path": "review/srdibld/reference.py",
+    "sha256": "07143acec823c718bf4d139723281bcf480daa8296aca70a24a6ddcbf41ca0b3"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/review/independent-answer.json": {
+    "package_path": "review/srdibld/review/independent-answer.json",
+    "sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/review/peer-review.json": {
+    "package_path": "review/srdibld/review/peer-review.json",
+    "sha256": "032fff63c959ab4b8c0dc109e036992b3cc82d8756c1fc275a5fc391ef448d75"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/source-input-map.json": {
+    "package_path": "review/srdibld/source-input-map.json",
+    "sha256": "60a8de24441b080b7f8a357ab1b664d7dba2a8810df1ceb16b22ec10513d748b"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/source/core.rs": {
+    "package_path": "review/srdibld/source/core.rs",
+    "sha256": "a58849a22bac46f06513b0152ddb4049e3ce497bc9b811dd25b5b5d1762bec6a"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/source/fixture_data.rs": {
+    "package_path": "review/srdibld/source/fixture_data.rs",
+    "sha256": "46b69207a6109a6909bdeab41405418600c64ec416690680793f6aad0c7aa16e"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/truth-freeze.json": {
+    "package_path": "review/srdibld/truth-freeze.json",
+    "sha256": "0486b8d916b67afed6f1a1eeb3c6e185425ce01e346823379abe346ff58b5963"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/validation/build-results.json": {
+    "package_path": "review/srdibld/validation/build-results.json",
+    "sha256": "2bf2031fc25bca231fb36829dbd1cd81e5ef29c0e5f71cb825c812fea96bd5ba"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/validation/entry-reachability.json": {
+    "package_path": "review/srdibld/validation/entry-reachability.json",
+    "sha256": "6aa2a0459faf0cbc2f9fa9dffaba7737180e8f53c189dbe933a8caf740e063de"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/validation/native-answer.json": {
+    "package_path": "review/srdibld/validation/native-answer.json",
+    "sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda"
+  },
+  "private_eval/harbor/rl-samples-v5/srdibld/validation/wrapper-native-validation.json": {
+    "package_path": "review/srdibld/validation/wrapper-native-validation.json",
+    "sha256": "602915ecfc9f7f555bcfbaedeaed882a56ef39d0dc0de189598d242ec49f7141"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/answer-shape.json": {
+    "package_path": "review/ssnwalk/answer-shape.json",
+    "sha256": "d914c4c86adfcf9f3a9796640d05a1b517c33e4b24ea3dda97fc1115444d0624"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/expected.json": {
+    "package_path": "review/ssnwalk/expected.json",
+    "sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/fixtures.json": {
+    "package_path": "review/ssnwalk/fixtures.json",
+    "sha256": "369438297ddee57d618ee314db6b90b4b1abb1ef947d6359ce2f45fb08ba700e"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/ground-truth.md": {
+    "package_path": "review/ssnwalk/ground-truth.md",
+    "sha256": "e1b6d405936d70bbe77fefbd8293f6b2c5630b51cf24c05fb7b008d9c80def9e"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/instruction.md": {
+    "package_path": "review/ssnwalk/instruction.md",
+    "sha256": "3faf0613bccc33231b9766c4d24186ba220c7245671f6a6492c1b8fdf66ad4dc"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/native-driver.json": {
+    "package_path": "review/ssnwalk/native-driver.json",
+    "sha256": "2657c4ef736e9ccd0a3cb483721a4b2ede81cfa75fd6861cd827558e7af2c749"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/provenance.json": {
+    "package_path": "review/ssnwalk/provenance.json",
+    "sha256": "e33ef1a4dd4610d7c60a4778f0ad8dcf1d7a3d754f3166a2208438538c41095e"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/reference.py": {
+    "package_path": "review/ssnwalk/reference.py",
+    "sha256": "f4db510d7d2631320afb2188de7fa67cf793388fbecfcd886a283eec642fcc40"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/review/independent-answer.json": {
+    "package_path": "review/ssnwalk/review/independent-answer.json",
+    "sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/review/peer-review.json": {
+    "package_path": "review/ssnwalk/review/peer-review.json",
+    "sha256": "576c14e02378c780500ae1023b7f5464c763f16bdac955f7552d585e935d4a9b"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/source-input-map.json": {
+    "package_path": "review/ssnwalk/source-input-map.json",
+    "sha256": "8aba21f566b54d29161b6166644bbd43b42b13e41b159d034661f96dbd781b5e"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/source/core.c": {
+    "package_path": "review/ssnwalk/source/core.c",
+    "sha256": "094ac371cdb352d267295266006a910abd732d7a966889b17b3f69d84d4c61cd"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/source/fixture_data.inc": {
+    "package_path": "review/ssnwalk/source/fixture_data.inc",
+    "sha256": "5d7066d3be2a22621043f44ab55583cf85bb951600bde2d43958f9b5b458aa39"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/truth-freeze.json": {
+    "package_path": "review/ssnwalk/truth-freeze.json",
+    "sha256": "02fb1db2f97aee7a4527e78d3dc96c0a86eda55b306906b04b7cdffe02181ea4"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/validation/build-results.json": {
+    "package_path": "review/ssnwalk/validation/build-results.json",
+    "sha256": "15c9d62729ddf7f1d767a9013fee2c8e2530e9ff9c83f0fbff958cb5d07aab09"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/validation/entry-reachability.json": {
+    "package_path": "review/ssnwalk/validation/entry-reachability.json",
+    "sha256": "8af68eecb0562b875202d9af76ef963e4261458b83875a5e0d76958035315a24"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/validation/native-answer.json": {
+    "package_path": "review/ssnwalk/validation/native-answer.json",
+    "sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec"
+  },
+  "private_eval/harbor/rl-samples-v5/ssnwalk/validation/wrapper-native-validation.json": {
+    "package_path": "review/ssnwalk/validation/wrapper-native-validation.json",
+    "sha256": "8358bef96748991551600ac83d0841e7019dea7ff2c17b688130f27effe0be80"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/answer-shape.json": {
+    "package_path": "review/wow64gate/answer-shape.json",
+    "sha256": "c10f061ccb297821cab13e4f0f2a0919d63268373556170275de68445b4c35d8"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/expected.json": {
+    "package_path": "review/wow64gate/expected.json",
+    "sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/fixtures.json": {
+    "package_path": "review/wow64gate/fixtures.json",
+    "sha256": "17eca3166d1ca7512c41239656001e0d89ee29fed5c91032e736beadec8fc9be"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/ground-truth.md": {
+    "package_path": "review/wow64gate/ground-truth.md",
+    "sha256": "9247a39ee5c862c8afead2fb222e9c01e7afdf0cdf68d1bc4a67f8593f2c506e"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/instruction.md": {
+    "package_path": "review/wow64gate/instruction.md",
+    "sha256": "0eb9ed0817f39b2a071d604a26f973e576514ee624169ec6506836b7b5be16ae"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/native-driver.json": {
+    "package_path": "review/wow64gate/native-driver.json",
+    "sha256": "e4355d73352765f35eeb5ac3d3a407b25ed876c329026293056b6125fc6cca52"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/provenance.json": {
+    "package_path": "review/wow64gate/provenance.json",
+    "sha256": "2a58f923f2606529396b35cf3175a8ac9a1b3ea2d5f5e9e21b641dbfb48ba477"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/reference.py": {
+    "package_path": "review/wow64gate/reference.py",
+    "sha256": "ecc6dac6ade27e4629d0f3c19c28178a423c118226eda266b88a118201197729"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/review/independent-answer.json": {
+    "package_path": "review/wow64gate/review/independent-answer.json",
+    "sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/review/peer-review.json": {
+    "package_path": "review/wow64gate/review/peer-review.json",
+    "sha256": "caa09437c37e706c6bdf3ad11be647f818040188d037e5ab77b1c5a56239a6d6"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/source-input-map.json": {
+    "package_path": "review/wow64gate/source-input-map.json",
+    "sha256": "e70e19f2ea11d6ce8f3d2d6ea335dc0e21f72b4052dbd3a133ae2a0aa0f0c86f"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/source/core.cpp": {
+    "package_path": "review/wow64gate/source/core.cpp",
+    "sha256": "b56e7545084ff8235f0d65fca0acb6fafe055ba79f0fafa0f17b32cd03c29d05"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/source/fixture_data.inc": {
+    "package_path": "review/wow64gate/source/fixture_data.inc",
+    "sha256": "d7778f23726f97beba528dffc8314ed5fc154d10a7da9c193cb5f85cbb6f43c3"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/truth-freeze.json": {
+    "package_path": "review/wow64gate/truth-freeze.json",
+    "sha256": "02f463c2a9ad56d209eedec1bda6897f852d39117653369c2a51c817231af3d2"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/validation/build-results.json": {
+    "package_path": "review/wow64gate/validation/build-results.json",
+    "sha256": "dd3c189c3848a84f95e6a69c981aa6cc9f236fa4217d5d2225b0fb0ceb5574b6"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/validation/entry-reachability.json": {
+    "package_path": "review/wow64gate/validation/entry-reachability.json",
+    "sha256": "0468829b8edf9d86cecf325b4f036fa0539cfd98623a049060950b5988bfab73"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/validation/native-answer.json": {
+    "package_path": "review/wow64gate/validation/native-answer.json",
+    "sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc"
+  },
+  "private_eval/harbor/rl-samples-v5/wow64gate/validation/wrapper-native-validation.json": {
+    "package_path": "review/wow64gate/validation/wrapper-native-validation.json",
+    "sha256": "a08338894974c7331ae60e55c73ab2eba2c45d4d0c0e9704911c5104b3e16033"
+  }
+}

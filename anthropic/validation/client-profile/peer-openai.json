@@ -1,0 +1,116 @@
+{
+  "reviewer": "/root/anthropic_profile",
+  "all_reviewed_checks_passed": true,
+  "checks": {
+    "stock_harbor_agent": true,
+    "pinned_cli": true,
+    "openai_endpoint_only": true,
+    "global_default_deny": true,
+    "global_exact_nine_allow": true,
+    "build_same_permissions": true,
+    "auxiliary_agents_disabled": true,
+    "managed_root_readonly_in_docker": true,
+    "capture_completed": true,
+    "capture_loopback_only": true,
+    "capture_exact_api_tools": true,
+    "dispatch_completed": true,
+    "dispatch_loopback_only": true,
+    "dispatch_exact_api_tools": true,
+    "five_captured_requests": true,
+    "forced_bash_explicit_rejection": true,
+    "production_file_dispatched": true,
+    "final_submission_dispatched": true
+  },
+  "review_scope": "Independent static review of managed policy, stock Harbor installation/configuration/run source, offline test implementation, and actual captured requests/CLI events; no new model calls or runtime trials.",
+  "findings": [],
+  "pending_at_review": [
+    "OpenAI validation.json summary was not yet present; direct capture and dispatch evidence was inspected and hash-bound. Root must include the finalized summary before sealing."
+  ],
+  "limitations": [
+    "This is OpenAI API through stock Harbor OpenCode, not Codex CLI.",
+    "Live provider authentication, model availability, and difficulty are not verified.",
+    "Pinned CLI runtime proof is Linux arm64; x86-64 runtime not independently tested."
+  ],
+  "official_references": [
+    "https://docs.opencode.ai/docs/config/",
+    "https://docs.opencode.ai/docs/permissions/"
+  ],
+  "bindings": [
+    {
+      "path": "/tmp/agentre-marketplace-clean-venv/lib/python3.12/site-packages/harbor/agents/installed/opencode.py",
+      "sha256": "ac3155aead7a66e05ab71f5ad566aa2030555e65f5f03ee3b3fdbe580c357825"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/Dockerfile.fragment",
+      "sha256": "f24ae52a43b5572d137644dfc5b79aad5df2bc78c713cff53508f91289b0ccb1"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/README.md",
+      "sha256": "dc074b10e151e340dc8f5cac20c1897a4839dea873028a879d0faabe1385ae49"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/capture/capture-summary.json",
+      "sha256": "f55997c55338f8be926027dc590ab162cb62aa4e61a158c9e08a54fe01c2da56"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/capture/cli.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/capture/cli.stdout",
+      "sha256": "14cc2de17aa6797684de2e8279168c665932f0661248973e7a75d9822652f6f4"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/capture/requests.json",
+      "sha256": "c416b9b8fde2acb4dcd284248dd92089d01065fd94a9fa2e23bf84be3657a0a1"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/dispatch/capture-summary.json",
+      "sha256": "13198fbba4554df2675a918278c0816a0992e1ec5aded39bcf0a89e886641cda"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/dispatch/cli.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/dispatch/cli.stdout",
+      "sha256": "305360cc90ad062c3ab4de6144cb4fbd15fe6f11cad7ee8d1275dd70a7cb6889"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/dispatch/requests.json",
+      "sha256": "56d7f0d69e5424e5d3e73fe6c8bdde8d22be7166b762b31bc579ba57f0996eba"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/npm-global-executable-parity.json",
+      "sha256": "fab4f82f33db5bf4b61f527f1fa95c5388c01efa8659e03832084f1b7bf243f1"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/evidence/npm-install-parity.txt",
+      "sha256": "b394f1d7def06036bdbbb8663074df4e5940f1c425fabecdceab44c81a33ebcd"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/offline_capture.py",
+      "sha256": "b8d27a3c4796eafbf30caeb4257ebbde1e0eed39ecfd9ef5e003aeefb4e9d9ae"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/opencode-managed.json",
+      "sha256": "f86bbaef037dd40c20f294c3a8e18476479909a630510e8064a2bf3391bb7d35"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/profile.json",
+      "sha256": "b3d7a06c38ee866de3ea2e81f510cfefffa8e6c459210f18de506bbeffecffda"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/release.json",
+      "sha256": "900afb0257b148f25bf1781ec063b06f313ef4da927e7498a6c630f61993d044"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/test_profile.py",
+      "sha256": "aa9976009d7115934211ca5ee16d2ad607db84221bfd0e7700f87d1e8ca4c8b2"
+    },
+    {
+      "path": "private_eval/harbor/marketplace-v1/authoring/provider-profiles/openai/validation.json",
+      "sha256": "dce9fc03e1762f6c38805741ae4c0703d0ec8d872b9cac1d1068e7f6fd7a8f51"
+    }
+  ]
+}

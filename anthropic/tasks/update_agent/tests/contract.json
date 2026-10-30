@@ -1,0 +1,33 @@
+{
+  "answer_shape": {
+    "alternate": {
+      "accepted": "boolean",
+      "url": "string"
+    },
+    "beacon": {
+      "body": "string",
+      "interval_seconds": "integer",
+      "url": "string"
+    },
+    "dispatch": {
+      "export": "string",
+      "module": "string"
+    }
+  },
+  "expected": {
+    "alternate": {
+      "accepted": false,
+      "url": "https://203.0.113.88:443/v1/push"
+    },
+    "beacon": {
+      "body": "id=lab42&tag=lab42",
+      "interval_seconds": 45,
+      "url": "https://192.0.2.77:8443/api/check"
+    },
+    "dispatch": {
+      "export": "WinHttpSendRequest",
+      "module": "winhttp.dll"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,101 @@
+{
+  "all_passed": true,
+  "infrastructure_errors": 0,
+  "model_calls": 0,
+  "profile": "stock-harbor-0.25.0-oracle",
+  "purpose": "Validate renamed external ELF artifacts and explicit canonical-path Docker copies.",
+  "target_executions": 0,
+  "trials": [
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda",
+        "valid_submission": true
+      },
+      "result_sha256": "a764ed9735f974147df58648f08021bec98ef44bba7d50008a8e075a1ef390cb",
+      "reward": 1,
+      "task": "agentre/re-240249cc0123"
+    },
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+        "valid_submission": true
+      },
+      "result_sha256": "14ff97302fe3cd3ccb7c2afe6cd74e4e4bf6bdb01ead0c09fa2db728b7e9160b",
+      "reward": 1,
+      "task": "agentre/re-55a4b5ca278d"
+    },
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+        "valid_submission": true
+      },
+      "result_sha256": "9f71c40200779b113e501d394089a3c43560609f4c54daee5d69df039651e81d",
+      "reward": 1,
+      "task": "agentre/re-67cbf1857130"
+    },
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+        "valid_submission": true
+      },
+      "result_sha256": "d00717589421bcccf1554f54cebba73038b66123af995615525df6132430cf28",
+      "reward": 1,
+      "task": "agentre/re-703605596814"
+    },
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "3cc52d2c724c65e57b5ff72f4c2b25a52dff441eb33f2c16e9d2b47b2f10195c",
+        "valid_submission": true
+      },
+      "result_sha256": "8354fef22e00ae2ae53523b5e763ce0f09d736d5fa5cbe5ace1d8c4f9ac362d6",
+      "reward": 1,
+      "task": "agentre/re-adeefd1c539e"
+    },
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+        "valid_submission": true
+      },
+      "result_sha256": "47557807051f9f0421bbe708e79a4832446147413fcb018c9bdc0db6af3d6adf",
+      "reward": 1,
+      "task": "agentre/re-d628c5a314d6"
+    },
+    {
+      "grade": {
+        "partial_credit": 1.0,
+        "reward": 1.0,
+        "scorer_version": "agentre-structured-v1",
+        "status": "graded",
+        "submission_sha256": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc",
+        "valid_submission": true
+      },
+      "result_sha256": "68e084ab6608688af867b2b2a88c7d27ec0a904be31c715b554606f6b74e816b",
+      "reward": 1,
+      "task": "agentre/re-ee5729dca243"
+    }
+  ]
+}

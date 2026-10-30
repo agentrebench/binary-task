@@ -1,0 +1,15 @@
+{
+  "files": {
+    "answer-shape.json": "813f458d8701fc456b88265ad1c7f95efc2bf542bfb5834116d957128a46f4b6",
+    "expected.json": "1dcdaaf17fba901f75546139b98e46b40e3e9bf9f8d66a314b600c0a62142b8d",
+    "fixtures.json": "a5e2d76b0115b47930195517f38d92f1b038e08a8a59c752f7b75937d3bf19d6",
+    "generate_truth.py": "978818b9dbc6e0608b190d139048fa9f453cd2f603264e65f0bde073de100a27",
+    "ground-truth.md": "19e5fd5dd2651283017d5bec2cffbaf74bee63810d72d9524961fd114de3e0e7",
+    "instruction.md": "c59ae3391bc1340ff7993f89962bda027f4c09d4c86fdb24974401a36b4fca1a",
+    "native-driver.json": "c83679964629b3056d424fe8fe547549dc4ce5d352e00a227587d6449392072b",
+    "reference.py": "dbc487c5328573c70a5b23059157dbddf5734f8164fa7d098172c14f0a6e816a",
+    "source-input-map.json": "22d62286ea8ea8f5c2bbf684e34793e37ebda76a6881567b3ca40d86665ddf98"
+  },
+  "frozen_at": "2026-10-28T20:23:48.671218+00:00",
+  "source_did_not_exist_at_freeze": true
+}

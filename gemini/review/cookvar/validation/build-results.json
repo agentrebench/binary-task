@@ -1,0 +1,171 @@
+{
+  "build_driver": {
+    "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+    "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+  },
+  "core_not_retained_by_undefined_flag": true,
+  "entry_reachability": {
+    "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/entry-reachability.json",
+    "sha256": "1ed4ddb056b58e20f5873343f70c3d3796bce2fd297fe25436e3d8f6be213bdd"
+  },
+  "entry_virtual_address": "0x3130",
+  "entry_wrapper_copy_sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041",
+  "entry_wrapper_source": {
+    "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+    "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+  },
+  "ground_truth_claim": "Independent fixture model + separately compiled native source agree; human compiled-code review remains separate.",
+  "imports": [
+    "_ITM_deregisterTMCloneTable",
+    "_ITM_registerTMCloneTable",
+    "__cxa_finalize",
+    "__gmon_start__",
+    "__libc_start_main",
+    "__stack_chk_fail",
+    "bcmp",
+    "memcpy",
+    "memset"
+  ],
+  "independent_reference_matches_frozen_truth": true,
+  "language": "Rust",
+  "model_api_calls": 0,
+  "native_asan_ubsan_clean": true,
+  "native_canaries_and_three_repeats": true,
+  "native_compile": [
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/rust-1.85.1/installed/bin/rustc",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/source/core.rs",
+    "--crate-name",
+    "cookvar_reference",
+    "--crate-type=staticlib",
+    "--edition=2021",
+    "-C",
+    "panic=abort",
+    "-C",
+    "opt-level=1",
+    "-C",
+    "overflow-checks=yes",
+    "-C",
+    "debug-assertions=yes",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/validation/core-native.a"
+  ],
+  "native_matches_frozen_truth": true,
+  "native_word_count": 768,
+  "native_wrapper_validation": {
+    "path": "private_eval/harbor/rl-samples-v5/cookvar/validation/wrapper-native-validation.json",
+    "sha256": "1b7ac71c35e7be7c3c121b040509bcc7587187d24ec9c535d24522474d5347eb"
+  },
+  "no_exported_authored_names": true,
+  "no_syscall_instructions": true,
+  "no_writable_executable_segments": true,
+  "ordinary_elf_entry_virtual_address": "0x1170",
+  "ordinary_entry_reaches_core": true,
+  "ordinary_main_virtual_address": "0x10e0",
+  "original_executions": 0,
+  "passed": true,
+  "rebuild_identical": true,
+  "recorded_at": "2026-10-28T20:27:04.991934+00:00",
+  "reference_native_arch": "aarch64",
+  "sanitizer_scope": "C driver only; Rust core has bounds/overflow/debug checks, not Rust ASan instrumentation",
+  "source_files": {
+    "source/core.rs": "2405c34b1eb8203de3dc31155239694a8ae33d14310f9012ca118af1cf9db8ca",
+    "source/fixtures.rs": "f79b09594b9a3011d198d8bf71ddc9fe04b1c856a72d23384111c13c495bd508"
+  },
+  "source_input_checks": [
+    {
+      "address": "0x447d",
+      "bytes": 204,
+      "sha256": "3319a188c60b8388831c6d688f02755abb9dc46349b945a255dbcf0caa86a1e9",
+      "symbol": "PROFILE_INI"
+    },
+    {
+      "address": "0x4461",
+      "bytes": 28,
+      "sha256": "cac35cd4db94031aff4e307cbaa4035f97e21e1d3c0d26a9decea1c117aeaf7b",
+      "symbol": "PROFILE_BASE"
+    },
+    {
+      "address": "0x4450",
+      "bytes": 8,
+      "sha256": "8de9efb4fcf8c10efb9fa1109be0b4875d5dcc73e4819cb1cee460c9f86806c8",
+      "symbol": "DOMAIN_SUFFIX"
+    },
+    {
+      "address": "0x4033",
+      "bytes": 1024,
+      "sha256": "567e2955752b12f5c66d2e0af88598cf431b56cb8f30f4d9bf6decb8977b0b95",
+      "symbol": "COOKIE_PAGES"
+    },
+    {
+      "address": "0x400f",
+      "bytes": 36,
+      "sha256": "e3458ccfef1f9ce652eefde8d987a080bb523cdba2fc8c62dd5901807006ff86",
+      "symbol": "COLLECTOR"
+    },
+    {
+      "address": "0x4433",
+      "bytes": 29,
+      "sha256": "b43a7bf0c05adcc4961d4a4d1772eb93b42916a381c88073614f805853f816cf",
+      "symbol": "DECOY_COLLECTOR"
+    },
+    {
+      "address": "0x4458",
+      "bytes": 4,
+      "sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+      "symbol": "HTTP_METHOD"
+    },
+    {
+      "address": "0x445c",
+      "bytes": 5,
+      "sha256": "08c7617ad75ba80f36c27450247a78ecad38337bbb2e4c8eddd3854af0a726a1",
+      "symbol": "POLICY"
+    }
+  ],
+  "strip_preserves_section_bytes": true,
+  "stripped_and_debug_free": true,
+  "target_bytes": 22624,
+  "target_compile": [
+    "/home/marq/Projects/AgentRE-Bench/.toolchain/rust-1.85.1/installed/bin/rustc",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/source/core.rs",
+    "--crate-name",
+    "cookvar",
+    "--crate-type=staticlib",
+    "--edition=2021",
+    "--target=x86_64-unknown-linux-gnu",
+    "--remap-path-prefix=/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/source=/source",
+    "-C",
+    "panic=abort",
+    "-C",
+    "opt-level=2",
+    "-C",
+    "debuginfo=0",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/core.a"
+  ],
+  "target_executions": 0,
+  "target_link": [
+    "x86_64-linux-gnu-gcc",
+    "-std=c11",
+    "-O2",
+    "-fno-ident",
+    "-g0",
+    "-DOUTPUT_WORDS=768",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/entry.c",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/core.a",
+    "-Wl,--build-id=none,--gc-sections,--strip-debug",
+    "-Wl,--undefined=PROFILE_INI",
+    "-Wl,--undefined=PROFILE_BASE",
+    "-Wl,--undefined=DOMAIN_SUFFIX",
+    "-Wl,--undefined=COOKIE_PAGES",
+    "-Wl,--undefined=COLLECTOR",
+    "-Wl,--undefined=DECOY_COLLECTOR",
+    "-Wl,--undefined=HTTP_METHOD",
+    "-Wl,--undefined=POLICY",
+    "-o",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/harbor/rl-samples-v5/cookvar/unstripped.elf"
+  ],
+  "target_not_executable_file_mode": "0o444",
+  "target_sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+  "task_id": "cookvar",
+  "truth_freeze_sha256": "2e2b508f0b52e5c16f3fcd20c9b0ce1f449a20b691e50d6305ab01661a65c5bc"
+}

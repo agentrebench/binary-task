@@ -1,0 +1,9 @@
+{
+  "cli_version": "1.19.5",
+  "installation": "npm install --global --prefix /tmp/opencode-global opencode-ai@1.19.5 --no-audit --no-fund",
+  "launched_executable": "/tmp/opencode-global/bin/opencode",
+  "launched_executable_sha256": "dab85b46f4ea4813da5367997f99a60aab64a2118d58ebf552980e792747436c",
+  "matches_offline_tested_binary": true,
+  "diagnostic_command_exit_code": 1,
+  "diagnostic_note": "The executable version and direct executable hash succeeded and matched. A subsequent optional-dependency hash lookup used a flat global path that does not exist in npm's nested layout, causing exit 1; no inference or target execution was involved. The earlier prefix installation parity check located and hashed the optional dependency successfully."
+}

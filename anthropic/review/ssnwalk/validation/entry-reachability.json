@@ -1,0 +1,19 @@
+{
+  "basis": "ELF e_entry, actual CRT RDI main argument, libc startup call, direct main-to-core call and subsequent volatile sink store; section-byte preservation binds stripped target.",
+  "core_address": "0x1290",
+  "dynamic_defined_names": [],
+  "elf_entry": "0x10e0",
+  "main_address": "0x1060",
+  "main_calls_core_without_undefined_retention": true,
+  "main_core_call_instruction": "0x1090",
+  "main_disassembly_sha256": "8b86d4dae192d8fc486f3ea37620b093073f806ebe2b144ce7deec4bb0ff4528",
+  "main_observably_consumes_outputs": true,
+  "main_returns_normally": true,
+  "main_sink_store_instruction": "0x10b4",
+  "no_exported_authored_names": true,
+  "sink_address": "0x4010",
+  "startup_disassembly_sha256": "b311b728a3af67af3fb89dff926a2dec47ac3da1efd3551ce7952bdfd8b21cb6",
+  "startup_libc_call_instruction": "0x10ff",
+  "startup_main_argument_instruction": "0x10f8",
+  "stripped_and_debug_free": true
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "answer-shape.json": "d914c4c86adfcf9f3a9796640d05a1b517c33e4b24ea3dda97fc1115444d0624",
+    "expected.json": "49f806fb0244190a290129b7a8e5ee382a722fb70b61cf599c86b784baf220ec",
+    "fixtures.json": "369438297ddee57d618ee314db6b90b4b1abb1ef947d6359ce2f45fb08ba700e",
+    "ground-truth.md": "e1b6d405936d70bbe77fefbd8293f6b2c5630b51cf24c05fb7b008d9c80def9e",
+    "instruction.md": "3faf0613bccc33231b9766c4d24186ba220c7245671f6a6492c1b8fdf66ad4dc",
+    "native-driver.json": "2657c4ef736e9ccd0a3cb483721a4b2ede81cfa75fd6861cd827558e7af2c749",
+    "reference.py": "f4db510d7d2631320afb2188de7fa67cf793388fbecfcd886a283eec642fcc40",
+    "source-input-map.json": "8aba21f566b54d29161b6166644bbd43b42b13e41b159d034661f96dbd781b5e"
+  },
+  "implementation_files_absent": true,
+  "model_calls": 0,
+  "recorded_at": "2026-10-28T20:25:03.389836+00:00",
+  "schema_version": 1,
+  "scope": "Inputs and independent reference answers frozen before implementation source creation."
+}

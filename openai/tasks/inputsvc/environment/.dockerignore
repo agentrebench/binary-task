@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!inputsvc.elf
+!answer-shape.json
+!opencode-managed.json
+!runtime/
+!runtime/**

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": false,
+  "share": "disabled",
+  "snapshot": false,
+  "default_agent": "build",
+  "permission": {
+    "*": "deny",
+    "static_file": "allow",
+    "static_strings": "allow",
+    "static_readelf": "allow",
+    "static_objdump": "allow",
+    "static_nm": "allow",
+    "static_hexdump": "allow",
+    "static_xxd": "allow",
+    "static_entropy": "allow",
+    "static_final_answer": "allow"
+  },
+  "agent": {
+    "build": {
+      "permission": {
+        "*": "deny",
+        "static_file": "allow",
+        "static_strings": "allow",
+        "static_readelf": "allow",
+        "static_objdump": "allow",
+        "static_nm": "allow",
+        "static_hexdump": "allow",
+        "static_xxd": "allow",
+        "static_entropy": "allow",
+        "static_final_answer": "allow"
+      }
+    },
+    "plan": {
+      "disable": true
+    },
+    "general": {
+      "disable": true
+    },
+    "explore": {
+      "disable": true
+    },
+    "title": {
+      "disable": true
+    },
+    "summary": {
+      "disable": true
+    },
+    "compaction": {
+      "disable": true
+    }
+  },
+  "plugin": [],
+  "lsp": false,
+  "formatter": false
+}

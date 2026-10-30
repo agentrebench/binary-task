@@ -1,0 +1,9 @@
+{
+    "task": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-ee5729dca243",
+        "source": "tasks"
+    },
+    "trial_name": "re-ee5729dca243__38zTRuG",
+    "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/anthropic-release-oracle",
+    "job_id": "8db9697d-2736-4e33-bba9-620bd5055004"
+}

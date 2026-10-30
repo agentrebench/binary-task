@@ -1,0 +1,13 @@
+{
+  "naming_revision": 1,
+  "note": "Historical evidence retains its original identifiers; task content and runtime are unchanged.",
+  "old_to_new": {
+    "re-240249cc0123": "stage_builder",
+    "re-55a4b5ca278d": "sysbridge",
+    "re-67cbf1857130": "update_agent",
+    "re-703605596814": "profile_sync",
+    "re-adeefd1c539e": "modulehost",
+    "re-d628c5a314d6": "inputsvc",
+    "re-ee5729dca243": "compat_host"
+  }
+}

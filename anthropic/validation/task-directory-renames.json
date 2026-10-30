@@ -1,0 +1,52 @@
+{
+  "model_calls": 0,
+  "naming_revision": 1,
+  "passed": true,
+  "prior_manifest_sha256": "08007c9e57d9382a701317af5cf3a7a0e9769f103e4124bfc4c1692b29a73c21",
+  "target_executions": 0,
+  "tasks": [
+    {
+      "old_task_id": "re-55a4b5ca278d",
+      "runtime_and_content_identical": true,
+      "task_name": "sysbridge",
+      "toml_only_name_changed": true
+    },
+    {
+      "old_task_id": "re-adeefd1c539e",
+      "runtime_and_content_identical": true,
+      "task_name": "modulehost",
+      "toml_only_name_changed": true
+    },
+    {
+      "old_task_id": "re-d628c5a314d6",
+      "runtime_and_content_identical": true,
+      "task_name": "inputsvc",
+      "toml_only_name_changed": true
+    },
+    {
+      "old_task_id": "re-67cbf1857130",
+      "runtime_and_content_identical": true,
+      "task_name": "update_agent",
+      "toml_only_name_changed": true
+    },
+    {
+      "old_task_id": "re-ee5729dca243",
+      "runtime_and_content_identical": true,
+      "task_name": "compat_host",
+      "toml_only_name_changed": true
+    },
+    {
+      "old_task_id": "re-240249cc0123",
+      "runtime_and_content_identical": true,
+      "task_name": "stage_builder",
+      "toml_only_name_changed": true
+    },
+    {
+      "old_task_id": "re-703605596814",
+      "runtime_and_content_identical": true,
+      "task_name": "profile_sync",
+      "toml_only_name_changed": true
+    }
+  ],
+  "validation_scope": "Directory and task-name metadata only; runtime bytes unchanged. Previous runtime controls are retained verbatim."
+}

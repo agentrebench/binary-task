@@ -1,0 +1,24 @@
+{
+    "job_name": "anthropic-install-only",
+    "jobs_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs",
+    "install_only": true,
+    "quiet": true,
+    "verifier": {
+        "disable": true
+    },
+    "agents": [
+        {
+            "name": "claude-code",
+            "model_name": "anthropic/claude-sonnet-4-6",
+            "kwargs": {
+                "permission_mode": "dontAsk",
+                "version": "2.1.112"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks/re-703605596814"
+        }
+    ]
+}

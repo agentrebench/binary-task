@@ -1,0 +1,17 @@
+{
+  "source": "src/agentre_bench/harness/tools.py",
+  "source_sha256": "b9d7fb815a0c46ce6e222cf7aea4c3b02abe84b68f917f55b9e5eafeab98d821",
+  "method_excerpt_sha256": {
+    "_validate_arguments": "9d753e9aba29eb8ddca9b3e86a5e62ce4342189211f18ed67bba6b47c1bc1db4",
+    "validate_tool_call": "73b06e2cf26e92885b630fe3aa8ef5aaa9b15fc42267728f13c735c5e46190e6",
+    "ENTROPY_SCRIPT": "2de87a5d4df6aa7506900da957a51034b91cc2129f0f42ca45e9cf6ba0c896ce",
+    "PE_INFO_SCRIPT": "e143ed891c9ed087f892004cae51d87136d6a9b4fc24ae7242b001788ca9027d",
+    "_is_pe_file": "54d3a23118cb82a60d44f977755138423b8e87656dfafa72d52a053e88dfb0d2",
+    "_is_x86_64_elf": "52c4264908ceec077e66e23c741de0018de1b7756c8a19ed4b1f3222761b5beb",
+    "ToolExecutor._build_command": "af99a1a10a9dc800da68eb3573b7b1fbdd8e96ff725e7f1297d8a246f2655366"
+  },
+  "schema_source": "agentre-v31-static-only-v1",
+  "tool_schemas_sha256": "2d6dbdd1d137b4834d5e67980125b50fc9139ffadaca972d4a44c6ad988ee674",
+  "benchmark_tools_sha256": "8a7f9412003ae7483715ae074016bbe68131694b4d030975752328c6a09b67b2",
+  "target_executions": 0
+}

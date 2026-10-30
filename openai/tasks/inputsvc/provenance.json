@@ -1,0 +1,17 @@
+{
+  "answer_sha256": "7d05f2772ee3ce3fa75369b5dfd709b57ae174a932d711995559be7c5ddfbdef",
+  "artifact_file": "environment/inputsvc.elf",
+  "artifact_sha256": "68690f5499d40b017c9ce2b5d7fbcbc75f0937b28e6fb5a4a4d741e78c6e2a7e",
+  "binary_and_grading_unchanged": true,
+  "calibration_transfer": false,
+  "contract_sha256": "ca7d1a0a9d9b1e119369eaf00374e01c3d6d0946ea3db718458006f52cfc9b6a",
+  "packaging_parent_revision": "5.1.0",
+  "parent_task_revision": "5.1.1",
+  "previous_task_id": "re-d628c5a314d6",
+  "provider_profile": "opencode-1.19.5-managed-static-only",
+  "provider_profile_revision": "1",
+  "revision": "5.1.1",
+  "runtime_artifact_path": "/workspace/target.bin",
+  "source_revision": "5.0.0",
+  "task_id": "inputsvc"
+}

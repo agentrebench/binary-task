@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!update_agent.elf
+!answer-shape.json
+!gemini-system-settings.json
+!runtime/
+!runtime/**

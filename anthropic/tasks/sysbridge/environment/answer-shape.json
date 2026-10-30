@@ -1,0 +1,27 @@
+{
+  "recovery": {
+    "distance_bytes": [
+      "integer"
+    ],
+    "higher_address": [
+      "boolean"
+    ],
+    "used_neighbor": [
+      "boolean"
+    ],
+    "witness_exports": [
+      "string"
+    ]
+  },
+  "resolver": {
+    "module": "string",
+    "selected_exports": [
+      "string"
+    ]
+  },
+  "service_tokens": {
+    "values": [
+      "integer"
+    ]
+  }
+}

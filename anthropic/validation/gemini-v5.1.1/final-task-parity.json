@@ -1,0 +1,34 @@
+{
+  "excluded": "Only generated tests/__pycache__ files; explicit Docker COPY excludes them.",
+  "passed": true,
+  "tasks": [
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-240249cc0123"
+    },
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-55a4b5ca278d"
+    },
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-67cbf1857130"
+    },
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-703605596814"
+    },
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-adeefd1c539e"
+    },
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-d628c5a314d6"
+    },
+    {
+      "all_execution_inputs_identical": true,
+      "task": "re-ee5729dca243"
+    }
+  ]
+}

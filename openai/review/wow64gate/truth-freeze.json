@@ -1,0 +1,17 @@
+{
+  "files": {
+    "answer-shape.json": "c10f061ccb297821cab13e4f0f2a0919d63268373556170275de68445b4c35d8",
+    "expected.json": "50c9cfaefefdfa65d13f8cfa1be27f224434f9439c0e933f8b2521bb1eadaddc",
+    "fixtures.json": "17eca3166d1ca7512c41239656001e0d89ee29fed5c91032e736beadec8fc9be",
+    "ground-truth.md": "9247a39ee5c862c8afead2fb222e9c01e7afdf0cdf68d1bc4a67f8593f2c506e",
+    "instruction.md": "0eb9ed0817f39b2a071d604a26f973e576514ee624169ec6506836b7b5be16ae",
+    "native-driver.json": "e4355d73352765f35eeb5ac3d3a407b25ed876c329026293056b6125fc6cca52",
+    "reference.py": "ecc6dac6ade27e4629d0f3c19c28178a423c118226eda266b88a118201197729",
+    "source-input-map.json": "e70e19f2ea11d6ce8f3d2d6ea335dc0e21f72b4052dbd3a133ae2a0aa0f0c86f"
+  },
+  "implementation_files_absent": true,
+  "model_calls": 0,
+  "recorded_at": "2026-10-28T20:25:03.390903+00:00",
+  "schema_version": 1,
+  "scope": "Inputs and independent reference answers frozen before implementation source creation."
+}

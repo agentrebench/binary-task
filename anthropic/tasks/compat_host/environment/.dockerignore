@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!compat_host.elf
+!answer-shape.json
+!claude-managed-settings.json
+!runtime/
+!runtime/**

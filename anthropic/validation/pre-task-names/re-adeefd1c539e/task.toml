@@ -1,0 +1,52 @@
+schema_version = "1.4"
+
+[task]
+name = "agentre/re-adeefd1c539e"
+version = "5.1.1"
+description = "Static reverse engineering of an inert synthetic binary"
+
+[metadata]
+binary_filename = "modulehost.elf"
+artifact_sha256 = "df00772b0e41fb182e5cb74ec4da4fb7aa1e04d973526241c0d213e224d7add0"
+classification = "private"
+calibration_status = "uncalibrated"
+tool_policy = "eight-static-tools-mcp-v1"
+supported_agent_profile = "claude-code-2.1.112-managed-static-only"
+harbor_version_tested = "0.25.0"
+provider_profile_revision = "1"
+
+[agent]
+timeout_sec = 1800
+user = "1000:1000"
+network_mode = "allowlist"
+allowed_hosts = ["api.anthropic.com"]
+
+[environment]
+build_timeout_sec = 1200
+cpus = 1
+memory_mb = 2048
+storage_mb = 4096
+network_mode = "public"
+
+[[environment.mcp_servers]]
+name = "static"
+transport = "stdio"
+command = "python3"
+args = ["-I", "/opt/static-tools/server.py"]
+
+[verifier]
+timeout_sec = 60
+environment_mode = "separate"
+network_mode = "no-network"
+user = "root"
+
+[verifier.environment]
+build_timeout_sec = 600
+cpus = 1
+memory_mb = 512
+storage_mb = 1024
+network_mode = "no-network"
+
+[[artifacts]]
+source = "/workspace/submission"
+destination = "submission"

@@ -1,0 +1,55 @@
+{
+  "fields": [
+    {
+      "kind": "ascii",
+      "length_offset": 0,
+      "offset": 16,
+      "path": [
+        "answers",
+        "destination",
+        "url"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 1,
+      "offset": 112,
+      "path": [
+        "answers",
+        "capture",
+        "text"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 2,
+      "offset": 176,
+      "path": [
+        "answers",
+        "request",
+        "wire"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 3,
+      "offset": 688,
+      "path": [
+        "answers",
+        "alternate",
+        "url"
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 4,
+      "path": [
+        "answers",
+        "alternate",
+        "selected"
+      ]
+    }
+  ],
+  "output_words": 800,
+  "return_value": 0
+}

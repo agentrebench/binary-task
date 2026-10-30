@@ -1,0 +1,4 @@
+RUN mkdir -p /etc/opencode
+COPY opencode-managed.json /etc/opencode/opencode.json
+RUN chown -R root:root /etc/opencode && chmod 0555 /etc/opencode && chmod 0444 /etc/opencode/opencode.json
+ENV OPENCODE_DISABLE_MODELS_FETCH=true OPENCODE_DISABLE_AUTOUPDATE=true OPENCODE_DISABLE_DEFAULT_PLUGINS=true OPENCODE_DISABLE_EXTERNAL_SKILLS=true OPENCODE_DISABLE_CLAUDE_CODE=true OPENCODE_DISABLE_LSP_DOWNLOAD=true

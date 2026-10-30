@@ -1,0 +1,95 @@
+{
+  "all_passed": true,
+  "bindings": [
+    {
+      "path": "private_eval/harbor/rl-samples-v5/root_independent_review.py",
+      "sha256": "185d2dd3a7538324dfeed07f71fbaa8987cecc7124674e699d4791fcc0dd3e8b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/build_samples.py",
+      "sha256": "59389eacd64806487fedd704efd8fcd0bcf1f70a304f73e7d4ee140b6d007f18"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/entry_wrapper.c",
+      "sha256": "e49f4532a8dde633b9ef1846610ca8586dbf8e33e31613288400007c9f7d2041"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/fixtures.json",
+      "sha256": "aa807690e3cf59b894337cf91cd7d9a6146175eba5208c1dd0da2abc720cec2c"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/reference.py",
+      "sha256": "07143acec823c718bf4d139723281bcf480daa8296aca70a24a6ddcbf41ca0b3"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/expected.json",
+      "sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/answer-shape.json",
+      "sha256": "c09da2d98dc7e2b15accbb993be9e046662a14cc428dd6b59705c19220f108e7"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/instruction.md",
+      "sha256": "c19df7b6dcf1c410bf4c87c71f7334b7e8fa46f102c58f1f57014c1a899f51e6"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/ground-truth.md",
+      "sha256": "6eca458906589cf54a62aa9b868db41aeb3737ddc9a1fc2141e186cecc03d8b0"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/truth-freeze.json",
+      "sha256": "0486b8d916b67afed6f1a1eeb3c6e185425ce01e346823379abe346ff58b5963"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/native-driver.json",
+      "sha256": "05b0f3ecb22fd85046932d15aec6b725cfe989fa2af7e13660a02ccc3ad590fe"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/source-input-map.json",
+      "sha256": "60a8de24441b080b7f8a357ab1b664d7dba2a8810df1ceb16b22ec10513d748b"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/target.elf",
+      "sha256": "8ef14277868a3964e5002699f3a0829a058c549e14a2bc54ff425693cc9cafd0"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/validation/build-results.json",
+      "sha256": "2bf2031fc25bca231fb36829dbd1cd81e5ef29c0e5f71cb825c812fea96bd5ba"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/validation/native-answer.json",
+      "sha256": "16ef15e1a8c209ec2bcefc9d92acbaccf8d58c30a2271c62c42e9191f0a60cda"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/validation/entry-reachability.json",
+      "sha256": "6aa2a0459faf0cbc2f9fa9dffaba7737180e8f53c189dbe933a8caf740e063de"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/source/core.rs",
+      "sha256": "a58849a22bac46f06513b0152ddb4049e3ce497bc9b811dd25b5b5d1762bec6a"
+    },
+    {
+      "path": "private_eval/harbor/rl-samples-v5/srdibld/source/fixture_data.rs",
+      "sha256": "46b69207a6109a6909bdeab41405418600c64ec416690680793f6aad0c7aa16e"
+    }
+  ],
+  "checks": {
+    "core_does_not_load_private_truth": true,
+    "fixture_reads_preserve_runtime_computation": true,
+    "independent_answer_matches": true,
+    "native_answer_matches": true,
+    "no_prompt_function_addresses_or_output_map": true,
+    "only_inert_memory_operations": true,
+    "ordinary_entry_reachable": true
+  },
+  "independent_review": true,
+  "limitations": [
+    "Review covers fixed supplied fixtures, not arbitrary-input correctness or a formal compiler proof.",
+    "Difficulty is unmeasured; no prior revision calibration is transferred."
+  ],
+  "model_calls": 0,
+  "reviewer": "root (not sample author)",
+  "scope": "Independent fixture derivation, full core/prompt inspection, bound compiler/native/entry evidence.",
+  "target_executions": 0
+}

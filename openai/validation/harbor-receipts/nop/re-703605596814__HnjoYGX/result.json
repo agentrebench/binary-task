@@ -1,0 +1,120 @@
+{
+    "id": "f0e8945b-7d0d-468f-a945-602c45791a30",
+    "task_name": "agentre/re-703605596814",
+    "trial_name": "re-703605596814__HnjoYGX",
+    "trial_uri": "file:///home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/openai-nop/re-703605596814__HnjoYGX",
+    "task_id": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/openai/tasks/re-703605596814"
+    },
+    "source": "tasks",
+    "task_checksum": "ec425a94b667fdd24bc20a91aafc3f5ab633c33d3603b70791c78b7a21a8e9e9",
+    "config": {
+        "task": {
+            "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/openai/tasks/re-703605596814",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "tasks"
+        },
+        "trial_name": "re-703605596814__HnjoYGX",
+        "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/openai-nop",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "05aae674-73ac-4610-9930-a6faca3f7ecf",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-10-28T21:27:15.954187Z",
+    "finished_at": "2026-10-28T21:27:49.002275Z",
+    "environment_setup": {
+        "started_at": "2026-10-28T21:27:15.957499Z",
+        "finished_at": "2026-10-28T21:27:20.015533Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-28T21:27:20.015604Z",
+        "finished_at": "2026-10-28T21:27:20.015734Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-28T21:27:20.015877Z",
+        "finished_at": "2026-10-28T21:27:22.243323Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-28T21:27:33.143552Z",
+        "finished_at": "2026-10-28T21:27:49.002265Z"
+    },
+    "step_results": null
+}

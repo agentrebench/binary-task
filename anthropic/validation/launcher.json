@@ -1,0 +1,23 @@
+{
+  "actual_arguments": [
+    "run",
+    "-p",
+    "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/anthropic/tasks",
+    "--jobs-dir",
+    "/tmp/agentre-recipient-results",
+    "--env",
+    "docker",
+    "-a",
+    "claude-code",
+    "-m",
+    "anthropic/example-model",
+    "--agent-kwarg",
+    "permission_mode=dontAsk",
+    "--agent-kwarg",
+    "version=2.1.112"
+  ],
+  "dummy_credential_only": true,
+  "model_calls": 0,
+  "note": "Command argument capture; no model or Harbor execution.",
+  "passed": true
+}

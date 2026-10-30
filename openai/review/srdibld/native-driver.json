@@ -1,0 +1,124 @@
+{
+  "fields": [
+    {
+      "kind": "u64",
+      "offset": 0,
+      "path": [
+        "answers",
+        "selection",
+        "pe_machine"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 1,
+      "path": [
+        "answers",
+        "selection",
+        "optional_header_magic"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 2,
+      "path": [
+        "answers",
+        "selection",
+        "loader_bits"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 3,
+      "path": [
+        "answers",
+        "layout",
+        "loader_size"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 4,
+      "path": [
+        "answers",
+        "layout",
+        "payload_size"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 5,
+      "path": [
+        "answers",
+        "layout",
+        "parameter_offset"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 6,
+      "path": [
+        "answers",
+        "layout",
+        "total_size"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 7,
+      "path": [
+        "answers",
+        "layout",
+        "entry_offset"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 8,
+      "path": [
+        "answers",
+        "patches",
+        "payload_offset"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 9,
+      "path": [
+        "answers",
+        "patches",
+        "payload_size"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 10,
+      "path": [
+        "answers",
+        "patches",
+        "entry_relative_displacement"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 11,
+      "path": [
+        "answers",
+        "patches",
+        "parameter_relative_displacement"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 12,
+      "offset": 13,
+      "path": [
+        "answers",
+        "parameter",
+        "ascii"
+      ]
+    }
+  ],
+  "output_words": 64,
+  "return_value": 0
+}

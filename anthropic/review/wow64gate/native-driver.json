@@ -1,0 +1,131 @@
+{
+  "fields": [
+    {
+      "kind": "ascii",
+      "length_offset": 0,
+      "offset": 1,
+      "path": [
+        "answers",
+        "platform",
+        "api_name"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 40,
+      "path": [
+        "answers",
+        "platform",
+        "required_process_machine"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 41,
+      "path": [
+        "answers",
+        "platform",
+        "required_native_machine"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 42,
+      "path": [
+        "answers",
+        "transition_data",
+        "entry_selector"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 43,
+      "path": [
+        "answers",
+        "transition_data",
+        "return_selector"
+      ]
+    },
+    {
+      "count": 2,
+      "kind": "bytes_hex",
+      "offset": 44,
+      "path": [
+        "answers",
+        "transition_data",
+        "marker_hex"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 46,
+      "path": [
+        "answers",
+        "transition_data",
+        "context_width_bytes"
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 50,
+      "path": [
+        "answers",
+        "requests",
+        "accepted",
+        0
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 56,
+      "path": [
+        "answers",
+        "requests",
+        "effective_targets",
+        0
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 51,
+      "path": [
+        "answers",
+        "requests",
+        "accepted",
+        1
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 57,
+      "path": [
+        "answers",
+        "requests",
+        "effective_targets",
+        1
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 52,
+      "path": [
+        "answers",
+        "requests",
+        "accepted",
+        2
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 58,
+      "path": [
+        "answers",
+        "requests",
+        "effective_targets",
+        2
+      ]
+    }
+  ],
+  "output_words": 64,
+  "return_value": 0
+}

@@ -1,0 +1,55 @@
+{
+  "all_passed": true,
+  "test_kind": "offline-unmodified-published-cli-settings-and-registry",
+  "cli_version": "0.66.0",
+  "node_version": "v22.22.0",
+  "system_overrides_conflicting_user_and_project_core_tools": true,
+  "system_disables_skills_and_hooks": true,
+  "allowed_extensions": [
+    "(?!)"
+  ],
+  "approval_mode": "yolo",
+  "builtin_tools_before_mcp": [],
+  "tools_after_mcp_discovery": [
+    "mcp_agentre_static_entropy",
+    "mcp_agentre_static_file",
+    "mcp_agentre_static_final_answer",
+    "mcp_agentre_static_hexdump",
+    "mcp_agentre_static_nm",
+    "mcp_agentre_static_objdump",
+    "mcp_agentre_static_readelf",
+    "mcp_agentre_static_strings",
+    "mcp_agentre_static_xxd"
+  ],
+  "mcp_server_kind": "schema-only-control-no-analysis-no-target",
+  "model_calls": 0,
+  "authentication_calls": 0,
+  "target_executions": 0,
+  "network_attempts": 0,
+  "limitations": [
+    "Tool registration tested with a schema-only MCP control; production MCP and Harbor lifecycle need separate runtime tests.",
+    "This is Gemini CLI, not Antigravity SDK."
+  ],
+  "bindings": [
+    {
+      "path": "/deps/node_modules/@google/gemini-cli/bundle/chunk-OYJ7VIJ6.js",
+      "sha256": "e7736fbf3b2afc9cff16e6317b5f9858b514935ee047e4a50726dfaa92d94d7e"
+    },
+    {
+      "path": "/deps/node_modules/@google/gemini-cli-core/dist/src/config/config.js",
+      "sha256": "77088b8624dd32b37e0f92cab2fd7ac73adb9079c3097e74e0ea169a83d8410a"
+    },
+    {
+      "path": "/deps/node_modules/@google/gemini-cli/package.json",
+      "sha256": "dfd44e39afc070f5fb28e26b870f980ea41bb4f3ab124a97b977d62b81e36662"
+    },
+    {
+      "path": "/evidence/system-settings.json",
+      "sha256": "d9819a29753f7c13e2d1eda2d330d6a88c8538b443b9d4148b8dbc1fec06cf92"
+    },
+    {
+      "path": "/evidence/test-registry.mjs",
+      "sha256": "44d9be4b5d3dfb787a91418e7a32da8d9d803bd8ce1999e8ec34fabbbd0ee363"
+    }
+  ]
+}

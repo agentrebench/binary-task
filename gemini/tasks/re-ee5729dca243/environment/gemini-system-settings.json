@@ -1,0 +1,8 @@
+{
+  "tools": {"core": [], "useRipgrep": false},
+  "skills": {"enabled": false},
+  "security": {"allowedExtensions": ["(?!)"], "blockGitExtensions": true},
+  "hooksConfig": {"enabled": false},
+  "privacy": {"usageStatisticsEnabled": false},
+  "telemetry": {"enabled": false}
+}

@@ -1,0 +1,16 @@
+{
+  "cli": {
+    "npm_package": "opencode-ai",
+    "version": "1.19.5",
+    "tarball": "https://registry.npmjs.org/opencode-ai/-/opencode-ai-1.19.5.tgz",
+    "integrity": "sha512-tEqMvQahfhdDj8vceYpXtoIrvjPXm5XRfetWnPN5YISueU7adNx9JcUA3zZ+2GKuDVgDpGdQe1ZLtCZDjqodvA=="
+  },
+  "tested_platform": {
+    "npm_package": "opencode-linux-arm64",
+    "version": "1.19.5",
+    "tarball": "https://registry.npmjs.org/opencode-linux-arm64/-/opencode-linux-arm64-1.19.5.tgz",
+    "integrity": "sha512-u2HFRI6v1nNMVKiV34An8XrGBxJeZ+RCg2tYu3SqlGODKqKsr5RoEbaX1tnsfGb+rETh9AJVX9kS8dSZXPufsA==",
+    "download_integrity_verified": true,
+    "native_binary_sha256": "dab85b46f4ea4813da5367997f99a60aab64a2118d58ebf552980e792747436c"
+  }
+}

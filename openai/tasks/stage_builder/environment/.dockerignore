@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!stage_builder.elf
+!answer-shape.json
+!opencode-managed.json
+!runtime/
+!runtime/**

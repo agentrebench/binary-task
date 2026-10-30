@@ -1,0 +1,74 @@
+{
+  "fields": [
+    {
+      "kind": "ascii",
+      "length_offset": 0,
+      "offset": 32,
+      "path": [
+        "answers",
+        "beacon",
+        "url"
+      ]
+    },
+    {
+      "kind": "u64",
+      "offset": 1,
+      "path": [
+        "answers",
+        "beacon",
+        "interval_seconds"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 2,
+      "offset": 128,
+      "path": [
+        "answers",
+        "beacon",
+        "body"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 3,
+      "offset": 192,
+      "path": [
+        "answers",
+        "dispatch",
+        "module"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 4,
+      "offset": 224,
+      "path": [
+        "answers",
+        "dispatch",
+        "export"
+      ]
+    },
+    {
+      "kind": "ascii",
+      "length_offset": 5,
+      "offset": 288,
+      "path": [
+        "answers",
+        "alternate",
+        "url"
+      ]
+    },
+    {
+      "kind": "bool",
+      "offset": 6,
+      "path": [
+        "answers",
+        "alternate",
+        "accepted"
+      ]
+    }
+  ],
+  "output_words": 384,
+  "return_value": 0
+}

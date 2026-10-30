@@ -1,0 +1,16 @@
+{
+  "answer_sha256": "3c90c6d3b0afe221d7cf12a01f84c90305f2b6585d880212472f09710f2e8c6c",
+  "artifact_file": "environment/profile_sync.elf",
+  "artifact_sha256": "199ade95ff247402852db4bdc53c1382a01ab87abe4035353960592101a864db",
+  "binary_and_grading_unchanged": true,
+  "calibration_transfer": false,
+  "contract_sha256": "63285121288fea5b23f084b826d5339ad6f29eb211b5f72488b4baebbf15e063",
+  "packaging_parent_revision": "5.1.0",
+  "parent_task_revision": "5.1.1",
+  "provider_profile": "opencode-1.19.5-managed-static-only",
+  "provider_profile_revision": "1",
+  "revision": "5.1.1",
+  "runtime_artifact_path": "/workspace/target.bin",
+  "source_revision": "5.0.0",
+  "task_id": "re-703605596814"
+}

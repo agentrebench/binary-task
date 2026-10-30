@@ -1,0 +1,107 @@
+{
+    "id": "40e61234-76c0-426b-9324-fa31be289822",
+    "task_name": "agentre/re-703605596814",
+    "trial_name": "re-703605596814__VG3b7Ty",
+    "trial_uri": "file:///home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/openai-install-only/re-703605596814__VG3b7Ty",
+    "task_id": {
+        "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/openai/tasks/re-703605596814"
+    },
+    "source": null,
+    "task_checksum": "ec425a94b667fdd24bc20a91aafc3f5ab633c33d3603b70791c78b7a21a8e9e9",
+    "config": {
+        "task": {
+            "path": "/home/marq/Projects/AgentRE-Bench/private_eval/team_handoff/agentre-seven-v5.1.1-multimodel/openai/tasks/re-703605596814",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "re-703605596814__VG3b7Ty",
+        "trials_dir": "/home/marq/Projects/AgentRE-Bench/private_eval/calibration/provider-profile-validation-1/runs/openai-install-only",
+        "install_only": true,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "openai/gpt-5.4",
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "version": "1.19.5"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": true
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "a3ea687b-0cd6-40d3-a064-18e5d36ad41d",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "1.19.5",
+        "model_info": {
+            "name": "gpt-5.4",
+            "provider": "openai"
+        }
+    },
+    "agent_result": null,
+    "verifier_result": null,
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-10-28T21:30:13.001966Z",
+    "finished_at": "2026-10-28T21:30:47.186512Z",
+    "environment_setup": {
+        "started_at": "2026-10-28T21:30:13.019090Z",
+        "finished_at": "2026-10-28T21:30:15.869973Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-28T21:30:15.870023Z",
+        "finished_at": "2026-10-28T21:30:36.372801Z"
+    },
+    "agent_execution": null,
+    "verifier": null,
+    "step_results": null
+}
